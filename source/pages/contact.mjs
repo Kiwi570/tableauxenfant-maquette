@@ -45,12 +45,14 @@ export default (c) => {
     </div>
     <div class="carte-bloc">
       <h2 data-anime="lignes">${t('ouSommes')}</h2>
-      <svg class="carte" viewBox="0 0 300 240" role="img" aria-label="${c.s('contact.carteAlt')}" data-fx="trace">
-        <path data-fx-trait d="M70 30 L120 18 L170 34 L205 28 L240 60 L262 108 L248 150 L270 190 L220 214 L170 206 L120 220 L86 190 L60 150 L40 112 L52 70 Z" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"/>
-        <path data-fx-trait d="M40 120 C 90 110, 130 130, 170 112 S 240 100, 262 108" fill="none" stroke="#7FA7B5" stroke-width="2" stroke-dasharray="1 0"/>
-        <circle cx="110" cy="70" r="4" fill="currentColor"/><text x="118" y="66" class="carte-ville">Vendôme</text>
-        <circle cx="140" cy="118" r="4" fill="currentColor"/><text x="148" y="114" class="carte-ville">Blois</text>
-        <circle cx="200" cy="172" r="8" fill="#C2304F" data-repere/><text x="146" y="198" class="carte-ville carte-ville--atelier">Romorantin-Lanthenay</text>
+      <svg class="carte" viewBox="0 0 320 250" data-fx="trace" role="img" aria-label="${c.s('contact.carteAlt')}">
+        <path class="carte-dep" data-superpose d="M86 22 L132 14 L170 30 L206 22 L236 44 L262 70 L274 112 L262 146 L282 184 L248 214 L204 206 L166 226 L120 214 L92 186 L62 160 L40 122 L48 82 L64 52 Z"/>
+        <path class="carte-loire" data-fx-trait d="M44 132 C 80 124, 110 142, 146 126 S 214 104, 270 108" />
+        <g class="carte-ville"><circle cx="112" cy="66" r="4"/><text x="121" y="62">Vendôme</text></g>
+        <g class="carte-ville"><circle cx="146" cy="128" r="4"/><text x="155" y="146">Blois</text></g>
+        <g class="carte-ville carte-ville--atelier" data-repere><circle cx="212" cy="176" r="15" class="halo"/><circle cx="212" cy="176" r="7"/><text x="168" y="206">Romorantin-Lanthenay</text></g>
+        <text x="226" y="96" class="carte-legende">la Loire</text>
+        <text x="64" y="232" class="carte-legende">Loir-et-Cher · Sologne</text>
       </svg>
       <p>${t('carteTexte')}</p>
     </div>

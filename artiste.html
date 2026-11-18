@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="fr" data-v="1" data-curseur>
+<html lang="fr" data-v="2" data-curseur>
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
@@ -34,16 +34,16 @@ if (alt) location.replace(new URL(alt.href).pathname + location.search + locatio
 setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('secours'); }, 2000);
 })();</script>
 <link rel="preload" href="/assets/fonts/fraunces-normal.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="/assets/css/socle.css?v=1">
-<link rel="stylesheet" href="/assets/css/module-panier-en-tiroir.css?v=1">
-<link rel="stylesheet" href="/assets/css/module-envol-vers-le-panier.css?v=1">
-<link rel="stylesheet" href="/assets/css/site.css?v=1">
-<link rel="modulepreload" href="/assets/js/site.js?v=1">
-<link rel="modulepreload" href="/assets/js/socle/index.js?v=1">
+<link rel="stylesheet" href="/assets/css/socle.css?v=2">
+<link rel="stylesheet" href="/assets/css/module-panier-en-tiroir.css?v=2">
+<link rel="stylesheet" href="/assets/css/module-envol-vers-le-panier.css?v=2">
+<link rel="stylesheet" href="/assets/css/site.css?v=2">
+<link rel="modulepreload" href="/assets/js/site.js?v=2">
+<link rel="modulepreload" href="/assets/js/socle/index.js?v=2">
 <script src="/assets/vendor/gsap.min.js" defer></script>
 <script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
 <script src="/assets/vendor/SplitText.min.js" defer></script>
-<script type="module" src="/assets/js/site.js?v=1"></script>
+<script type="module" src="/assets/js/site.js?v=2"></script>
 <meta name="theme-color" content="#FBF6EF">
 <link rel="icon" href="/assets/images/favicon-64.png" type="image/png">
 <link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
@@ -61,7 +61,7 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"Store","name":"Tableaux Enfant · Créations SevB","description":"Tableaux originaux, toiles sur mesure, affiches et décorations pour chambres d'enfants, peints à la main par Sevb, artiste peintre.","email":"sevb@atelierattitude.com","address":{"@type":"PostalAddress","postalCode":"41200","addressLocality":"Romorantin-Lanthenay","addressRegion":"Loir-et-Cher","addressCountry":"FR"},"founder":{"@type":"Person","name":"Séverine Bisson","alternateName":"Sevb","jobTitle":"Artiste peintre"},"openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday"],"opens":"09:00","closes":"17:00"},{"@type":"OpeningHoursSpecification","dayOfWeek":["Saturday","Sunday"],"opens":"11:00","closes":"15:00"}]}</script>
 </head>
 <body id="haut">
-<div data-voile data-forme="glisse" aria-hidden="true"><div class="voile-contenu"><img src="/assets/images/icone-clair.png" alt="" width="108" height="147"><span data-voile-libelle>L&#39;artiste</span></div></div>
+<div data-voile data-forme="iris" aria-hidden="true"><div class="voile-contenu"><img src="/assets/images/icone-clair.png" alt="" width="108" height="147"><span data-voile-libelle>L&#39;artiste</span></div></div>
 <div class="ouverture-panneau" data-ouverture aria-hidden="true">
   <img class="ouverture-logo" src="/assets/images/icone-clair.png" alt="" width="108" height="147" data-ouverture-objet>
   <p class="ouverture-nom">Tableaux <span>Enfant</span></p>
@@ -134,6 +134,23 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
       <p data-anime>Pour elle, une œuvre murale unique vaut encore mieux qu&#39;un cadeau personnalisé : elle grandit avec l&#39;enfant, dans sa chambre, et devient un souvenir.</p>
       <blockquote class="histoire-citation" data-anime="lettres"><p>« Rien n’est standardisé. »</p></blockquote>
     </div>
+    <ul class="accroche accroche--affiche accroche--deux">
+    <li class="accroche-item" style="--h:26px;--i:0" data-effet="accroche">
+        <span class="accroche-fils" aria-hidden="true"></span>
+        <a class="accroche-cadre" href="/boutique?produit=affiche-motarde" data-libelle="Boutique" aria-label="Petite motarde, sa tenue et son casque, 20 €"><figure class="media accroche-media" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/affiche-motarde-800.webp" srcset="/assets/images/affiche-motarde-400.webp 400w, /assets/images/affiche-motarde-800.webp 800w" sizes="(max-width: 760px) 30vw, 12vw" alt="" width="800" height="1143" loading="lazy" decoding="async">
+  </picture>
+</figure></a>
+      </li><li class="accroche-item" style="--h:64px;--i:1" data-effet="accroche">
+        <span class="accroche-fils" aria-hidden="true"></span>
+        <a class="accroche-cadre" href="/boutique?produit=affiche-danseuse" data-libelle="Boutique" aria-label="Petite danseuse rose avec tutu, 20 €"><figure class="media accroche-media" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/affiche-danseuse-800.webp" srcset="/assets/images/affiche-danseuse-400.webp 400w, /assets/images/affiche-danseuse-800.webp 800w" sizes="(max-width: 760px) 30vw, 12vw" alt="" width="800" height="1143" loading="lazy" decoding="async">
+  </picture>
+</figure></a>
+      </li>
+  </ul>
   </div>
 </section>
 <section class="atelier conteneur" id="atelier">
@@ -205,29 +222,44 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
       <p data-anime>Sevb répond à chaque demande par e-mail.</p>
       <p class="fin-actions" data-anime><a href="/sur-mesure#composer" class="bouton" data-libelle="Sur mesure">Créer son tableau</a> <a href="/contact" class="bouton bouton--clair" data-libelle="Contact">Écrire à Sevb</a></p>
     </div>
-    <ul class="fin-toiles" data-anime="cascade" aria-hidden="true">
-      <li><figure class="media " style="--cadrage:50% 50%">
+    <ul class="accroche accroche--toile ">
+    <li class="accroche-item" style="--h:26px;--i:0" data-effet="accroche">
+        <span class="accroche-fils" aria-hidden="true"></span>
+        <a class="accroche-cadre" href="/boutique?produit=toile-princesse-pois" data-libelle="Boutique" aria-label="Petite princesse robe à pois, 145 €"><figure class="media accroche-media" style="--cadrage:50% 50%">
   <picture>
     <img src="/assets/images/toile-princesse-pois-800.webp" srcset="/assets/images/toile-princesse-pois-400.webp 400w, /assets/images/toile-princesse-pois-800.webp 800w" sizes="(max-width: 760px) 30vw, 12vw" alt="" width="800" height="800" loading="lazy" decoding="async">
   </picture>
-</figure></li><li><figure class="media " style="--cadrage:50% 50%">
+</figure></a>
+      </li><li class="accroche-item" style="--h:64px;--i:1" data-effet="accroche">
+        <span class="accroche-fils" aria-hidden="true"></span>
+        <a class="accroche-cadre" href="/boutique?produit=toile-femme-affaires" data-libelle="Boutique" aria-label="Petite femme d’affaires, 145 €"><figure class="media accroche-media" style="--cadrage:50% 50%">
   <picture>
     <img src="/assets/images/toile-femme-affaires-800.webp" srcset="/assets/images/toile-femme-affaires-400.webp 400w, /assets/images/toile-femme-affaires-800.webp 800w" sizes="(max-width: 760px) 30vw, 12vw" alt="" width="800" height="800" loading="lazy" decoding="async">
   </picture>
-</figure></li><li><figure class="media " style="--cadrage:50% 50%">
+</figure></a>
+      </li><li class="accroche-item" style="--h:14px;--i:2" data-effet="accroche">
+        <span class="accroche-fils" aria-hidden="true"></span>
+        <a class="accroche-cadre" href="/boutique?produit=toile-prince-nb" data-libelle="Boutique" aria-label="Mon petit prince noir et blanc, 195 €"><figure class="media accroche-media" style="--cadrage:50% 50%">
   <picture>
     <img src="/assets/images/toile-prince-nb-800.webp" srcset="/assets/images/toile-prince-nb-400.webp 400w, /assets/images/toile-prince-nb-800.webp 800w" sizes="(max-width: 760px) 30vw, 12vw" alt="" width="800" height="800" loading="lazy" decoding="async">
   </picture>
-</figure></li><li><figure class="media " style="--cadrage:50% 50%">
+</figure></a>
+      </li><li class="accroche-item" style="--h:48px;--i:3" data-effet="accroche">
+        <span class="accroche-fils" aria-hidden="true"></span>
+        <a class="accroche-cadre" href="/boutique?produit=toile-lolita-coccinelle" data-libelle="Boutique" aria-label="Petite Lolita coccinelle, 145 €"><figure class="media accroche-media" style="--cadrage:50% 50%">
   <picture>
     <img src="/assets/images/toile-lolita-coccinelle-800.webp" srcset="/assets/images/toile-lolita-coccinelle-400.webp 400w, /assets/images/toile-lolita-coccinelle-800.webp 800w" sizes="(max-width: 760px) 30vw, 12vw" alt="" width="800" height="800" loading="lazy" decoding="async">
   </picture>
-</figure></li><li><figure class="media " style="--cadrage:50% 50%">
+</figure></a>
+      </li><li class="accroche-item" style="--h:34px;--i:4" data-effet="accroche">
+        <span class="accroche-fils" aria-hidden="true"></span>
+        <a class="accroche-cadre" href="/boutique?produit=toile-chipie-modele" data-libelle="Boutique" aria-label="Petite chipie fille modèle, 145 €"><figure class="media accroche-media" style="--cadrage:50% 50%">
   <picture>
     <img src="/assets/images/toile-chipie-modele-800.webp" srcset="/assets/images/toile-chipie-modele-400.webp 400w, /assets/images/toile-chipie-modele-800.webp 800w" sizes="(max-width: 760px) 30vw, 12vw" alt="" width="800" height="800" loading="lazy" decoding="async">
   </picture>
-</figure></li>
-    </ul>
+</figure></a>
+      </li>
+  </ul>
   </div>
 </section>
 </main>

@@ -6,7 +6,7 @@
    - composeur : l'aperçu du sur-mesure suit les choix du visiteur et s'incline au défilement ;
    - ruban-produits : bandeau des créations de la boutique ; portrait-cadre : signature de Sevb qui se pose.
    Modules de la bibliothèque : panier-en-tiroir, envol-vers-le-panier (appelé par le panier), catalogue-filtres-flip. */
-import { demarrer, boucle, versObjet, quand, bloquerDefilement, debloquerDefilement, suivre, lacher, rafraichir } from './socle/index.js?v=1';
+import { demarrer, boucle, versObjet, quand, bloquerDefilement, debloquerDefilement, suivre, lacher, rafraichir } from './socle/index.js?v=2';
 
 const gsap = window.gsap;
 const $ = (s, r = document) => r.querySelector(s);
@@ -30,8 +30,12 @@ function toileAuDefilement() {
   const toile = $('.toile', ouv);
   if (toile) quand('pret', () => {
     gsap.set(toile, { transformOrigin: '50% -12%' });
+    const etat = { amp: 1.1 };
     let t = 0;
-    boucle(toile, (dt) => { t += dt; gsap.set(toile, { rotate: Math.sin(t * 1.15) * 1.1 }); });
+    boucle(toile, (dt) => { t += dt; gsap.set(toile, { rotate: Math.sin(t * 1.15) * etat.amp }); });
+    const pousser = () => gsap.fromTo(etat, { amp: 7 }, { amp: 1.1, duration: 2.6, ease: 'power2.out', overwrite: true });
+    toile.addEventListener('pointerenter', pousser);
+    toile.addEventListener('click', pousser);
   });
   gsap.to('.ouv-accueil .toile-cadre', { rotate: -3.5, y: 36, ease: 'none', scrollTrigger: { trigger: ouv, start: 'top top', end: 'bottom top', scrub: 0.6 } });
   gsap.to('.ouv-accueil .ouv-mur', { yPercent: 10, ease: 'none', scrollTrigger: { trigger: ouv, start: 'top top', end: 'bottom top', scrub: true } });
@@ -51,6 +55,15 @@ function fonds() {
     courant = f; toile.dataset.fond = f;
     if (nom) nom.textContent = libelles[f] || f;
     $$('[data-fond-repere]').forEach((li) => li.classList.toggle('est-actif', li.dataset.fondRepere === f));
+    const repere = $(`[data-fond-repere="${f}"]`), exemple = $('[data-fond-exemple-titre]');
+    if (exemple && repere) exemple.textContent = repere.dataset.fondExemple;
+    for (const t of $$('[data-fond-toile]', toile)) {
+      const i = ordre.indexOf(t.dataset.fondToile);
+      if (!gsap) { t.style.clipPath = i <= apres ? 'inset(0 0 0 0)' : 'inset(100% 0 0 0)'; continue; }
+      if (i === apres && apres > avant) gsap.fromTo(t, { clipPath: 'inset(100% 0% 0% 0%)' }, { clipPath: 'inset(0% 0% 0% 0%)', duration: 0.75, ease: 'power3.out', delay: 0.45 });
+      else if (i > apres && i <= avant) gsap.to(t, { clipPath: 'inset(0% 0% 100% 0%)', duration: 0.45, ease: 'power3.in' });
+      else gsap.set(t, { clipPath: i <= apres ? 'inset(0% 0% 0% 0%)' : 'inset(100% 0% 0% 0%)' });
+    }
     for (const calque of $$('[data-fond-calque]', toile)) {
       const i = ordre.indexOf(calque.dataset.fondCalque);
       const visible = i <= apres;
@@ -132,6 +145,9 @@ function composeur() {
     const d = new FormData(form);
     const fond = d.get('fond') || 'pois', couleur = d.get('couleur') || 'rose';
     apercu.dataset.fond = fond; apercu.dataset.couleur = couleur;
+    $$('[data-composer-exemple]').forEach((x) => x.classList.toggle('est-active', x.dataset.composerExemple === fond));
+    const titres = (() => { try { return JSON.parse($('#fond-exemples')?.textContent || '{}'); } catch { return {}; } })();
+    const te = $('[data-composer-exemple-titre]'); if (te && titres[fond]) te.textContent = titres[fond];
     apercu.style.setProperty('--c', COULEURS[couleur]);
     const p = (d.get('prenom') || '').trim();
     if (prenom) prenom.textContent = p || exemple;
@@ -152,12 +168,25 @@ function portrait() {
   gsap.to('.ouv-artiste .portrait-media img', { scale: 1.08, yPercent: 4, ease: 'none', scrollTrigger: { trigger: '.ouv-artiste', start: 'top top', end: 'bottom top', scrub: true } });
 }
 
-/* ---------- appels finaux : les petites toiles montent à des vitesses différentes ---------- */
-function finToiles() {
-  if (!gsap || !window.ScrollTrigger) return;
-  $$('.fin-toiles li').forEach((li, i) => {
-    gsap.fromTo(li.querySelector('.media'), { y: 40 + i * 18 }, { y: -10 - i * 6, ease: 'none', scrollTrigger: { trigger: li.closest('section'), start: 'top bottom', end: 'bottom top', scrub: true } });
-  });
+/* ---------- accroche : cadres suspendus qui descendent se poser, se balancent seuls et au toucher ---------- */
+function accroche() {
+  if (!gsap) return;
+  for (const mur of $$('.accroche')) {
+    const items = $$('.accroche-item', mur);
+    const etats = items.map((el, i) => ({ el, amp: 1.4, phase: i * 1.7 }));
+    gsap.set(items, { transformOrigin: '50% 0%' });
+    let t = 0;
+    boucle(mur, (dt) => { t += dt; for (const e of etats) gsap.set(e.el, { rotate: Math.sin(t * 1.3 + e.phase) * e.amp }); });
+    for (const e of etats) {
+      const pousser = () => gsap.fromTo(e, { amp: 9 }, { amp: 1.4, duration: 2.4, ease: 'power2.out', overwrite: true });
+      e.el.addEventListener('pointerenter', pousser);
+      e.el.addEventListener('touchstart', pousser, { passive: true });
+    }
+    if (window.ScrollTrigger) {
+      gsap.fromTo(items.map((el) => el.querySelector('.accroche-cadre')), { y: -70 }, { y: 0, duration: 1.3, ease: 'elastic.out(1, 0.5)', stagger: 0.12,
+        scrollTrigger: { trigger: mur, start: 'top 88%', once: true } });
+    }
+  }
 }
 
 /* ---------- boutique : fiche en tiroir (?produit=…) ---------- */
@@ -220,7 +249,7 @@ function boutique() {
     if (v) e.target.setAttribute('data-panier-option', 'Prénom'); else e.target.removeAttribute('data-panier-option');
   });
   /* Après l'ajout, la fiche se referme pour laisser voir l'envol vers le panier. */
-  ajouter.addEventListener('click', (e) => { if (ajouter.getAttribute('aria-disabled') === 'true') { e.preventDefault(); e.stopPropagation(); return; } setTimeout(fermer, 60); });
+  ajouter.addEventListener('click', (e) => { if (ajouter.getAttribute('aria-disabled') === 'true') { e.preventDefault(); e.stopPropagation(); return; } setTimeout(fermer, 650); });
   document.addEventListener('keydown', (e) => {
     if (!ouverte) return;
     if (e.key === 'Escape') { e.preventDefault(); fermer(); }
@@ -238,11 +267,11 @@ function boutique() {
 /* ---------- modules de la bibliothèque ---------- */
 async function modules() {
   const panier = $('[data-module="panier-en-tiroir"]');
-  if (panier) { try { const m = await import('./modules/panier-en-tiroir/module.js?v=1'); await m.init(panier); } catch (err) { console.error('[panier]', err); } }
+  if (panier) { try { const m = await import('./modules/panier-en-tiroir/module.js?v=2'); await m.init(panier); } catch (err) { console.error('[panier]', err); } }
   const cat = $('[data-module="catalogue-filtres-flip"]');
   if (cat) {
     try {
-      const m = await import('./modules/catalogue-filtres-flip/module.js?v=1');
+      const m = await import('./modules/catalogue-filtres-flip/module.js?v=2');
       await m.init(cat, { mots: ['création', 'créations'], format: (n) => n + ' €' });
       rafraichir();
     } catch (err) { console.error('[catalogue]', err); }
@@ -266,7 +295,7 @@ demarrer({
     voirAuMur();
     composeur();
     portrait();
-    finToiles();
+    accroche();
     boutique();
     modules();
   },

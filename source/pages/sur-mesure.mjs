@@ -1,7 +1,9 @@
 /* Sur mesure : photo pleine page de la toile vierge et 185 € en très grand, ce qui est compris, le composeur
    (fond, couleur, univers, prénom : aperçu et demande simulée), les quatre étapes, les prénoms déjà peints, FAQ, appel final. */
 import { html, brut } from '../../outils/gabarit.mjs';
-import { FONDS } from '../gabarits/morceaux.mjs';
+import { FONDS, icone } from '../gabarits/morceaux.mjs';
+
+const FOND_TOILES = { uni: 'toile-petite-peche', rayures: 'toile-lolita-lunettes', pois: 'toile-princesse-pois', quadrillage: 'toile-prince-turquoise' };
 
 export const page = { cle: 'sur-mesure', fichier: 'sur-mesure', imagePartage: 'grok/toile-vierge-1280.webp' };
 
@@ -27,7 +29,7 @@ export default (c) => {
 <section class="inclus conteneur" id="inclus">
   <h2 data-anime="lignes">${t('inclusTitre')}</h2>
   <ul class="inclus-liste" data-anime="cascade">
-    ${[1, 2, 3, 4, 5, 6].map((n) => html`<li data-fx="vitesse" data-fx-force="1.5"><span class="inclus-num">0${n}</span><h3>${t(`i${n}t`)}</h3><p>${t(`i${n}`)}</p></li>`)}
+    ${[1, 2, 3, 4, 5, 6].map((n) => html`<li data-fx="vitesse" data-fx-force="1.5">${icone(['toile', 'motif', 'photo', 'cadeau', 'colis', 'calendrier'][n - 1])}<span class="inclus-num">0${n}</span><h3>${t(`i${n}t`)}</h3><p>${t(`i${n}`)}</p></li>`)}
   </ul>
 </section>
 
@@ -41,6 +43,11 @@ export default (c) => {
           <span class="apercu-prenom" data-apercu-prenom>${t('prenomExemple')}</span>
         </div>
         <p class="apercu-note">${t('apercuNote')}</p>
+        <div class="composer-exemple" aria-live="polite">
+          <div class="composer-exemple-images">${FONDS.map((f) => html`<div class="composer-exemple-image${f === 'pois' ? ' est-active' : ''}" data-composer-exemple="${f}">${c.media({ nom: FOND_TOILES[f], alt: '', sizes: '96px' })}</div>`)}</div>
+          <p>${t('exemple')} <b data-composer-exemple-titre>${c.donnees.produits.find((p) => p.id === FOND_TOILES.pois).titre}</b></p>
+          <script type="application/json" id="fond-exemples">${brut(JSON.stringify(Object.fromEntries(FONDS.map((f) => [f, c.donnees.produits.find((p) => p.id === FOND_TOILES[f]).titre]))))}</script>
+        </div>
       </div>
     </div>
     <form class="composer-form" data-formulaire data-composeur novalidate>

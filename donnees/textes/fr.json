@@ -137,7 +137,8 @@
       "fondRayures": "rayures",
       "fondPois": "pois",
       "fondQuadrillage": "quadrillage",
-      "toileAlt": "Aperçu d'une toile vierge et de son fond"
+      "toileAlt": "Les quatre fonds du sur-mesure et une toile de Sevb peinte sur chacun",
+      "exemple": "Sur ce fond, Sevb a peint :"
     },
     "sevb": {
       "surtitre": "L'artiste",
@@ -294,7 +295,8 @@
     "faqTitre": "Vos questions",
     "finTitre": "On commence par un e-mail ?",
     "finTexte": "Racontez l'enfant en quelques lignes : Sevb vous répond pour fixer le fond, les couleurs et le délai.",
-    "finAction": "Écrire à Sevb"
+    "finAction": "Écrire à Sevb",
+    "exemple": "Sur ce fond, Sevb a déjà peint :"
   },
   "artiste": {
     "surtitre": "L'artiste",

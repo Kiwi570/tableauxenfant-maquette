@@ -1,16 +1,19 @@
 /* Accueil : la toile qui se peint, trois façons d'offrir, les toiles originales en galerie, voir au mur,
    le sur-mesure en quatre étapes (le fond change), Sevb, affiches et séries limitées, avis, livraison, appel final. */
 import { html, brut } from '../../outils/gabarit.mjs';
-import { toilePeinte, carteProduit, avis, prix, FONDS } from '../gabarits/morceaux.mjs';
+import { toilePeinte, carteProduit, avis, prix, FONDS, murAccroche } from '../gabarits/morceaux.mjs';
 
 export const page = { cle: 'accueil', fichier: 'index', imagePartage: 'chambre-paul-1000.webp' };
 
 const MUR_TOILES = ['toile-lady-coccinelle', 'toile-aviateur', 'toile-ours-doudou'];
+/* Chaque fond du sur-mesure et une vraie toile de Sevb peinte sur ce fond. */
+const FOND_TOILES = { uni: 'toile-petite-peche', rayures: 'toile-lolita-lunettes', pois: 'toile-princesse-pois', quadrillage: 'toile-prince-turquoise' };
+const GALERIE = ['toile-coquine-ballons', 'toile-ecoliere', 'toile-lutine-ardoise', 'toile-femme-affaires', 'toile-prince-nb', 'toile-lolita-lapin', 'toile-chipie-modele'];
 
 export default (c) => {
   const P = c.donnees.produits;
-  const toiles = P.filter((p) => p.cat === 'toiles' && p.dispo).slice(0, 7);
   const trouve = (id) => P.find((p) => p.id === id);
+  const toiles = GALERIE.map(trouve);
   const vitrine = ['affiche-danseuse', 'coussin-pompier', 'cadre-sobre', 'cartes-postales'].map(trouve);
   return html`
 <section class="ouv ouv-accueil" id="debut">
@@ -38,7 +41,7 @@ export default (c) => {
   </div>
   <div class="offrir-grille" data-anime="cascade">
     <a class="offre" href="${c.url('boutique', 'catalogue', 'categorie=toiles')}" data-libelle="${c.libelle('boutique')}" data-fx="vitesse">
-      ${c.media({ nom: 'toile-princesse-pois', alt: '', classe: 'offre-media', sizes: '(max-width: 760px) 90vw, 30vw' })}
+      ${c.media({ nom: 'toile-lolita-coccinelle', alt: '', classe: 'offre-media', sizes: '(max-width: 760px) 90vw, 30vw', cadrage: '50% 30%' })}
       <span class="offre-texte"><span class="offre-titre">${c.t('accueil.offrir.toile')}</span><span class="offre-desc">${c.t('accueil.offrir.toileTexte')}</span><span class="offre-pied"><b data-prix>${c.t('accueil.offrir.toilePrix')}</b> <span class="offre-lien">${c.t('accueil.offrir.voirToiles')}</span></span></span>
     </a>
     <a class="offre offre--phare" href="${c.url('sur-mesure')}" data-libelle="${c.libelle('sur-mesure')}" data-fx="vitesse">
@@ -94,10 +97,11 @@ export default (c) => {
   <div class="conteneur mesure-grille">
     <div class="mesure-colle">
       <div class="mesure-toile" data-effet="fonds" data-fond="uni" role="img" aria-label="${c.s('accueil.mesure.toileAlt')}">
-        ${FONDS.map((f) => html`<span class="fond fond--${f}" data-fond-calque="${f}"></span>`)}
+        ${FONDS.map((f) => html`<span class="fond fond--${f}" data-fond-calque="${f}"></span><div class="fond-toile" data-fond-toile="${f}">${c.media({ nom: FOND_TOILES[f], alt: '', sizes: '(max-width: 860px) 300px, 34vw' })}</div>`)}
         <span class="mesure-toile-nom" data-fond-nom>${c.t('accueil.mesure.fondUni')}</span>
       </div>
-      <ul class="mesure-fonds" aria-hidden="true">${FONDS.map((f, i) => html`<li data-fond-repere="${f}"${i === 0 ? brut(' class="est-actif"') : ''}><span class="pastille fond--${f}"></span>${c.t(`accueil.mesure.fond${f[0].toUpperCase() + f.slice(1)}`)}</li>`)}</ul>
+      <ul class="mesure-fonds" aria-hidden="true">${FONDS.map((f, i) => html`<li data-fond-repere="${f}" data-fond-exemple="${trouve(FOND_TOILES[f]).titre}"${i === 0 ? brut(' class="est-actif"') : ''}><span class="pastille fond--${f}"></span>${c.t(`accueil.mesure.fond${f[0].toUpperCase() + f.slice(1)}`)}</li>`)}</ul>
+      <p class="mesure-exemple" aria-live="polite">${c.t('accueil.mesure.exemple')} <b data-fond-exemple-titre>${trouve(FOND_TOILES.uni).titre}</b></p>
     </div>
     <div class="mesure-texte">
       <p class="surtitre">${c.t('accueil.mesure.surtitre')}</p>
@@ -163,9 +167,7 @@ export default (c) => {
         ${c.lien('contact', { params: 'sujet=mesure', classe: 'bouton bouton--clair', texte: c.t('accueil.fin.ecrire') })}
       </p>
     </div>
-    <ul class="fin-toiles" data-anime="cascade" aria-hidden="true">
-      ${['toile-lolita-lapin', 'toile-aviateur', 'toile-ecoliere', 'toile-ours-doudou', 'toile-petite-peche'].map((id) => html`<li>${c.media({ nom: id, alt: '', sizes: '(max-width: 760px) 30vw, 12vw' })}</li>`)}
-    </ul>
+    ${murAccroche(c, ['affiche-zebulon', 'affiche-chevalier', 'affiche-fee-rose', 'affiche-pompier', 'affiche-lolita-bleue'], { cadre: 'affiche' })}
   </div>
 </section>
 `;

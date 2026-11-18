@@ -1,6 +1,21 @@
 {
   "siteActuel": "tableauxenfant.fr",
-  "pagesTypes": ["/", "/boutique", "/sur-mesure", "/artiste"],
-  "effets": ["toile-peinte", "fonds", "voir-au-mur", "composeur", "ruban-produits", "portrait-cadre"],
-  "grille": { "dispenses": {} }
+  "pagesTypes": [
+    "/",
+    "/boutique",
+    "/sur-mesure",
+    "/artiste"
+  ],
+  "effets": [
+    "toile-peinte",
+    "fonds",
+    "voir-au-mur",
+    "composeur",
+    "ruban-produits",
+    "portrait-cadre",
+    "accroche"
+  ],
+  "grille": {
+    "dispenses": {}
+  }
 }

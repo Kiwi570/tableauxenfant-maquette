@@ -2,8 +2,8 @@
    et le socle de la maquette : GSAP et ScrollTrigger sont déjà chargés par la page, Flip est chargé à la demande,
    les recalculs passent par le rafraîchissement regroupé du socle (mesures.js). Pas de Lenis : le défilement
    adouci est celui du socle. */
-import { rafraichir as rafraichirSocle } from './mesures.js?v=1';
-import { boucle as boucleSocle } from './boucles.js?v=1';
+import { rafraichir as rafraichirSocle } from './mesures.js?v=2';
+import { boucle as boucleSocle } from './boucles.js?v=2';
 
 const charges = {};
 function script(nom, fichier) {

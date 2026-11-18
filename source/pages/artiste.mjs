@@ -1,6 +1,6 @@
 /* L'artiste : portrait de Sevb d'un côté, texte de l'autre ; son histoire ; l'atelier ; ce qui l'inspire ; avis ; appel final. */
 import { html } from '../../outils/gabarit.mjs';
-import { avis } from '../gabarits/morceaux.mjs';
+import { avis, murAccroche } from '../gabarits/morceaux.mjs';
 
 export const page = { cle: 'artiste', fichier: 'artiste', imagePartage: 'sevb-atelier-800.webp' };
 
@@ -32,6 +32,7 @@ export default (c) => {
       <p data-anime>${t('histoire2')}</p>
       <blockquote class="histoire-citation" data-anime="lettres"><p>${t('citation')}</p></blockquote>
     </div>
+    ${murAccroche(c, ['affiche-motarde', 'affiche-danseuse'], { cadre: 'affiche', classe: 'accroche--deux' })}
   </div>
 </section>
 
@@ -67,9 +68,7 @@ export default (c) => {
       <p data-anime>${t('finTexte')}</p>
       <p class="fin-actions" data-anime>${c.lien('sur-mesure', { ancre: 'composer', classe: 'bouton', texte: t('finAction') })} ${c.lien('contact', { classe: 'bouton bouton--clair', texte: c.t('commun.ecrire') })}</p>
     </div>
-    <ul class="fin-toiles" data-anime="cascade" aria-hidden="true">
-      ${['toile-princesse-pois', 'toile-femme-affaires', 'toile-prince-nb', 'toile-lolita-coccinelle', 'toile-chipie-modele'].map((id) => html`<li>${c.media({ nom: id, alt: '', sizes: '(max-width: 760px) 30vw, 12vw' })}</li>`)}
-    </ul>
+    ${murAccroche(c, ['toile-princesse-pois', 'toile-femme-affaires', 'toile-prince-nb', 'toile-lolita-coccinelle', 'toile-chipie-modele'], { cadre: 'toile' })}
   </div>
 </section>
 `;

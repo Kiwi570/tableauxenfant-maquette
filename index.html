@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="fr" data-v="1" data-curseur>
+<html lang="fr" data-v="2" data-curseur>
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
@@ -34,16 +34,16 @@ if (alt) location.replace(new URL(alt.href).pathname + location.search + locatio
 setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('secours'); }, 2000);
 })();</script>
 <link rel="preload" href="/assets/fonts/fraunces-normal.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="/assets/css/socle.css?v=1">
-<link rel="stylesheet" href="/assets/css/module-panier-en-tiroir.css?v=1">
-<link rel="stylesheet" href="/assets/css/module-envol-vers-le-panier.css?v=1">
-<link rel="stylesheet" href="/assets/css/site.css?v=1">
-<link rel="modulepreload" href="/assets/js/site.js?v=1">
-<link rel="modulepreload" href="/assets/js/socle/index.js?v=1">
+<link rel="stylesheet" href="/assets/css/socle.css?v=2">
+<link rel="stylesheet" href="/assets/css/module-panier-en-tiroir.css?v=2">
+<link rel="stylesheet" href="/assets/css/module-envol-vers-le-panier.css?v=2">
+<link rel="stylesheet" href="/assets/css/site.css?v=2">
+<link rel="modulepreload" href="/assets/js/site.js?v=2">
+<link rel="modulepreload" href="/assets/js/socle/index.js?v=2">
 <script src="/assets/vendor/gsap.min.js" defer></script>
 <script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
 <script src="/assets/vendor/SplitText.min.js" defer></script>
-<script type="module" src="/assets/js/site.js?v=1"></script>
+<script type="module" src="/assets/js/site.js?v=2"></script>
 <meta name="theme-color" content="#FBF6EF">
 <link rel="icon" href="/assets/images/favicon-64.png" type="image/png">
 <link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
@@ -61,7 +61,7 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"Store","name":"Tableaux Enfant · Créations SevB","description":"Tableaux originaux, toiles sur mesure, affiches et décorations pour chambres d'enfants, peints à la main par Sevb, artiste peintre.","email":"sevb@atelierattitude.com","address":{"@type":"PostalAddress","postalCode":"41200","addressLocality":"Romorantin-Lanthenay","addressRegion":"Loir-et-Cher","addressCountry":"FR"},"founder":{"@type":"Person","name":"Séverine Bisson","alternateName":"Sevb","jobTitle":"Artiste peintre"},"openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday"],"opens":"09:00","closes":"17:00"},{"@type":"OpeningHoursSpecification","dayOfWeek":["Saturday","Sunday"],"opens":"11:00","closes":"15:00"}]}</script>
 </head>
 <body id="haut">
-<div data-voile data-forme="glisse" aria-hidden="true"><div class="voile-contenu"><img src="/assets/images/icone-clair.png" alt="" width="108" height="147"><span data-voile-libelle>Accueil</span></div></div>
+<div data-voile data-forme="iris" aria-hidden="true"><div class="voile-contenu"><img src="/assets/images/icone-clair.png" alt="" width="108" height="147"><span data-voile-libelle>Accueil</span></div></div>
 <div class="ouverture-panneau" data-ouverture aria-hidden="true">
   <img class="ouverture-logo" src="/assets/images/icone-clair.png" alt="" width="108" height="147" data-ouverture-objet>
   <p class="ouverture-nom">Tableaux <span>Enfant</span></p>
@@ -153,9 +153,9 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
   </div>
   <div class="offrir-grille" data-anime="cascade">
     <a class="offre" href="/boutique?categorie=toiles#catalogue" data-libelle="Boutique" data-fx="vitesse">
-      <figure class="media offre-media" style="--cadrage:50% 50%">
+      <figure class="media offre-media" style="--cadrage:50% 30%">
   <picture>
-    <img src="/assets/images/toile-princesse-pois-800.webp" srcset="/assets/images/toile-princesse-pois-400.webp 400w, /assets/images/toile-princesse-pois-800.webp 800w" sizes="(max-width: 760px) 90vw, 30vw" alt="" width="800" height="800" loading="lazy" decoding="async">
+    <img src="/assets/images/toile-lolita-coccinelle-800.webp" srcset="/assets/images/toile-lolita-coccinelle-400.webp 400w, /assets/images/toile-lolita-coccinelle-800.webp 800w" sizes="(max-width: 760px) 90vw, 30vw" alt="" width="800" height="800" loading="lazy" decoding="async">
   </picture>
 </figure>
       <span class="offre-texte"><span class="offre-titre">Une toile originale</span><span class="offre-desc">Peinte à la main à l&#39;acrylique sur lin et coton. Une pièce unique, prête à accrocher.</span><span class="offre-pied"><b data-prix>145 €</b> <span class="offre-lien">Les toiles</span></span></span>
@@ -184,27 +184,7 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
     <p class="masque-ecran-bas">Chaque toile n&#39;existe qu&#39;une fois. Faites défiler : elles attendent leur chambre.</p>
   </div>
   <div class="piste toiles-piste" data-galerie tabindex="0" role="region" aria-label="Toiles originales, défilement horizontal">
-    <article class="produit toile-carte" data-produit="toile-ours-doudou">
-  <a class="produit-lien" href="/boutique?produit=toile-ours-doudou" data-libelle="Boutique">
-    <figure class="media produit-media produit-media--toiles" style="--cadrage:50% 50%">
-  <picture>
-    <img src="/assets/images/toile-ours-doudou-800.webp" srcset="/assets/images/toile-ours-doudou-400.webp 400w, /assets/images/toile-ours-doudou-800.webp 800w" sizes="(max-width: 760px) 70vw, 30vw" alt="Petit ours, fond nuages, mon doudou" width="800" height="800" loading="lazy" decoding="async">
-  </picture>
-</figure>
-    <span class="produit-texte"><span class="produit-titre">Petit ours, fond nuages, mon doudou</span>
-    <span class="produit-prix" data-prix>145 €</span></span>
-  </a>
-</article><article class="produit toile-carte" data-produit="toile-chipie-modele">
-  <a class="produit-lien" href="/boutique?produit=toile-chipie-modele" data-libelle="Boutique">
-    <figure class="media produit-media produit-media--toiles" style="--cadrage:50% 50%">
-  <picture>
-    <img src="/assets/images/toile-chipie-modele-800.webp" srcset="/assets/images/toile-chipie-modele-400.webp 400w, /assets/images/toile-chipie-modele-800.webp 800w" sizes="(max-width: 760px) 70vw, 30vw" alt="Petite chipie fille modèle" width="800" height="800" loading="lazy" decoding="async">
-  </picture>
-</figure>
-    <span class="produit-texte"><span class="produit-titre">Petite chipie fille modèle</span>
-    <span class="produit-prix" data-prix>145 €</span></span>
-  </a>
-</article><article class="produit toile-carte" data-produit="toile-coquine-ballons">
+    <article class="produit toile-carte" data-produit="toile-coquine-ballons" data-panier-produit>
   <a class="produit-lien" href="/boutique?produit=toile-coquine-ballons" data-libelle="Boutique">
     <figure class="media produit-media produit-media--toiles" style="--cadrage:50% 50%">
   <picture>
@@ -214,7 +194,8 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
     <span class="produit-texte"><span class="produit-titre">Petite coquine à lunettes et ses ballons</span>
     <span class="produit-prix" data-prix>145 €</span></span>
   </a>
-</article><article class="produit toile-carte" data-produit="toile-ecoliere">
+  <button type="button" class="ajout-rapide" data-panier-ajouter="toile-coquine-ballons" data-nom="Petite coquine à lunettes et ses ballons" data-prix="145" data-image="/assets/images/toile-coquine-ballons-400.webp" aria-label="Ajouter Petite coquine à lunettes et ses ballons au panier"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M12 5v14M5 12h14" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></svg></button>
+</article><article class="produit toile-carte" data-produit="toile-ecoliere" data-panier-produit>
   <a class="produit-lien" href="/boutique?produit=toile-ecoliere" data-libelle="Boutique">
     <figure class="media produit-media produit-media--toiles" style="--cadrage:50% 50%">
   <picture>
@@ -224,7 +205,8 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
     <span class="produit-texte"><span class="produit-titre">Petite écolière sur fond cahier d’école</span>
     <span class="produit-prix" data-prix>145 €</span></span>
   </a>
-</article><article class="produit toile-carte" data-produit="toile-lutine-ardoise">
+  <button type="button" class="ajout-rapide" data-panier-ajouter="toile-ecoliere" data-nom="Petite écolière sur fond cahier d’école" data-prix="145" data-image="/assets/images/toile-ecoliere-400.webp" aria-label="Ajouter Petite écolière sur fond cahier d’école au panier"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M12 5v14M5 12h14" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></svg></button>
+</article><article class="produit toile-carte" data-produit="toile-lutine-ardoise" data-panier-produit>
   <a class="produit-lien" href="/boutique?produit=toile-lutine-ardoise" data-libelle="Boutique">
     <figure class="media produit-media produit-media--toiles" style="--cadrage:50% 50%">
   <picture>
@@ -234,17 +216,8 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
     <span class="produit-texte"><span class="produit-titre">Petite fée lutine ardoise et ses jouets</span>
     <span class="produit-prix" data-prix>145 €</span></span>
   </a>
-</article><article class="produit toile-carte" data-produit="toile-zebulon-coccinelle">
-  <a class="produit-lien" href="/boutique?produit=toile-zebulon-coccinelle" data-libelle="Boutique">
-    <figure class="media produit-media produit-media--toiles" style="--cadrage:50% 50%">
-  <picture>
-    <img src="/assets/images/toile-zebulon-coccinelle-800.webp" srcset="/assets/images/toile-zebulon-coccinelle-400.webp 400w, /assets/images/toile-zebulon-coccinelle-800.webp 800w" sizes="(max-width: 760px) 70vw, 30vw" alt="Petite fée Zébulon coccinelle" width="800" height="800" loading="lazy" decoding="async">
-  </picture>
-</figure>
-    <span class="produit-texte"><span class="produit-titre">Petite fée Zébulon coccinelle</span>
-    <span class="produit-prix" data-prix>145 €</span></span>
-  </a>
-</article><article class="produit toile-carte" data-produit="toile-femme-affaires">
+  <button type="button" class="ajout-rapide" data-panier-ajouter="toile-lutine-ardoise" data-nom="Petite fée lutine ardoise et ses jouets" data-prix="145" data-image="/assets/images/toile-lutine-ardoise-400.webp" aria-label="Ajouter Petite fée lutine ardoise et ses jouets au panier"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M12 5v14M5 12h14" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></svg></button>
+</article><article class="produit toile-carte" data-produit="toile-femme-affaires" data-panier-produit>
   <a class="produit-lien" href="/boutique?produit=toile-femme-affaires" data-libelle="Boutique">
     <figure class="media produit-media produit-media--toiles" style="--cadrage:50% 50%">
   <picture>
@@ -254,6 +227,40 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
     <span class="produit-texte"><span class="produit-titre">Petite femme d’affaires</span>
     <span class="produit-prix" data-prix>145 €</span></span>
   </a>
+  <button type="button" class="ajout-rapide" data-panier-ajouter="toile-femme-affaires" data-nom="Petite femme d’affaires" data-prix="145" data-image="/assets/images/toile-femme-affaires-400.webp" aria-label="Ajouter Petite femme d’affaires au panier"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M12 5v14M5 12h14" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></svg></button>
+</article><article class="produit toile-carte" data-produit="toile-prince-nb" data-panier-produit>
+  <a class="produit-lien" href="/boutique?produit=toile-prince-nb" data-libelle="Boutique">
+    <figure class="media produit-media produit-media--toiles" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/toile-prince-nb-800.webp" srcset="/assets/images/toile-prince-nb-400.webp 400w, /assets/images/toile-prince-nb-800.webp 800w" sizes="(max-width: 760px) 70vw, 30vw" alt="Mon petit prince noir et blanc" width="800" height="800" loading="lazy" decoding="async">
+  </picture>
+</figure>
+    <span class="produit-texte"><span class="produit-titre">Mon petit prince noir et blanc</span>
+    <span class="produit-prix" data-prix>195 €</span></span>
+  </a>
+  <button type="button" class="ajout-rapide" data-panier-ajouter="toile-prince-nb" data-nom="Mon petit prince noir et blanc" data-prix="195" data-image="/assets/images/toile-prince-nb-400.webp" aria-label="Ajouter Mon petit prince noir et blanc au panier"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M12 5v14M5 12h14" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></svg></button>
+</article><article class="produit toile-carte" data-produit="toile-lolita-lapin" data-panier-produit>
+  <a class="produit-lien" href="/boutique?produit=toile-lolita-lapin" data-libelle="Boutique">
+    <figure class="media produit-media produit-media--toiles" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/toile-lolita-lapin-800.webp" srcset="/assets/images/toile-lolita-lapin-400.webp 400w, /assets/images/toile-lolita-lapin-800.webp 800w" sizes="(max-width: 760px) 70vw, 30vw" alt="Petite Lolita et son doudou lapin vert anis" width="800" height="800" loading="lazy" decoding="async">
+  </picture>
+</figure>
+    <span class="produit-texte"><span class="produit-titre">Petite Lolita et son doudou lapin vert anis</span>
+    <span class="produit-prix" data-prix>145 €</span></span>
+  </a>
+  <button type="button" class="ajout-rapide" data-panier-ajouter="toile-lolita-lapin" data-nom="Petite Lolita et son doudou lapin vert anis" data-prix="145" data-image="/assets/images/toile-lolita-lapin-400.webp" aria-label="Ajouter Petite Lolita et son doudou lapin vert anis au panier"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M12 5v14M5 12h14" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></svg></button>
+</article><article class="produit toile-carte" data-produit="toile-chipie-modele" data-panier-produit>
+  <a class="produit-lien" href="/boutique?produit=toile-chipie-modele" data-libelle="Boutique">
+    <figure class="media produit-media produit-media--toiles" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/toile-chipie-modele-800.webp" srcset="/assets/images/toile-chipie-modele-400.webp 400w, /assets/images/toile-chipie-modele-800.webp 800w" sizes="(max-width: 760px) 70vw, 30vw" alt="Petite chipie fille modèle" width="800" height="800" loading="lazy" decoding="async">
+  </picture>
+</figure>
+    <span class="produit-texte"><span class="produit-titre">Petite chipie fille modèle</span>
+    <span class="produit-prix" data-prix>145 €</span></span>
+  </a>
+  <button type="button" class="ajout-rapide" data-panier-ajouter="toile-chipie-modele" data-nom="Petite chipie fille modèle" data-prix="145" data-image="/assets/images/toile-chipie-modele-400.webp" aria-label="Ajouter Petite chipie fille modèle au panier"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M12 5v14M5 12h14" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></svg></button>
 </article>
     <a class="toiles-fin" href="/boutique?categorie=toiles#catalogue" data-libelle="Boutique"><span>Toutes les toiles</span><svg viewBox="0 0 40 16" aria-hidden="true"><path d="M2 8h34M30 2l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2"/></svg></a>
   </div>
@@ -323,11 +330,28 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
 <section class="mesure fond-rose" id="sur-mesure">
   <div class="conteneur mesure-grille">
     <div class="mesure-colle">
-      <div class="mesure-toile" data-effet="fonds" data-fond="uni" role="img" aria-label="Aperçu d&#39;une toile vierge et de son fond">
-        <span class="fond fond--uni" data-fond-calque="uni"></span><span class="fond fond--rayures" data-fond-calque="rayures"></span><span class="fond fond--pois" data-fond-calque="pois"></span><span class="fond fond--quadrillage" data-fond-calque="quadrillage"></span>
+      <div class="mesure-toile" data-effet="fonds" data-fond="uni" role="img" aria-label="Les quatre fonds du sur-mesure et une toile de Sevb peinte sur chacun">
+        <span class="fond fond--uni" data-fond-calque="uni"></span><div class="fond-toile" data-fond-toile="uni"><figure class="media " style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/toile-petite-peche-800.webp" srcset="/assets/images/toile-petite-peche-400.webp 400w, /assets/images/toile-petite-peche-800.webp 800w" sizes="(max-width: 860px) 300px, 34vw" alt="" width="800" height="800" loading="lazy" decoding="async">
+  </picture>
+</figure></div><span class="fond fond--rayures" data-fond-calque="rayures"></span><div class="fond-toile" data-fond-toile="rayures"><figure class="media " style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/toile-lolita-lunettes-800.webp" srcset="/assets/images/toile-lolita-lunettes-400.webp 400w, /assets/images/toile-lolita-lunettes-800.webp 800w" sizes="(max-width: 860px) 300px, 34vw" alt="" width="800" height="800" loading="lazy" decoding="async">
+  </picture>
+</figure></div><span class="fond fond--pois" data-fond-calque="pois"></span><div class="fond-toile" data-fond-toile="pois"><figure class="media " style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/toile-princesse-pois-800.webp" srcset="/assets/images/toile-princesse-pois-400.webp 400w, /assets/images/toile-princesse-pois-800.webp 800w" sizes="(max-width: 860px) 300px, 34vw" alt="" width="800" height="800" loading="lazy" decoding="async">
+  </picture>
+</figure></div><span class="fond fond--quadrillage" data-fond-calque="quadrillage"></span><div class="fond-toile" data-fond-toile="quadrillage"><figure class="media " style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/toile-prince-turquoise-400.webp" srcset="/assets/images/toile-prince-turquoise-400.webp 400w" sizes="(max-width: 860px) 300px, 34vw" alt="" width="400" height="400" loading="lazy" decoding="async">
+  </picture>
+</figure></div>
         <span class="mesure-toile-nom" data-fond-nom>uni</span>
       </div>
-      <ul class="mesure-fonds" aria-hidden="true"><li data-fond-repere="uni" class="est-actif"><span class="pastille fond--uni"></span>uni</li><li data-fond-repere="rayures"><span class="pastille fond--rayures"></span>rayures</li><li data-fond-repere="pois"><span class="pastille fond--pois"></span>pois</li><li data-fond-repere="quadrillage"><span class="pastille fond--quadrillage"></span>quadrillage</li></ul>
+      <ul class="mesure-fonds" aria-hidden="true"><li data-fond-repere="uni" data-fond-exemple="Petite pêche" class="est-actif"><span class="pastille fond--uni"></span>uni</li><li data-fond-repere="rayures" data-fond-exemple="Petite Lolita brune à lunettes et tresses"><span class="pastille fond--rayures"></span>rayures</li><li data-fond-repere="pois" data-fond-exemple="Petite princesse robe à pois"><span class="pastille fond--pois"></span>pois</li><li data-fond-repere="quadrillage" data-fond-exemple="Mon petit prince, fond quadrillé turquoise"><span class="pastille fond--quadrillage"></span>quadrillage</li></ul>
+      <p class="mesure-exemple" aria-live="polite">Sur ce fond, Sevb a peint : <b data-fond-exemple-titre>Petite pêche</b></p>
     </div>
     <div class="mesure-texte">
       <p class="surtitre">Le sur-mesure, 185 €</p>
@@ -375,7 +399,7 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
 </figure>
   </div>
   <div class="conteneur plus-produits" data-anime="cascade">
-    <article class="produit " data-produit="affiche-danseuse">
+    <article class="produit " data-produit="affiche-danseuse" data-panier-produit>
   <a class="produit-lien" href="/boutique?produit=affiche-danseuse" data-libelle="Boutique">
     <figure class="media produit-media produit-media--affiches" style="--cadrage:50% 50%">
   <picture>
@@ -385,7 +409,8 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
     <span class="produit-texte"><span class="produit-titre">Petite danseuse rose avec tutu</span>
     <span class="produit-prix" data-prix>20 €</span></span>
   </a>
-</article><article class="produit " data-produit="coussin-pompier">
+  <button type="button" class="ajout-rapide" data-panier-ajouter="affiche-danseuse" data-nom="Petite danseuse rose avec tutu" data-prix="20" data-image="/assets/images/affiche-danseuse-400.webp" aria-label="Ajouter Petite danseuse rose avec tutu au panier"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M12 5v14M5 12h14" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></svg></button>
+</article><article class="produit " data-produit="coussin-pompier" data-panier-produit>
   <a class="produit-lien" href="/boutique?produit=coussin-pompier" data-libelle="Boutique">
     <figure class="media produit-media produit-media--coussins" style="--cadrage:50% 50%">
   <picture>
@@ -395,7 +420,8 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
     <span class="produit-texte"><span class="produit-titre">Petit pompier rouge</span>
     <span class="produit-prix" data-prix>49 €</span></span>
   </a>
-</article><article class="produit " data-produit="cadre-sobre">
+  <button type="button" class="ajout-rapide" data-panier-ajouter="coussin-pompier" data-nom="Petit pompier rouge" data-prix="49" data-image="/assets/images/coussin-pompier-400.webp" data-options='{"Dos":"argent"}' aria-label="Ajouter Petit pompier rouge au panier"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M12 5v14M5 12h14" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></svg></button>
+</article><article class="produit " data-produit="cadre-sobre" data-panier-produit>
   <a class="produit-lien" href="/boutique?produit=cadre-sobre" data-libelle="Boutique">
     <figure class="media produit-media produit-media--cadeaux" style="--cadrage:50% 50%">
   <picture>
@@ -405,7 +431,8 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
     <span class="produit-texte"><span class="produit-titre">Cadre sobre et chic</span>
     <span class="produit-prix" data-prix>25 €</span></span>
   </a>
-</article><article class="produit " data-produit="cartes-postales">
+  <button type="button" class="ajout-rapide" data-panier-ajouter="cadre-sobre" data-nom="Cadre sobre et chic" data-prix="25" data-image="/assets/images/cadre-sobre-400.webp" aria-label="Ajouter Cadre sobre et chic au panier"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M12 5v14M5 12h14" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></svg></button>
+</article><article class="produit " data-produit="cartes-postales" data-panier-produit>
   <a class="produit-lien" href="/boutique?produit=cartes-postales" data-libelle="Boutique">
     <figure class="media produit-media produit-media--cadeaux" style="--cadrage:50% 50%">
   <picture>
@@ -415,6 +442,7 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
     <span class="produit-texte"><span class="produit-titre">Cartes postales vintage noir et blanc</span>
     <span class="produit-prix" data-prix>2 €</span></span>
   </a>
+  <a class="ajout-rapide" href="/boutique?produit=cartes-postales" data-libelle="Boutique" aria-label="Choisir les options de Cartes postales vintage noir et blanc"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M12 5v14M5 12h14" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></svg></a>
 </article>
   </div>
 </section>
@@ -449,29 +477,44 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
         <a href="/contact?sujet=mesure" class="bouton bouton--clair" data-libelle="Contact">Écrire à Sevb</a>
       </p>
     </div>
-    <ul class="fin-toiles" data-anime="cascade" aria-hidden="true">
-      <li><figure class="media " style="--cadrage:50% 50%">
+    <ul class="accroche accroche--affiche ">
+    <li class="accroche-item" style="--h:26px;--i:0" data-effet="accroche">
+        <span class="accroche-fils" aria-hidden="true"></span>
+        <a class="accroche-cadre" href="/boutique?produit=affiche-zebulon" data-libelle="Boutique" aria-label="Petit Zébulon, tresses et baguette magique, 20 €"><figure class="media accroche-media" style="--cadrage:50% 50%">
   <picture>
-    <img src="/assets/images/toile-lolita-lapin-800.webp" srcset="/assets/images/toile-lolita-lapin-400.webp 400w, /assets/images/toile-lolita-lapin-800.webp 800w" sizes="(max-width: 760px) 30vw, 12vw" alt="" width="800" height="800" loading="lazy" decoding="async">
+    <img src="/assets/images/affiche-zebulon-800.webp" srcset="/assets/images/affiche-zebulon-400.webp 400w, /assets/images/affiche-zebulon-800.webp 800w" sizes="(max-width: 760px) 30vw, 12vw" alt="" width="800" height="1143" loading="lazy" decoding="async">
   </picture>
-</figure></li><li><figure class="media " style="--cadrage:50% 50%">
+</figure></a>
+      </li><li class="accroche-item" style="--h:64px;--i:1" data-effet="accroche">
+        <span class="accroche-fils" aria-hidden="true"></span>
+        <a class="accroche-cadre" href="/boutique?produit=affiche-chevalier" data-libelle="Boutique" aria-label="Petit chevalier bleu, 20 €"><figure class="media accroche-media" style="--cadrage:50% 50%">
   <picture>
-    <img src="/assets/images/toile-aviateur-800.webp" srcset="/assets/images/toile-aviateur-400.webp 400w, /assets/images/toile-aviateur-800.webp 800w" sizes="(max-width: 760px) 30vw, 12vw" alt="" width="800" height="800" loading="lazy" decoding="async">
+    <img src="/assets/images/affiche-chevalier-800.webp" srcset="/assets/images/affiche-chevalier-400.webp 400w, /assets/images/affiche-chevalier-800.webp 800w" sizes="(max-width: 760px) 30vw, 12vw" alt="" width="800" height="1143" loading="lazy" decoding="async">
   </picture>
-</figure></li><li><figure class="media " style="--cadrage:50% 50%">
+</figure></a>
+      </li><li class="accroche-item" style="--h:14px;--i:2" data-effet="accroche">
+        <span class="accroche-fils" aria-hidden="true"></span>
+        <a class="accroche-cadre" href="/boutique?produit=affiche-fee-rose" data-libelle="Boutique" aria-label="Petite fée rose à pois avec ses ailes, 20 €"><figure class="media accroche-media" style="--cadrage:50% 50%">
   <picture>
-    <img src="/assets/images/toile-ecoliere-800.webp" srcset="/assets/images/toile-ecoliere-400.webp 400w, /assets/images/toile-ecoliere-800.webp 800w" sizes="(max-width: 760px) 30vw, 12vw" alt="" width="800" height="800" loading="lazy" decoding="async">
+    <img src="/assets/images/affiche-fee-rose-800.webp" srcset="/assets/images/affiche-fee-rose-400.webp 400w, /assets/images/affiche-fee-rose-800.webp 800w" sizes="(max-width: 760px) 30vw, 12vw" alt="" width="800" height="1143" loading="lazy" decoding="async">
   </picture>
-</figure></li><li><figure class="media " style="--cadrage:50% 50%">
+</figure></a>
+      </li><li class="accroche-item" style="--h:48px;--i:3" data-effet="accroche">
+        <span class="accroche-fils" aria-hidden="true"></span>
+        <a class="accroche-cadre" href="/boutique?produit=affiche-pompier" data-libelle="Boutique" aria-label="Petit pompier, 20 €"><figure class="media accroche-media" style="--cadrage:50% 50%">
   <picture>
-    <img src="/assets/images/toile-ours-doudou-800.webp" srcset="/assets/images/toile-ours-doudou-400.webp 400w, /assets/images/toile-ours-doudou-800.webp 800w" sizes="(max-width: 760px) 30vw, 12vw" alt="" width="800" height="800" loading="lazy" decoding="async">
+    <img src="/assets/images/affiche-pompier-800.webp" srcset="/assets/images/affiche-pompier-400.webp 400w, /assets/images/affiche-pompier-800.webp 800w" sizes="(max-width: 760px) 30vw, 12vw" alt="" width="800" height="1142" loading="lazy" decoding="async">
   </picture>
-</figure></li><li><figure class="media " style="--cadrage:50% 50%">
+</figure></a>
+      </li><li class="accroche-item" style="--h:34px;--i:4" data-effet="accroche">
+        <span class="accroche-fils" aria-hidden="true"></span>
+        <a class="accroche-cadre" href="/boutique?produit=affiche-lolita-bleue" data-libelle="Boutique" aria-label="Petite Lolita bleue à pois blanc et lunettes, 20 €"><figure class="media accroche-media" style="--cadrage:50% 50%">
   <picture>
-    <img src="/assets/images/toile-petite-peche-800.webp" srcset="/assets/images/toile-petite-peche-400.webp 400w, /assets/images/toile-petite-peche-800.webp 800w" sizes="(max-width: 760px) 30vw, 12vw" alt="" width="800" height="800" loading="lazy" decoding="async">
+    <img src="/assets/images/affiche-lolita-bleue-800.webp" srcset="/assets/images/affiche-lolita-bleue-400.webp 400w, /assets/images/affiche-lolita-bleue-800.webp 800w" sizes="(max-width: 760px) 30vw, 12vw" alt="" width="800" height="1143" loading="lazy" decoding="async">
   </picture>
-</figure></li>
-    </ul>
+</figure></a>
+      </li>
+  </ul>
   </div>
 </section>
 </main>

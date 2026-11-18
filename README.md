@@ -1,4 +1,4 @@
-# Tableaux Enfant · maquette v1
+# Tableaux Enfant · maquette v2
 
 Maquette du futur site de **Tableaux Enfant** (Séverine Bisson, dite Sevb, artiste peintre à Romorantin-Lanthenay).
 Adresse prévue : https://tableauxenfant-maquette.vercel.app · site actuel : tableauxenfant.fr (WordPress, Elementor, WooCommerce).
@@ -55,5 +55,5 @@ Compteurs de catégories doublés (« 2121 », « 1919 », « 3838 ») · frais 
 Site statique (HTML, CSS, JavaScript), sans étape de construction sur Vercel. Les pages sont générées depuis `donnees/` et `source/` :
 `node outils/generer.mjs` (jamais de modification à la main des `.html`). Images : `plan-images.json` puis le pipeline de la bibliothèque.
 Modules de la bibliothèque repris : panier en tiroir, envol vers le panier, catalogue filtré avec Flip (recherche ajoutée).
-Effets propres : `toile-peinte`, `fonds`, `voir-au-mur`, `composeur`, `ruban-produits`, `portrait-cadre`.
+Effets propres : `toile-peinte`, `fonds`, `voir-au-mur`, `composeur`, `ruban-produits`, `portrait-cadre`, `accroche` (cadres suspendus qui se balancent).
 Audit : `node _audit/audit.mjs` (rapport dans `_audit/rapport/rapport.md`).

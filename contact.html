@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="fr" data-v="1" data-curseur>
+<html lang="fr" data-v="2" data-curseur>
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
@@ -34,16 +34,16 @@ if (alt) location.replace(new URL(alt.href).pathname + location.search + locatio
 setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('secours'); }, 2000);
 })();</script>
 <link rel="preload" href="/assets/fonts/fraunces-normal.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="/assets/css/socle.css?v=1">
-<link rel="stylesheet" href="/assets/css/module-panier-en-tiroir.css?v=1">
-<link rel="stylesheet" href="/assets/css/module-envol-vers-le-panier.css?v=1">
-<link rel="stylesheet" href="/assets/css/site.css?v=1">
-<link rel="modulepreload" href="/assets/js/site.js?v=1">
-<link rel="modulepreload" href="/assets/js/socle/index.js?v=1">
+<link rel="stylesheet" href="/assets/css/socle.css?v=2">
+<link rel="stylesheet" href="/assets/css/module-panier-en-tiroir.css?v=2">
+<link rel="stylesheet" href="/assets/css/module-envol-vers-le-panier.css?v=2">
+<link rel="stylesheet" href="/assets/css/site.css?v=2">
+<link rel="modulepreload" href="/assets/js/site.js?v=2">
+<link rel="modulepreload" href="/assets/js/socle/index.js?v=2">
 <script src="/assets/vendor/gsap.min.js" defer></script>
 <script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
 <script src="/assets/vendor/SplitText.min.js" defer></script>
-<script type="module" src="/assets/js/site.js?v=1"></script>
+<script type="module" src="/assets/js/site.js?v=2"></script>
 <meta name="theme-color" content="#FBF6EF">
 <link rel="icon" href="/assets/images/favicon-64.png" type="image/png">
 <link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
@@ -61,7 +61,7 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"Store","name":"Tableaux Enfant · Créations SevB","description":"Tableaux originaux, toiles sur mesure, affiches et décorations pour chambres d'enfants, peints à la main par Sevb, artiste peintre.","email":"sevb@atelierattitude.com","address":{"@type":"PostalAddress","postalCode":"41200","addressLocality":"Romorantin-Lanthenay","addressRegion":"Loir-et-Cher","addressCountry":"FR"},"founder":{"@type":"Person","name":"Séverine Bisson","alternateName":"Sevb","jobTitle":"Artiste peintre"},"openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday"],"opens":"09:00","closes":"17:00"},{"@type":"OpeningHoursSpecification","dayOfWeek":["Saturday","Sunday"],"opens":"11:00","closes":"15:00"}]}</script>
 </head>
 <body id="haut">
-<div data-voile data-forme="glisse" aria-hidden="true"><div class="voile-contenu"><img src="/assets/images/icone-clair.png" alt="" width="108" height="147"><span data-voile-libelle>Contact</span></div></div>
+<div data-voile data-forme="iris" aria-hidden="true"><div class="voile-contenu"><img src="/assets/images/icone-clair.png" alt="" width="108" height="147"><span data-voile-libelle>Contact</span></div></div>
 <div class="ouverture-panneau" data-ouverture aria-hidden="true">
   <img class="ouverture-logo" src="/assets/images/icone-clair.png" alt="" width="108" height="147" data-ouverture-objet>
   <p class="ouverture-nom">Tableaux <span>Enfant</span></p>
@@ -149,12 +149,14 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
     </div>
     <div class="carte-bloc">
       <h2 data-anime="lignes">Où se trouve l&#39;atelier</h2>
-      <svg class="carte" viewBox="0 0 300 240" role="img" aria-label="Carte du Loir-et-Cher avec Romorantin-Lanthenay, Blois et Vendôme" data-fx="trace">
-        <path data-fx-trait d="M70 30 L120 18 L170 34 L205 28 L240 60 L262 108 L248 150 L270 190 L220 214 L170 206 L120 220 L86 190 L60 150 L40 112 L52 70 Z" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"/>
-        <path data-fx-trait d="M40 120 C 90 110, 130 130, 170 112 S 240 100, 262 108" fill="none" stroke="#7FA7B5" stroke-width="2" stroke-dasharray="1 0"/>
-        <circle cx="110" cy="70" r="4" fill="currentColor"/><text x="118" y="66" class="carte-ville">Vendôme</text>
-        <circle cx="140" cy="118" r="4" fill="currentColor"/><text x="148" y="114" class="carte-ville">Blois</text>
-        <circle cx="200" cy="172" r="8" fill="#C2304F" data-repere/><text x="146" y="198" class="carte-ville carte-ville--atelier">Romorantin-Lanthenay</text>
+      <svg class="carte" viewBox="0 0 320 250" data-fx="trace" role="img" aria-label="Carte du Loir-et-Cher avec Romorantin-Lanthenay, Blois et Vendôme">
+        <path class="carte-dep" data-superpose d="M86 22 L132 14 L170 30 L206 22 L236 44 L262 70 L274 112 L262 146 L282 184 L248 214 L204 206 L166 226 L120 214 L92 186 L62 160 L40 122 L48 82 L64 52 Z"/>
+        <path class="carte-loire" data-fx-trait d="M44 132 C 80 124, 110 142, 146 126 S 214 104, 270 108" />
+        <g class="carte-ville"><circle cx="112" cy="66" r="4"/><text x="121" y="62">Vendôme</text></g>
+        <g class="carte-ville"><circle cx="146" cy="128" r="4"/><text x="155" y="146">Blois</text></g>
+        <g class="carte-ville carte-ville--atelier" data-repere><circle cx="212" cy="176" r="15" class="halo"/><circle cx="212" cy="176" r="7"/><text x="168" y="206">Romorantin-Lanthenay</text></g>
+        <text x="226" y="96" class="carte-legende">la Loire</text>
+        <text x="64" y="232" class="carte-legende">Loir-et-Cher · Sologne</text>
       </svg>
       <p>À Romorantin-Lanthenay, au cœur de la Sologne, dans le Loir-et-Cher. L&#39;adresse est donnée au moment d&#39;un rendez-vous à l&#39;atelier.</p>
     </div>

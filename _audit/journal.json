@@ -102,6 +102,63 @@
    "effetsRetires": [],
    "grilleDispenses": {},
    "notes": "Images Grok livrées aux formats finaux (16:9, 9:16, 4:5) ; renforcées (netteté) avant production. Photos des réalisations sur commande non récupérables (galerie en JavaScript)."
+  },
+  {
+   "version": 2,
+   "skill": "v11.1",
+   "perimetre": [
+    "accueil",
+    "boutique",
+    "sur-mesure",
+    "artiste",
+    "contact",
+    "404"
+   ],
+   "etapes": [
+    {
+     "etape": "analyse approfondie page par page (captures ordinateur et téléphone)",
+     "budget": 15,
+     "debut": "2026-11-18T15:12:00+01:00",
+     "fin": "2026-11-18T15:20:00+01:00"
+    },
+    {
+     "etape": "améliorations v2 (ajout rapide, fiche réparée, fonds avec toiles, mur d'accrochage, icônes, carte, voile iris)",
+     "budget": 40,
+     "debut": "2026-11-18T15:20:00+01:00",
+     "fin": "2026-11-18T15:30:00+01:00"
+    },
+    {
+     "etape": "audit complet en trois passes ciblées et corrections",
+     "budget": 45,
+     "debut": "2026-11-18T15:30:00+01:00",
+     "fin": "2026-11-18T16:00:00+01:00"
+    },
+    {
+     "etape": "livraison",
+     "budget": 5,
+     "debut": "2026-11-18T16:00:00+01:00",
+     "fin": "2026-11-18T16:04:00+01:00"
+    }
+   ],
+   "attentes": [],
+   "allersRetours": 0,
+   "modules": [
+    "panier-en-tiroir",
+    "envol-vers-le-panier",
+    "catalogue-filtres-flip"
+   ],
+   "audit": {
+    "niveau": "complet, en quatre passes ciblées (/ ; /boutique et /sur-mesure ; /artiste, /contact et /404 ; mesures relancées après la dernière retouche de site.css)",
+    "echecsPremierPassage": 1,
+    "relances": 2,
+    "corrections": [
+     "repère de Romorantin recouvert par le dessin du département (superposition voulue déclarée)",
+     "appel final en une colonne jusqu'à 1000 px pour que les cadres suspendus restent grands"
+    ]
+   },
+   "effetsRetires": [],
+   "grilleDispenses": {},
+   "notes": "La fiche produit de la boutique ne s'ouvrait pas en v1 : bloc JSON échappé par le gabarit (html``), corrigé par brut()."
   }
  ]
 }

@@ -6,7 +6,7 @@
 // quantités + et −, retrait annulable, jauge « livraison offerte dès X € », livraison ou retrait, total TTC ;
 // puis coordonnées, paiement simulé et confirmation avec une référence. Sur téléphone, il monte du bas, en grand.
 // Avec envol-vers-le-panier dans la page ([data-envol-cible]), l'ajout fait partir l'envol.
-import { pret } from '../../socle/socle.js?v=1';
+import { pret } from '../../socle/socle.js?v=2';
 
 const ICI = import.meta.url;
 let P = null; // promesse du panier de la page : un seul, quel que soit le nombre d'init (tiroir, zones de produits)

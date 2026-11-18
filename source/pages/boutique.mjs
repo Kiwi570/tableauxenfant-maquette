@@ -1,7 +1,7 @@
 /* Boutique : grand titre puis bandeau de vraies créations qui défile, filtres tout de suite (module catalogue-filtres-flip),
    fiche en tiroir avec son propre lien (?produit=…), panier en tiroir (module panier-en-tiroir), bon à savoir, appel final. */
 import { html, brut } from '../../outils/gabarit.mjs';
-import { prix } from '../gabarits/morceaux.mjs';
+import { prix, ajoutRapide, icone } from '../gabarits/morceaux.mjs';
 
 export const page = { cle: 'boutique', fichier: 'boutique', imagePartage: 'chambre-coussins-1280.webp' };
 
@@ -49,11 +49,12 @@ export default (c) => {
     <p class="cff__compte" aria-live="polite"><b data-compte>${P.length}</b> <span data-compte-mot>${t('comptePlusieurs')}</span> · <button type="button" class="lien" data-reinit>${t('reinit')}</button></p>
   </div>
   <div class="cff__grille" data-grille>
-    ${P.map((p, i) => html`<article class="cff__fiche produit${p.dispo ? '' : ' produit--epuise'}" data-cat="${p.cat}" data-pour="${p.pour === 'tous' ? 'fille garcon' : p.pour}" data-prix="${p.prix}" data-ordre="${i}" data-mots="${p.titre.toLowerCase()} ${p.cat}" data-produit="${p.id}">
+    ${P.map((p, i) => html`<article class="cff__fiche produit${p.dispo ? '' : ' produit--epuise'}" data-cat="${p.cat}" data-pour="${p.pour === 'tous' ? 'fille garcon' : p.pour}" data-prix="${p.prix}" data-ordre="${i}" data-mots="${p.titre.toLowerCase()} ${p.cat}" data-produit="${p.id}" data-panier-produit>
       <a class="produit-lien" href="${c.url('boutique', '', `produit=${p.id}`)}" data-fiche="${p.id}" data-sans-transition>
         ${c.media({ nom: p.image, alt: p.titre, classe: `produit-media produit-media--${p.cat}`, sizes: '(max-width: 760px) 46vw, 23vw' })}
         <span class="produit-texte"><span class="produit-titre">${p.titre}</span><span class="produit-prix" data-prix>${p.modeles ? 'l’unité ' : ''}${prix(p.prix)}</span>${p.dispo ? '' : html`<span class="produit-epuise">${c.t('commun.epuise')}</span>`}</span>
       </a>
+      ${ajoutRapide(c, p, { ficheDansLaPage: true })}
     </article>`)}
     <p class="cff__vide" data-vide hidden>${t('vide')} <button type="button" class="lien" data-reinit>${t('reinit')}</button></p>
   </div>
@@ -77,12 +78,12 @@ export default (c) => {
     </div>
   </div>
 </div>
-<script type="application/json" id="donnees-produits">${JSON.stringify(P.map((p) => ({ ...p, prixTexte: prix(p.prix) }))).replace(/</g, '\\u003c')}</script>
+<script type="application/json" id="donnees-produits">${brut(JSON.stringify(P.map((p) => ({ ...p, prixTexte: prix(p.prix) }))).replace(/</g, '\\u003c'))}</script>
 
 <section class="bon fond-rose" id="bon-a-savoir">
   <div class="conteneur">
     <h2 data-anime="lignes">${t('bonTitre')}</h2>
-    <ul class="bon-liste" data-anime="cascade">${[1, 2, 3, 4].map((n) => html`<li><h3>${t(`bon${n}t`)}</h3><p>${t(`bon${n}`)}</p></li>`)}</ul>
+    <ul class="bon-liste" data-anime="cascade">${[1, 2, 3, 4].map((n) => html`<li>${icone(['colis', 'balance', 'calendrier', 'palette'][n - 1])}<h3>${t(`bon${n}t`)}</h3><p>${t(`bon${n}`)}</p></li>`)}</ul>
   </div>
 </section>
 
