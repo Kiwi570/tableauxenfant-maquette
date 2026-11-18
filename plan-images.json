@@ -1,0 +1,1159 @@
+[
+ {
+  "source": "recu/grok/chambre-rose.png",
+  "source_mobile": "recu/grok/chambre-rose-mobile.png",
+  "nom": "grok/chambre-rose",
+  "role": "section-fond",
+  "ratio": "3:2",
+  "mobile": "4:5",
+  "page": "accueil",
+  "emplacement": "Voir au mur (accueil et fiche produit de la boutique) : la vraie toile est posée par le code sur le mur vide",
+  "priorite": "Indispensable",
+  "gabarit": "section-fond",
+  "consigne_scene": "A calm young girl's bedroom seen perfectly straight-on, camera at eye level and parallel to the wall: a large completely bare wall painted in soft powder pink fills the upper two thirds of the frame, a low natural-wood single bed (90 cm wide) with white linen bedding and a folded knitted blanket stands against the wall on the right, a small wooden stool and a woven basket on a pale oak floor, nothing at all on the wall, generous empty wall space in the upper left and centre",
+  "alt": "Chambre d'enfant au mur rose poudré, vide, prête à recevoir une toile",
+  "beaute": 4
+ },
+ {
+  "source": "recu/grok/chambre-bleue.png",
+  "source_mobile": "recu/grok/chambre-bleue-mobile.png",
+  "nom": "grok/chambre-bleue",
+  "role": "section-fond",
+  "ratio": "3:2",
+  "mobile": "4:5",
+  "page": "accueil",
+  "emplacement": "Voir au mur : deuxième mur au choix",
+  "priorite": "Conseillée",
+  "gabarit": "section-fond",
+  "consigne_scene": "A calm young boy's bedroom seen perfectly straight-on, camera at eye level and parallel to the wall: a large completely bare wall painted in pale sky blue fills the upper two thirds of the frame, a white painted chest of drawers (80 cm wide) stands against the wall on the left with a small wooden toy boat and a plant on top, a round cotton rug on a light wooden floor, nothing at all on the wall, generous empty wall space in the centre and right",
+  "alt": "Chambre d'enfant au mur bleu ciel, vide, avec une commode blanche",
+  "beaute": 4
+ },
+ {
+  "source": "recu/grok/chambre-sauge.png",
+  "source_mobile": "recu/grok/chambre-sauge-mobile.png",
+  "nom": "grok/chambre-sauge",
+  "role": "section-fond",
+  "ratio": "3:2",
+  "mobile": "4:5",
+  "page": "accueil",
+  "emplacement": "Voir au mur : troisième mur au choix",
+  "priorite": "Conseillée",
+  "gabarit": "section-fond",
+  "consigne_scene": "A calm nursery seen perfectly straight-on, camera at eye level and parallel to the wall: a large completely bare wall painted in soft sage green fills the upper two thirds of the frame, a natural-wood baby cot (60 cm wide) with white linen stands against the wall on the left, a rattan armchair with a cream cushion on the right, a light wooden floor, nothing at all on the wall, generous empty wall space in the centre",
+  "alt": "Chambre de bébé au mur vert sauge, vide, avec un lit en bois",
+  "beaute": 4
+ },
+ {
+  "source": "recu/grok/toile-vierge.png",
+  "source_mobile": "recu/grok/toile-vierge-mobile.png",
+  "nom": "grok/toile-vierge",
+  "role": "ouverture",
+  "mobile": "9:16",
+  "zone_texte": "gauche",
+  "page": "sur-mesure",
+  "emplacement": "Ouverture de la page Sur mesure",
+  "priorite": "Indispensable",
+  "gabarit": "ouverture",
+  "consigne_scene": "A single blank square stretched linen canvas, completely empty and unpainted, standing on a simple wooden easel in a bright painter's studio, seen slightly from the side, a white ceramic jar of clean brushes and a few pastel acrylic paint tubes without labels on a small wooden table beside it, sheer linen curtain glowing at a window, the easel and canvas placed in the right half of the frame, the left half calm and softly lit",
+  "alt": "Toile vierge sur un chevalet, dans la lumière de l'atelier",
+  "beaute": 4
+ },
+ {
+  "source": "recu/grok/atelier-table.png",
+  "source_mobile": "recu/grok/atelier-table-mobile.png",
+  "nom": "grok/atelier-table",
+  "role": "section-fond",
+  "ratio": "3:2",
+  "mobile": "4:5",
+  "zone_texte": "droite",
+  "page": "artiste",
+  "emplacement": "Page L'artiste, section l'atelier (et accueil, section Sevb)",
+  "priorite": "Indispensable",
+  "gabarit": "section-fond",
+  "consigne_scene": "A painter's worktable seen from slightly above in a bright studio: small glass jars of acrylic paint in raspberry, powder pink, turquoise, lime green and ink navy, flat and round brushes laid side by side, a palette with fresh soft dabs of colour, a pencil, a roll of masking tape, a small stack of blank square canvases leaning at the back, linen cloth, pale wood, everything on the left half of the frame, the right half a calm empty part of the table",
+  "alt": "Table de l'atelier : pots de peinture, pinceaux et palette",
+  "beaute": 4
+ },
+ {
+  "source": "recu/grok/emballage-cadeau.png",
+  "source_mobile": "recu/grok/emballage-cadeau-mobile.png",
+  "nom": "grok/emballage-cadeau",
+  "role": "section-fond",
+  "ratio": "3:2",
+  "mobile": "4:5",
+  "page": "sur-mesure",
+  "emplacement": "Étape livraison du sur-mesure et section livraison et cadeau de l'accueil",
+  "priorite": "Indispensable",
+  "gabarit": "section-fond",
+  "consigne_scene": "A flat square parcel about 50 by 50 centimetres wrapped in pale pink tissue paper and plain kraft paper, tied with a soft raspberry cotton ribbon and a simple bow, lying on a pale wooden table next to a roll of kraft paper, scissors and a spool of ribbon, soft morning light, the parcel in the left half of the frame, calm empty table on the right",
+  "alt": "Toile emballée dans du papier kraft et un ruban framboise",
+  "beaute": 4
+ },
+ {
+  "source": "recu/grok/pinceaux.png",
+  "nom": "grok/pinceaux",
+  "role": "section-fond",
+  "ratio": "16:9",
+  "page": "accueil",
+  "emplacement": "Fond de l'appel final (accueil et Sur mesure)",
+  "priorite": "Conseillée",
+  "gabarit": "section-fond",
+  "consigne_scene": "Close-up of a row of used paint brushes standing in a white ceramic jar and a glass of slightly tinted water, soft pastel paint traces on the bristles and handles, linen cloth, shallow depth of field, the jar on the right third of the frame, the left two thirds a soft blurred cream background",
+  "alt": "Pinceaux dans un pot, dans la lumière du matin",
+  "beaute": 4
+ },
+ {
+  "source": "recu/grok/contact-lettre.png",
+  "source_mobile": "recu/grok/contact-lettre-mobile.png",
+  "nom": "grok/contact-lettre",
+  "role": "ouverture",
+  "mobile": "9:16",
+  "zone_texte": "gauche",
+  "page": "contact",
+  "emplacement": "Ouverture de la page Contact",
+  "priorite": "Indispensable",
+  "gabarit": "ouverture",
+  "consigne_scene": "A small wooden desk by a window in a painter's studio: a blank cream envelope, a few blank sheets of thick watercolour paper, a fountain pen, a sprig of dried flowers in a small vase and a cup of tea, soft morning light through a sheer curtain, the still life on the right half of the frame, the left half calm and bright",
+  "alt": "Bureau près de la fenêtre avec une enveloppe et du papier",
+  "beaute": 4
+ },
+ {
+  "source": "recu/grok/chevalet-404.png",
+  "nom": "grok/chevalet-404",
+  "role": "404",
+  "page": "404",
+  "emplacement": "Page 404",
+  "priorite": "Conseillée",
+  "gabarit": "404",
+  "consigne_scene": "An empty wooden easel standing alone in a bright studio corner, a blank canvas that has slipped and leans crookedly against its leg on the floor, a single paint brush lying beside it, a gentle touch of humour, the easel on the right half, calm cream wall on the left",
+  "alt": "Chevalet vide et toile tombée par terre",
+  "beaute": 4
+ },
+ {
+  "source": "recu/tableau-deco-chambre-enfant.webp",
+  "nom": "toile-ours-doudou",
+  "role": "produit",
+  "ratio": "1:1",
+  "largeurs": [
+   400,
+   800
+  ],
+  "alt": "Toile originale de Sevb : Petit ours, fond nuages, mon doudou",
+  "beaute": 4,
+  "mobile": false
+ },
+ {
+  "source": "recu/originaux.webp",
+  "nom": "toile-chipie-modele",
+  "role": "produit",
+  "ratio": "1:1",
+  "largeurs": [
+   400,
+   800
+  ],
+  "alt": "Toile originale de Sevb : Petite chipie fille modèle",
+  "beaute": 4,
+  "mobile": false
+ },
+ {
+  "source": "recu/tableau-deco-chambre-enfant-8.webp",
+  "nom": "toile-coquine-ballons",
+  "role": "produit",
+  "ratio": "1:1",
+  "largeurs": [
+   400,
+   800
+  ],
+  "alt": "Toile originale de Sevb : Petite coquine à lunettes et ses ballons",
+  "beaute": 4,
+  "mobile": false
+ },
+ {
+  "source": "recu/tableau-deco-chambre-enfant-9.webp",
+  "nom": "toile-ecoliere",
+  "role": "produit",
+  "ratio": "1:1",
+  "largeurs": [
+   400,
+   800
+  ],
+  "alt": "Toile originale de Sevb : Petite écolière sur fond cahier d’école",
+  "beaute": 4,
+  "mobile": false
+ },
+ {
+  "source": "recu/tableau-deco-chambre-enfant-16.webp",
+  "nom": "toile-lutine-ardoise",
+  "role": "produit",
+  "ratio": "1:1",
+  "largeurs": [
+   400,
+   800
+  ],
+  "alt": "Toile originale de Sevb : Petite fée lutine ardoise et ses jouets",
+  "beaute": 4,
+  "mobile": false
+ },
+ {
+  "source": "recu/tableau-deco-chambre-enfant-6.webp",
+  "nom": "toile-zebulon-coccinelle",
+  "role": "produit",
+  "ratio": "1:1",
+  "largeurs": [
+   400,
+   800
+  ],
+  "alt": "Toile originale de Sevb : Petite fée Zébulon coccinelle",
+  "beaute": 4,
+  "mobile": false
+ },
+ {
+  "source": "recu/tableau-deco-chambre-enfant-10.webp",
+  "nom": "toile-femme-affaires",
+  "role": "produit",
+  "ratio": "1:1",
+  "largeurs": [
+   400,
+   800
+  ],
+  "alt": "Toile originale de Sevb : Petite femme d’affaires",
+  "beaute": 4,
+  "mobile": false
+ },
+ {
+  "source": "recu/tableau-deco-chambre-enfant-5.webp",
+  "nom": "toile-lady-coccinelle",
+  "role": "produit",
+  "ratio": "1:1",
+  "largeurs": [
+   400,
+   800
+  ],
+  "alt": "Toile originale de Sevb : Petite lady coccinelle",
+  "beaute": 4,
+  "mobile": false
+ },
+ {
+  "source": "recu/tableau-deco-chambre-enfant-7.webp",
+  "nom": "toile-lolita-lunettes",
+  "role": "produit",
+  "ratio": "1:1",
+  "largeurs": [
+   400,
+   800
+  ],
+  "alt": "Toile originale de Sevb : Petite Lolita brune à lunettes et tresses",
+  "beaute": 4,
+  "mobile": false
+ },
+ {
+  "source": "recu/tableau-deco-chambre-enfant-11.webp",
+  "nom": "toile-lolita-coccinelle",
+  "role": "produit",
+  "ratio": "1:1",
+  "largeurs": [
+   400,
+   800
+  ],
+  "alt": "Toile originale de Sevb : Petite Lolita coccinelle",
+  "beaute": 4,
+  "mobile": false
+ },
+ {
+  "source": "recu/tableau-deco-chambre-enfant-17.webp",
+  "nom": "toile-lolita-lapin",
+  "role": "produit",
+  "ratio": "1:1",
+  "largeurs": [
+   400,
+   800
+  ],
+  "alt": "Toile originale de Sevb : Petite Lolita et son doudou lapin vert anis",
+  "beaute": 4,
+  "mobile": false
+ },
+ {
+  "source": "recu/tableau-deco-chambre-enfant-13.webp",
+  "nom": "toile-princesse-pois",
+  "role": "produit",
+  "ratio": "1:1",
+  "largeurs": [
+   400,
+   800
+  ],
+  "alt": "Toile originale de Sevb : Petite princesse robe à pois",
+  "beaute": 4,
+  "mobile": false
+ },
+ {
+  "source": "recu/tableau-deco-chambre-enfant-3.webp",
+  "nom": "toile-petite-peche",
+  "role": "produit",
+  "ratio": "1:1",
+  "largeurs": [
+   400,
+   800
+  ],
+  "alt": "Toile originale de Sevb : Petite pêche",
+  "beaute": 4,
+  "mobile": false
+ },
+ {
+  "source": "recu/tableau-deco-chambre-enfant-18.webp",
+  "nom": "toile-aviateur",
+  "role": "produit",
+  "ratio": "1:1",
+  "largeurs": [
+   400,
+   800
+  ],
+  "alt": "Toile originale de Sevb : Mon petit aviateur en vol",
+  "beaute": 4,
+  "mobile": false
+ },
+ {
+  "source": "recu/tableau-deco-chambre-enfant-19.webp",
+  "nom": "toile-prince-turquoise",
+  "role": "produit",
+  "ratio": "1:1",
+  "largeurs": [
+   400,
+   800
+  ],
+  "alt": "Toile originale de Sevb : Mon petit prince, fond quadrillé turquoise",
+  "beaute": 4,
+  "mobile": false
+ },
+ {
+  "source": "recu/tableau-deco-chambre-enfant-2.webp",
+  "nom": "toile-prince-nb",
+  "role": "produit",
+  "ratio": "1:1",
+  "largeurs": [
+   400,
+   800
+  ],
+  "alt": "Toile originale de Sevb : Mon petit prince noir et blanc",
+  "beaute": 4,
+  "mobile": false
+ },
+ {
+  "source": "recu/tableau-deco-chambre-enfant-14.webp",
+  "nom": "toile-skateur",
+  "role": "produit",
+  "ratio": "1:1",
+  "largeurs": [
+   400,
+   800
+  ],
+  "alt": "Toile originale de Sevb : Mon petit skateur, fond jaune orangé",
+  "beaute": 4,
+  "mobile": false
+ },
+ {
+  "source": "recu/tableau-deco-chambre-enfant-12.webp",
+  "nom": "toile-petit-homme",
+  "role": "produit",
+  "ratio": "1:1",
+  "largeurs": [
+   400,
+   800
+  ],
+  "alt": "Toile originale de Sevb : Petit homme",
+  "beaute": 4,
+  "mobile": false
+ },
+ {
+  "source": "recu/tableau-deco-chambre-enfant-15.webp",
+  "nom": "toile-prince-bulles",
+  "role": "produit",
+  "ratio": "1:1",
+  "largeurs": [
+   400,
+   800
+  ],
+  "alt": "Toile originale de Sevb : Petit prince, fond bulles et son doudou mouton",
+  "beaute": 4,
+  "mobile": false
+ },
+ {
+  "source": "recu/tableau-deco-chambre-enfant-4.webp",
+  "nom": "toile-jungle",
+  "role": "produit",
+  "ratio": "1:1",
+  "largeurs": [
+   400,
+   800
+  ],
+  "alt": "Toile originale de Sevb : Petite jungle et explorateur",
+  "beaute": 4,
+  "mobile": false
+ },
+ {
+  "source": "recu/affiche-enfant-fille-petit.webp",
+  "nom": "affiche-zebulon",
+  "role": "produit",
+  "ratio": "7:10",
+  "largeurs": [
+   400,
+   800
+  ],
+  "alt": "Affiche de Sevb : Petit Zébulon, tresses et baguette magique",
+  "beaute": 4,
+  "mobile": false
+ },
+ {
+  "source": "recu/affiche-enfant-fille-petit-4.webp",
+  "nom": "detail-zebulon",
+  "role": "produit",
+  "ratio": "4:3",
+  "largeurs": [
+   400,
+   800
+  ],
+  "alt": "Détail de l’affiche Petit Zébulon, tresses et baguette magique",
+  "beaute": 4,
+  "mobile": false
+ },
+ {
+  "source": "recu/affiche-enfant-fille-petite-2.webp",
+  "nom": "affiche-chipie-oiseau",
+  "role": "produit",
+  "ratio": "7:10",
+  "largeurs": [
+   400,
+   800
+  ],
+  "alt": "Affiche de Sevb : Petite chipie blonde et rose et son oiseau",
+  "beaute": 4,
+  "mobile": false
+ },
+ {
+  "source": "recu/affiche-enfant-fille-petite-4.webp",
+  "nom": "affiche-coquine-bain",
+  "role": "produit",
+  "ratio": "7:10",
+  "largeurs": [
+   400,
+   800
+  ],
+  "alt": "Affiche de Sevb : Petite coquine, tenue de bain",
+  "beaute": 4,
+  "mobile": false
+ },
+ {
+  "source": "recu/affiche-enfant-fille-petite-5.webp",
+  "nom": "affiche-danseuse",
+  "role": "produit",
+  "ratio": "7:10",
+  "largeurs": [
+   400,
+   800
+  ],
+  "alt": "Affiche de Sevb : Petite danseuse rose avec tutu",
+  "beaute": 4,
+  "mobile": false
+ },
+ {
+  "source": "recu/affiche-enfant-fille-petite.webp",
+  "nom": "affiche-fee-nb",
+  "role": "produit",
+  "ratio": "7:10",
+  "largeurs": [
+   400,
+   800
+  ],
+  "alt": "Affiche de Sevb : Petite fée noir et blanc, ailes et baguette",
+  "beaute": 4,
+  "mobile": false
+ },
+ {
+  "source": "recu/affiche-enfant-fille-petite-7.webp",
+  "nom": "affiche-fee-rose",
+  "role": "produit",
+  "ratio": "7:10",
+  "largeurs": [
+   400,
+   800
+  ],
+  "alt": "Affiche de Sevb : Petite fée rose à pois avec ses ailes",
+  "beaute": 4,
+  "mobile": false
+ },
+ {
+  "source": "recu/affiche-enfant-fille-petite-6.webp",
+  "nom": "affiche-fille-modele",
+  "role": "produit",
+  "ratio": "7:10",
+  "largeurs": [
+   400,
+   800
+  ],
+  "alt": "Affiche de Sevb : Petite fille modèle bleu marine et blanc",
+  "beaute": 4,
+  "mobile": false
+ },
+ {
+  "source": "recu/affiche-enfant-fille-petite-3.webp",
+  "nom": "affiche-lolita-bleue",
+  "role": "produit",
+  "ratio": "7:10",
+  "largeurs": [
+   400,
+   800
+  ],
+  "alt": "Affiche de Sevb : Petite Lolita bleue à pois blanc et lunettes",
+  "beaute": 4,
+  "mobile": false
+ },
+ {
+  "source": "recu/affiche-enfant-fille-petite-8.webp",
+  "nom": "affiche-lolita-rouge",
+  "role": "produit",
+  "ratio": "7:10",
+  "largeurs": [
+   400,
+   800
+  ],
+  "alt": "Affiche de Sevb : Petite Lolita rouge brune à pois",
+  "beaute": 4,
+  "mobile": false
+ },
+ {
+  "source": "recu/affiche-enfant-fille-petite-15.webp",
+  "nom": "detail-lolita-rouge",
+  "role": "produit",
+  "ratio": "4:3",
+  "largeurs": [
+   400,
+   800
+  ],
+  "alt": "Détail de l’affiche Petite Lolita rouge brune à pois",
+  "beaute": 4,
+  "mobile": false
+ },
+ {
+  "source": "recu/affiche-enfant-fille-petite-9.webp",
+  "nom": "affiche-motarde",
+  "role": "produit",
+  "ratio": "7:10",
+  "largeurs": [
+   400,
+   800
+  ],
+  "alt": "Affiche de Sevb : Petite motarde, sa tenue et son casque",
+  "beaute": 4,
+  "mobile": false
+ },
+ {
+  "source": "recu/affiche-enfant-fille-petite-18.webp",
+  "nom": "detail-motarde",
+  "role": "produit",
+  "ratio": "4:3",
+  "largeurs": [
+   400,
+   800
+  ],
+  "alt": "Détail de l’affiche Petite motarde, sa tenue et son casque",
+  "beaute": 4,
+  "mobile": false
+ },
+ {
+  "source": "recu/affiche-enfant-garcon-fille-7.webp",
+  "nom": "affiche-super-heros",
+  "role": "produit",
+  "ratio": "7:10",
+  "largeurs": [
+   400,
+   800
+  ],
+  "alt": "Affiche de Sevb : Mon monde de super héros",
+  "beaute": 4,
+  "mobile": false
+ },
+ {
+  "source": "recu/affiche-enfant-garcon-fille-12.webp",
+  "nom": "detail-super-heros",
+  "role": "produit",
+  "ratio": "4:3",
+  "largeurs": [
+   400,
+   800
+  ],
+  "alt": "Détail de l’affiche Mon monde de super héros",
+  "beaute": 4,
+  "mobile": false
+ },
+ {
+  "source": "recu/affiche-enfant-garcon-fille-4.webp",
+  "nom": "affiche-chevalier",
+  "role": "produit",
+  "ratio": "7:10",
+  "largeurs": [
+   400,
+   800
+  ],
+  "alt": "Affiche de Sevb : Petit chevalier bleu",
+  "beaute": 4,
+  "mobile": false
+ },
+ {
+  "source": "recu/affiche-enfant-chevalier.webp",
+  "nom": "detail-chevalier",
+  "role": "produit",
+  "ratio": "4:3",
+  "largeurs": [
+   400,
+   800
+  ],
+  "alt": "Détail de l’affiche Petit chevalier bleu",
+  "beaute": 4,
+  "mobile": false
+ },
+ {
+  "source": "recu/affiche-enfant-garcon-fille-2.webp",
+  "nom": "affiche-footballeur",
+  "role": "produit",
+  "ratio": "7:10",
+  "largeurs": [
+   400,
+   800
+  ],
+  "alt": "Affiche de Sevb : Petit footballeur",
+  "beaute": 4,
+  "mobile": false
+ },
+ {
+  "source": "recu/affiche-enfant-garcon-fille-18.webp",
+  "nom": "detail-footballeur",
+  "role": "produit",
+  "ratio": "4:3",
+  "largeurs": [
+   400,
+   800
+  ],
+  "alt": "Détail de l’affiche Petit footballeur",
+  "beaute": 4,
+  "mobile": false
+ },
+ {
+  "source": "recu/affiche-enfant-garcon-fille-5.webp",
+  "nom": "affiche-pecheur",
+  "role": "produit",
+  "ratio": "7:10",
+  "largeurs": [
+   400,
+   800
+  ],
+  "alt": "Affiche de Sevb : Petit pêcheur",
+  "beaute": 4,
+  "mobile": false
+ },
+ {
+  "source": "recu/affiche-enfant-garcon-fille-21.webp",
+  "nom": "detail-pecheur",
+  "role": "produit",
+  "ratio": "4:3",
+  "largeurs": [
+   400,
+   800
+  ],
+  "alt": "Détail de l’affiche Petit pêcheur",
+  "beaute": 4,
+  "mobile": false
+ },
+ {
+  "source": "recu/affiche-enfant-garcon-fille-3.webp",
+  "nom": "affiche-pompier",
+  "role": "produit",
+  "ratio": "7:10",
+  "largeurs": [
+   400,
+   800
+  ],
+  "alt": "Affiche de Sevb : Petit pompier",
+  "beaute": 4,
+  "mobile": false
+ },
+ {
+  "source": "recu/affiche-enfant-garcon-fille-24.webp",
+  "nom": "detail-pompier",
+  "role": "produit",
+  "ratio": "4:3",
+  "largeurs": [
+   400,
+   800
+  ],
+  "alt": "Détail de l’affiche Petit pompier",
+  "beaute": 4,
+  "mobile": false
+ },
+ {
+  "source": "recu/affiche-enfant-garcon-fille.webp",
+  "nom": "affiche-prince",
+  "role": "produit",
+  "ratio": "7:10",
+  "largeurs": [
+   400,
+   800
+  ],
+  "alt": "Affiche de Sevb : Petit prince",
+  "beaute": 4,
+  "mobile": false
+ },
+ {
+  "source": "recu/affiche-enfant-garcon-fille-27.webp",
+  "nom": "detail-prince",
+  "role": "produit",
+  "ratio": "4:3",
+  "largeurs": [
+   400,
+   800
+  ],
+  "alt": "Détail de l’affiche Petit prince",
+  "beaute": 4,
+  "mobile": false
+ },
+ {
+  "source": "recu/affiches-chambre-enfant-a4.webp",
+  "nom": "affiche-raconte-moi",
+  "role": "produit",
+  "ratio": "7:10",
+  "largeurs": [
+   400,
+   800
+  ],
+  "alt": "Affiche de Sevb : Petit prince, raconte-moi une histoire",
+  "beaute": 4,
+  "mobile": false
+ },
+ {
+  "source": "recu/affiche-enfant-garcon-fille-29.webp",
+  "nom": "detail-raconte-moi",
+  "role": "produit",
+  "ratio": "4:3",
+  "largeurs": [
+   400,
+   800
+  ],
+  "alt": "Détail de l’affiche Petit prince, raconte-moi une histoire",
+  "beaute": 4,
+  "mobile": false
+ },
+ {
+  "source": "recu/affiche-enfant-garcon-fille-6.webp",
+  "nom": "affiche-zorro",
+  "role": "produit",
+  "ratio": "7:10",
+  "largeurs": [
+   400,
+   800
+  ],
+  "alt": "Affiche de Sevb : Petit Zorro, c’est toi le super héros",
+  "beaute": 4,
+  "mobile": false
+ },
+ {
+  "source": "recu/affiche-enfant-garcon-fille-31.webp",
+  "nom": "detail-zorro",
+  "role": "produit",
+  "ratio": "4:3",
+  "largeurs": [
+   400,
+   800
+  ],
+  "alt": "Détail de l’affiche Petit Zorro, c’est toi le super héros",
+  "beaute": 4,
+  "mobile": false
+ },
+ {
+  "source": "recu/affiche-personnalisee-sevb-encadree.webp",
+  "nom": "cadre-sobre",
+  "role": "produit",
+  "ratio": "3:4",
+  "largeurs": [
+   400,
+   800
+  ],
+  "alt": "Affiche de Sevb dans le cadre noir sobre et chic",
+  "beaute": 4,
+  "mobile": false,
+  "cadrage": [
+   50,
+   45
+  ]
+ },
+ {
+  "source": "recu/coussin-enfant-series-limitees.webp",
+  "nom": "coussin-aviateur",
+  "role": "produit",
+  "ratio": "1:1",
+  "largeurs": [
+   400,
+   800
+  ],
+  "alt": "Coussin d’après Sevb : Petit aviateur turquoise",
+  "beaute": 4,
+  "mobile": false
+ },
+ {
+  "source": "recu/coussin-enfant-series-limitees-2.webp",
+  "nom": "coussin-mouton",
+  "role": "produit",
+  "ratio": "1:1",
+  "largeurs": [
+   400,
+   800
+  ],
+  "alt": "Coussin d’après Sevb : Petit mouton prune",
+  "beaute": 4,
+  "mobile": false
+ },
+ {
+  "source": "recu/nounours-sevb.webp",
+  "nom": "coussin-ours-damier",
+  "role": "produit",
+  "ratio": "1:1",
+  "largeurs": [
+   400,
+   800
+  ],
+  "alt": "Coussin d’après Sevb : Petit ours damier rose",
+  "beaute": 4,
+  "mobile": false
+ },
+ {
+  "source": "recu/coussin-enfant-series-limitees-3.webp",
+  "nom": "coussin-ours-lune",
+  "role": "produit",
+  "ratio": "1:1",
+  "largeurs": [
+   400,
+   800
+  ],
+  "alt": "Coussin d’après Sevb : Petit ours lune",
+  "beaute": 4,
+  "mobile": false
+ },
+ {
+  "source": "recu/coussin-enfant-series-limitees-4.webp",
+  "nom": "coussin-pirate",
+  "role": "produit",
+  "ratio": "1:1",
+  "largeurs": [
+   400,
+   800
+  ],
+  "alt": "Coussin d’après Sevb : Petit pirate turquoise",
+  "beaute": 4,
+  "mobile": false
+ },
+ {
+  "source": "recu/coussin-enfant-series-limitees-6.webp",
+  "nom": "coussin-pompier",
+  "role": "produit",
+  "ratio": "1:1",
+  "largeurs": [
+   400,
+   800
+  ],
+  "alt": "Coussin d’après Sevb : Petit pompier rouge",
+  "beaute": 4,
+  "mobile": false
+ },
+ {
+  "source": "recu/coussins.webp",
+  "nom": "coussin-prince-mouton",
+  "role": "produit",
+  "ratio": "1:1",
+  "largeurs": [
+   400,
+   800
+  ],
+  "alt": "Coussin d’après Sevb : Petit prince et son mouton",
+  "beaute": 4,
+  "mobile": false
+ },
+ {
+  "source": "recu/coussin-enfant-series-limitees-5.webp",
+  "nom": "coussin-chipie-coeur",
+  "role": "produit",
+  "ratio": "1:1",
+  "largeurs": [
+   400,
+   800
+  ],
+  "alt": "Coussin d’après Sevb : Petite chipie à cœur",
+  "beaute": 4,
+  "mobile": false
+ },
+ {
+  "source": "recu/coussin-enfant-series-limitees-7.webp",
+  "nom": "coussin-chipie-lapin",
+  "role": "produit",
+  "ratio": "1:1",
+  "largeurs": [
+   400,
+   800
+  ],
+  "alt": "Coussin d’après Sevb : Petite chipie et son lapin vert anis",
+  "beaute": 4,
+  "mobile": false
+ },
+ {
+  "source": "recu/coussin-enfant-series-limitees-8.webp",
+  "nom": "coussin-chipie-damier",
+  "role": "produit",
+  "ratio": "1:1",
+  "largeurs": [
+   400,
+   800
+  ],
+  "alt": "Coussin d’après Sevb : Petite chipie noir et blanc à damier",
+  "beaute": 4,
+  "mobile": false
+ },
+ {
+  "source": "recu/coussin-enfant-series-limitees-9.webp",
+  "nom": "coussin-lutine-mauve",
+  "role": "produit",
+  "ratio": "1:1",
+  "largeurs": [
+   400,
+   800
+  ],
+  "alt": "Coussin d’après Sevb : Petite fée lutine mauve",
+  "beaute": 4,
+  "mobile": false
+ },
+ {
+  "source": "recu/coussin-enfant-series-limitees-10.webp",
+  "nom": "coussin-fillette-prune",
+  "role": "produit",
+  "ratio": "1:1",
+  "largeurs": [
+   400,
+   800
+  ],
+  "alt": "Coussin d’après Sevb : Petite fillette prune",
+  "beaute": 4,
+  "mobile": false
+ },
+ {
+  "source": "recu/coussin-enfant-series-limitees-11.webp",
+  "nom": "coussin-lutine-rose",
+  "role": "produit",
+  "ratio": "1:1",
+  "largeurs": [
+   400,
+   800
+  ],
+  "alt": "Coussin d’après Sevb : Petite fée lutine rose",
+  "beaute": 4,
+  "mobile": false
+ },
+ {
+  "source": "recu/coussin-enfant-series-limitees-12.webp",
+  "nom": "coussin-fillette-damier",
+  "role": "produit",
+  "ratio": "1:1",
+  "largeurs": [
+   400,
+   800
+  ],
+  "alt": "Coussin d’après Sevb : Petite fillette rose damier",
+  "beaute": 4,
+  "mobile": false
+ },
+ {
+  "source": "recu/cadre-deco-chambre-garcon.webp",
+  "nom": "cadre-aviateur",
+  "role": "produit",
+  "ratio": "1:1",
+  "largeurs": [
+   400,
+   800
+  ],
+  "alt": "Cadre déco Petit aviateur de Sevb",
+  "beaute": 4,
+  "mobile": false
+ },
+ {
+  "source": "recu/cadre-deco-chambrefille-enfant.webp",
+  "nom": "cadre-lady",
+  "role": "produit",
+  "ratio": "1:1",
+  "largeurs": [
+   400,
+   800
+  ],
+  "alt": "Cadre déco Lady coccinelle de Sevb",
+  "beaute": 4,
+  "mobile": false
+ },
+ {
+  "source": "recu/cartes-postales-series-limitees-5.webp",
+  "nom": "cartes-reine",
+  "role": "produit",
+  "ratio": "1:1",
+  "largeurs": [
+   400,
+   800
+  ],
+  "alt": "Carte postale noir et blanc Petite reine, d’après Sevb",
+  "beaute": 4,
+  "mobile": false
+ },
+ {
+  "source": "recu/cartes-postales-series-limitees-3.webp",
+  "nom": "cartes-aviateur",
+  "role": "produit",
+  "ratio": "1:1",
+  "largeurs": [
+   400,
+   800
+  ],
+  "alt": "Carte postale noir et blanc Petit aviateur, d’après Sevb",
+  "beaute": 4,
+  "mobile": false
+ },
+ {
+  "source": "recu/cartes-postales-series-limitees-6.webp",
+  "nom": "cartes-princesse",
+  "role": "produit",
+  "ratio": "1:1",
+  "largeurs": [
+   400,
+   800
+  ],
+  "alt": "Carte postale noir et blanc Trop princesse, d’après Sevb",
+  "beaute": 4,
+  "mobile": false
+ },
+ {
+  "source": "recu/marque-pages-series-limitees.webp",
+  "nom": "marque-pages",
+  "role": "produit",
+  "ratio": "1:1",
+  "largeurs": [
+   400,
+   800
+  ],
+  "alt": "Marque-page noir et blanc Lolita coccinelle, d’après Sevb",
+  "beaute": 3,
+  "mobile": false
+ },
+ {
+  "source": "recu/echelles-crop.webp",
+  "nom": "echelles",
+  "role": "produit",
+  "ratio": "4:5",
+  "largeurs": [
+   400,
+   640
+  ],
+  "alt": "Échelle porte-photo et cadre déco de Sevb au mur d’une chambre",
+  "beaute": 3,
+  "mobile": false,
+  "cadrage": [
+   82,
+   62
+  ]
+ },
+ {
+  "source": "recu/hd/sevb-atelier-hd.png",
+  "nom": "sevb-atelier",
+  "role": "portrait",
+  "ratio": "4:5",
+  "largeurs": [
+   480,
+   800,
+   1100,
+   1400
+  ],
+  "alt": "Sevb dans son atelier, pinceau à la main, devant un mur de toiles",
+  "beaute": 5,
+  "mobile": false,
+  "cadrage": [
+   62,
+   48
+  ]
+ },
+ {
+  "source": "recu/tableau-raconte-histoire.webp",
+  "nom": "chambre-paul",
+  "role": "galerie",
+  "ratio": "4:3",
+  "largeurs": [
+   640,
+   1000,
+   1400
+  ],
+  "alt": "Toile sur mesure « Paul » au-dessus d’un lit d’enfant (mise en situation)",
+  "beaute": 4,
+  "mobile": false,
+  "cadrage": [
+   40,
+   35
+  ]
+ },
+ {
+  "source": "recu/bandeau-series-limitees-sevb.webp",
+  "nom": "chambre-coussins",
+  "role": "section-fond",
+  "ratio": "16:9",
+  "largeurs": [
+   640,
+   1280,
+   1600
+  ],
+  "alt": "Chambre d’enfant avec coussins, cadres et affiches de Sevb (mise en situation)",
+  "beaute": 4,
+  "mobile": "4:5",
+  "cadrage": [
+   50,
+   45
+  ]
+ },
+ {
+  "source": "recu/boutique.webp",
+  "nom": "chambre-affiches",
+  "role": "galerie",
+  "ratio": "4:5",
+  "largeurs": [
+   480,
+   800,
+   1100
+  ],
+  "alt": "Deux affiches encadrées dans une chambre claire (mise en situation)",
+  "beaute": 4,
+  "mobile": false
+ },
+ {
+  "source": "recu/creations-originales-sevb-artiste.webp",
+  "nom": "console-affiche",
+  "role": "galerie",
+  "ratio": "4:5",
+  "largeurs": [
+   480,
+   800,
+   1100
+  ],
+  "alt": "Affiche encadrée posée sur une console (mise en situation)",
+  "beaute": 3,
+  "mobile": false
+ },
+ {
+  "source": "recu/logo-2-detoure-clair.png",
+  "nom": "logo",
+  "role": "logo",
+  "ratio": "1:1",
+  "largeurs": [
+   453
+  ],
+  "alt": "Tableaux Enfant",
+  "beaute": 5,
+  "mobile": false
+ }
+]

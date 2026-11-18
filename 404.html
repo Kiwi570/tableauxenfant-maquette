@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="fr" data-v="1" data-curseur>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Page introuvable · Tableaux Enfant</title>
+<meta name="description" content="Cette page n&#39;existe pas ou plus.">
+<meta name="robots" content="noindex, nofollow">
+<link rel="canonical" href="https://tableauxenfant-maquette.vercel.app/404">
+<style>:root{--fond:#FBF6EF;--texte:#26302E;--voile-fond:#1F2E2B;--ouverture-fond:#1F2E2B;--menu-fond:#FBF6EF}:root { --entete-h: 72px; --barres-h: 0px; } html { background: var(--fond); color: var(--texte); scrollbar-gutter: stable; } body { margin: 0; background: var(--fond); } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime] { opacity: 0; } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime].vu { opacity: 1; } [data-voile] { position: fixed; inset: 0; z-index: 900; background: var(--voile-fond); transform: translateY(100%); visibility: hidden; pointer-events: none; } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) [data-voile] { transform: none; visibility: visible; } html.secours [data-voile] { visibility: hidden !important; } .ouverture-panneau { position: fixed; inset: 0; z-index: 850; display: none; place-content: center; justify-items: center; background: var(--ouverture-fond, var(--voile-fond)); color: var(--fond); text-align: center; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) .ouverture-panneau { display: grid; } html.defilement-bloque, html.defilement-bloque body, html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie), html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) body, html[data-arrivee="voile"]:not(.voile-leve):not(.secours), html[data-arrivee="voile"]:not(.voile-leve):not(.secours) body { overflow: hidden; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) { background-color: var(--ouverture-fond, var(--voile-fond)); } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) { background-color: var(--voile-fond); }</style>
+<script>(function () {
+var d = document.documentElement, ss = null, ls = null;
+try { ss = window.sessionStorage; ls = window.localStorage; } catch (e) {}
+d.classList.add('js');
+var nav = performance.getEntriesByType ? performance.getEntriesByType('navigation')[0] : null;
+var type = nav ? nav.type : 'navigate';
+var depart = null;
+try { depart = JSON.parse(ss.getItem('socle:depart') || 'null'); ss.removeItem('socle:depart'); } catch (e) {}
+if (depart && !(Date.now() - depart.t < 15000)) depart = null;
+var mode = type === 'back_forward' ? 'retour' : type === 'reload' ? 'intro' : depart ? 'voile' : 'intro';
+d.setAttribute('data-arrivee', mode);
+if (mode === 'voile' && depart.couleur) d.style.setProperty('--voile-fond', depart.couleur);
+if (type === 'reload' && 'scrollRestoration' in history) {
+history.scrollRestoration = 'manual';
+}
+try {
+var choisie = ls && ls.getItem('socle:langue');
+var langue = (d.lang || '').slice(0, 2);
+if (choisie && choisie !== langue && type === 'navigate' && !depart) {
+var alt = document.querySelector('link[rel="alternate"][hreflang="' + choisie + '"]');
+if (alt) location.replace(new URL(alt.href).pathname + location.search + location.hash);
+}
+} catch (e) {}
+setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('secours'); }, 2000);
+})();</script>
+<link rel="preload" href="/assets/fonts/fraunces-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/css/socle.css?v=1">
+<link rel="stylesheet" href="/assets/css/module-panier-en-tiroir.css?v=1">
+<link rel="stylesheet" href="/assets/css/module-envol-vers-le-panier.css?v=1">
+<link rel="stylesheet" href="/assets/css/site.css?v=1">
+<link rel="modulepreload" href="/assets/js/site.js?v=1">
+<link rel="modulepreload" href="/assets/js/socle/index.js?v=1">
+<script src="/assets/vendor/gsap.min.js" defer></script>
+<script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
+<script src="/assets/vendor/SplitText.min.js" defer></script>
+<script type="module" src="/assets/js/site.js?v=1"></script>
+<meta name="theme-color" content="#FBF6EF">
+<link rel="icon" href="/assets/images/favicon-64.png" type="image/png">
+<link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Tableaux Enfant">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:title" content="Page introuvable · Tableaux Enfant">
+<meta property="og:description" content="Cette page n&#39;existe pas ou plus.">
+<meta property="og:url" content="https://tableauxenfant-maquette.vercel.app/404">
+<meta property="og:image" content="https://tableauxenfant-maquette.vercel.app/assets/partage/accueil-fr.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Une toile sur mesure de Sevb au-dessus d&#39;un lit d&#39;enfant">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Store","name":"Tableaux Enfant · Créations SevB","description":"Tableaux originaux, toiles sur mesure, affiches et décorations pour chambres d'enfants, peints à la main par Sevb, artiste peintre.","email":"sevb@atelierattitude.com","address":{"@type":"PostalAddress","postalCode":"41200","addressLocality":"Romorantin-Lanthenay","addressRegion":"Loir-et-Cher","addressCountry":"FR"},"founder":{"@type":"Person","name":"Séverine Bisson","alternateName":"Sevb","jobTitle":"Artiste peintre"},"openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday"],"opens":"09:00","closes":"17:00"},{"@type":"OpeningHoursSpecification","dayOfWeek":["Saturday","Sunday"],"opens":"11:00","closes":"15:00"}]}</script>
+</head>
+<body id="haut">
+<div data-voile data-forme="glisse" aria-hidden="true"><div class="voile-contenu"><img src="/assets/images/icone-clair.png" alt="" width="108" height="147"><span data-voile-libelle>Page introuvable</span></div></div>
+<div class="ouverture-panneau" data-ouverture aria-hidden="true">
+  <img class="ouverture-logo" src="/assets/images/icone-clair.png" alt="" width="108" height="147" data-ouverture-objet>
+  <p class="ouverture-nom">Tableaux <span>Enfant</span></p>
+  <p class="ouverture-ligne">petits héros, grandes histoires</p>
+  <div class="ouverture-fonds"><span class="fond-uni"></span><span class="fond-rayures"></span><span class="fond-pois"></span><span class="fond-quadrillage"></span></div>
+</div>
+<a class="evitement" href="#contenu">Aller au contenu</a>
+<header data-entete>
+  <div class="entete-rangee">
+    <a class="entete-logo" aria-label="Tableaux Enfant, accueil" href="/" data-libelle="Accueil">
+      <img src="/assets/images/logo-entete.png" alt="Tableaux Enfant" width="529" height="147">
+    </a>
+    <nav data-nav aria-label="Navigation principale">
+      <ul><li><a href="/boutique" data-libelle="Boutique">Boutique</a></li><li><a href="/sur-mesure" data-libelle="Sur mesure">Sur mesure</a></li><li><a href="/artiste" data-libelle="L&#39;artiste">L&#39;artiste</a></li><li><a href="/contact" data-libelle="Contact">Contact</a></li></ul>
+    </nav>
+    <div class="entete-actions">
+      <a class="entete-panier" href="/boutique" data-panier-ouvrir data-envol-cible data-sans-transition><svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path d="M5 8h14l-1.2 11.2a2 2 0 0 1-2 1.8H8.2a2 2 0 0 1-2-1.8L5 8Z" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M9 8V6.5a3 3 0 0 1 6 0V8" fill="none" stroke="currentColor" stroke-width="1.8"/></svg><span class="entete-panier-texte">Panier</span> <span class="pet-compte est-vide" data-panier-compte>0</span></a>
+      <a class="bouton" href="/sur-mesure#composer" data-libelle="Sur mesure">Créer son tableau</a>
+      <button type="button" data-menu-bouton aria-controls="menu" aria-expanded="false" data-libelle-ouvrir="Menu" data-libelle-fermer="Fermer"><span data-libelle-bouton>Menu</span></button>
+      <a class="menu-sansjs" href="#menu" data-menu-lien>Menu</a>
+    </div>
+  </div>
+</header>
+<script>/* Avant le premier affichage : rangées de la navigation (même règle que ajusterNav dans assets/js/socle/entete.js)
+   et hauteur réelle de l'en-tête, pour que rien ne saute quand le JavaScript du site prend la main. */
+(function () {
+  var h = document.documentElement, u = document.querySelector('[data-nav] ul'), e = document.querySelector('[data-entete]');
+  if (u) {
+    var deborde = function () { return u.scrollWidth > u.clientWidth + 1; }, c = deborde();
+    if (c && window.matchMedia('(min-width: 900px)').matches) {
+      h.classList.add('nav-deux-rangees'); c = deborde();
+      if (c) { h.classList.add('nav-deux-lignes'); var a = u.querySelector('a'); c = !a || u.getBoundingClientRect().height > a.getBoundingClientRect().height * 2.5; }
+      if (c) h.classList.remove('nav-deux-rangees', 'nav-deux-lignes');
+    }
+    if (c) h.classList.add('nav-compacte');
+  }
+  if (e) h.style.setProperty('--entete-h', Math.round(e.getBoundingClientRect().height) + 'px');
+})();</script>
+<span id="menu-ferme" aria-hidden="true"></span>
+<div id="menu" data-menu role="dialog" aria-modal="true" aria-label="Menu">
+  <p class="menu-sansjs-fermer"><a href="#menu-ferme">Fermer</a></p>
+  <ul><li style="--i:0"><a href="/" class="menu-lien" data-libelle="Accueil">Accueil</a></li><li style="--i:1"><a href="/boutique" class="menu-lien" data-libelle="Boutique">Boutique</a></li><li style="--i:2"><a href="/sur-mesure" class="menu-lien" data-libelle="Sur mesure">Sur mesure</a></li><li style="--i:3"><a href="/artiste" class="menu-lien" data-libelle="L&#39;artiste">L&#39;artiste</a></li><li style="--i:4"><a href="/contact" class="menu-lien" data-libelle="Contact">Contact</a></li></ul>
+  <p class="menu-actions"><a class="bouton" href="/sur-mesure#composer" data-libelle="Sur mesure">Créer son tableau</a></p>
+  <p class="menu-email">Écrire à Sevb : <a href="mailto:sevb@atelierattitude.com">sevb@atelierattitude.com</a></p>
+</div>
+<main id="contenu" tabindex="-1">
+<section class="ouv ouv-404 fond-sombre" id="debut">
+  <figure class="media ouv-404-media" data-grok style="--cadrage:70% 50%">
+  <picture>
+    <img src="/assets/images/grok/chevalet-404-1600.webp" srcset="/assets/images/grok/chevalet-404-800.webp 800w, /assets/images/grok/chevalet-404-1600.webp 1600w" sizes="100vw" alt="Chevalet vide et toile tombée par terre" width="1600" height="900" fetchpriority="high" loading="eager" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+  <div class="conteneur ouv-404-texte">
+    <p class="surtitre">404</p>
+    <h1 class="ouv-titre" data-anime="gsap"><span class="ligne-masque"><span class="ouv-ligne" data-iris-centre>Cette toile s&#39;est décrochée</span></span></h1>
+    <p data-anime="gsap">La page que vous cherchez n&#39;existe pas ou plus. Les petits héros, eux, vous attendent.</p>
+    <p class="ouv-actions" data-anime="gsap"><a href="/" class="bouton" data-libelle="Accueil" data-action-principale>Revenir à l&#39;accueil</a> <a href="/boutique" class="bouton bouton--clair" data-libelle="Boutique">Voir la boutique</a></p>
+  </div>
+</section>
+</main>
+<footer class="pied" id="pied">
+  <div class="conteneur pied-grille">
+    <div class="pied-marque">
+      <img src="/assets/images/logo-complet-clair.png" alt="Tableaux Enfant · petits héros, grandes histoires · Créations SevB" width="453" height="491" loading="lazy">
+      <p>Des tableaux qui racontent leur histoire, peints à la main par Sevb.</p>
+    </div>
+    <nav aria-label="Sommaire">
+      <p class="pied-titre">Sommaire</p>
+      <ul><li><a href="/" data-libelle="Accueil">Accueil</a></li><li><a href="/boutique" data-libelle="Boutique">Boutique</a></li><li><a href="/sur-mesure" data-libelle="Sur mesure">Sur mesure</a></li><li><a href="/artiste" data-libelle="L&#39;artiste">L&#39;artiste</a></li><li><a href="/contact" data-libelle="Contact">Contact</a></li></ul>
+    </nav>
+    <div>
+      <p class="pied-titre">L&#39;atelier</p>
+      <p>41200 Romorantin-Lanthenay, Loir-et-Cher<br><a href="mailto:sevb@atelierattitude.com">sevb@atelierattitude.com</a></p>
+      <p class="pied-horaires">Lundi au vendredi, 9 h à 17 h · samedi et dimanche, 11 h à 15 h</p>
+    </div>
+    <div>
+      <p class="pied-titre">Informations</p>
+      <ul class="pied-legal">
+        <li>Mentions légales · à compléter</li>
+        <li>Politique de confidentialité · à compléter</li>
+        <li>Conditions générales de vente · à compléter</li>
+        <li><a href="#haut" data-sans-transition>Retour en haut</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="conteneur pied-bas"><p>Maquette de démonstration : paniers, paiements et formulaires sont simulés, rien n&#39;est envoyé.</p><p>© 2026 SevB · TableauxEnfant.fr</p></div>
+</footer>
+<div data-barre-fixe>
+  <a class="bouton bouton--contour" href="/boutique" data-panier-ouvrir data-sans-transition>Panier <span class="pet-compte est-vide" data-panier-compte>0</span></a>
+  <a class="bouton" href="/sur-mesure#composer" data-libelle="Sur mesure">Créer son tableau</a>
+</div>
+<div data-module="panier-en-tiroir" data-panier-tiroir>
+  <script type="application/json" data-panier-reglages>{"devise":"EUR","seuil_livraison":0,"frais_livraison":0,"frais_texte":"Selon le poids, calculée à l'envoi","tva":null,"cle":"tableauxenfant-panier","prefixe":"TE"}</script>
+</div>
+</body>
+</html>

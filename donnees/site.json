@@ -1,0 +1,15 @@
+{
+  "nom": "Tableaux Enfant",
+  "adresse": "https://tableauxenfant-maquette.vercel.app",
+  "siteActuel": "tableauxenfant.fr",
+  "version": 1,
+  "langues": ["fr"],
+  "navigation": ["accueil", "boutique", "sur-mesure", "artiste", "contact"],
+  "actionEntete": { "page": "sur-mesure", "ancre": "composer" },
+  "couleurs": { "fond": "#FBF6EF", "texte": "#26302E", "voile": "#1F2E2B", "theme": "#FBF6EF", "ouverture": "#1F2E2B", "menu": "#FBF6EF" },
+  "formeVoile": "glisse",
+  "contact": { "email": "sevb@atelierattitude.com", "adresse": "41200 Romorantin-Lanthenay, Loir-et-Cher" },
+  "polices": ["/assets/fonts/fraunces-normal.woff2"],
+  "imagePartage": "chambre-paul-1000.webp",
+  "curseur": true
+}

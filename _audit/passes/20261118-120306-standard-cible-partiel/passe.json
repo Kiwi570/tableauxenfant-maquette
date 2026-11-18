@@ -1,0 +1,16 @@
+{
+ "id": "20261118-120306-standard-cible-partiel",
+ "date": "2026-11-18T12:04:26.081Z",
+ "niveau": "standard",
+ "pages": "/sur-mesure,/artiste,/contact,/404",
+ "etapes": [
+  "fichiers",
+  "mesures"
+ ],
+ "version": "1",
+ "echecs": 0,
+ "aRegarder": 6,
+ "nonLances": 0,
+ "manquants": 0,
+ "statut": "complet"
+}

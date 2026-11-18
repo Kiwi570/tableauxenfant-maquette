@@ -1,0 +1,250 @@
+{
+ "explication": "Maquettes favorites de l'utilisateur : le niveau et le style visés, sur l'accueil ET les pages intérieures. Jamais à copier (ni leur idée, ni leur mise en page) : même harmonie, même fluidité, même soin.",
+ "activite": [
+  "commerce"
+ ],
+ "metier": "artiste peintre tableaux enfants boutique",
+ "besoin": [],
+ "ton": [
+  "doux"
+ ],
+ "univers": [],
+ "ambiance": [],
+ "concept": [],
+ "depot": "tableauxenfant-maquette",
+ "favorites_dans_la_bibliotheque": 7,
+ "favorites": [
+  {
+   "rang": 1,
+   "maquette": "chateau-haut-piquat-maquette",
+   "client": "château viticole en Lussac Saint-Émilion : vins, boutique en ligne, visites et événements, site bilingue",
+   "metier": "château viticole, vigneron",
+   "pourquoi": "elegant et vivant",
+   "proche": [
+    "même activité"
+   ],
+   "lumiere": "mixte",
+   "note_maquette": 86,
+   "en_ligne": "https://chateau-haut-piquat-maquette.vercel.app",
+   "vues": [
+    {
+     "page": "accueil",
+     "role": "ouverture",
+     "id": "chateau-haut-piquat-maquette/hero",
+     "note_section": 4,
+     "titre": "Château Haut-Piquat",
+     "capture": "medias/chateau-haut-piquat-maquette/hero-p1440.jpg",
+     "video": "medias/chateau-haut-piquat-maquette/hero-p720.mp4",
+     "fiche": "sections/chateau-haut-piquat-maquette/hero.json",
+     "en_ligne": "https://chateau-haut-piquat-maquette.vercel.app"
+    },
+    {
+     "page": "accueil",
+     "role": "manifeste",
+     "id": "chateau-haut-piquat-maquette/terroir",
+     "note_section": 5,
+     "titre": "Sous la vigne, le calcaireBeneath the vines, limestone",
+     "capture": "medias/chateau-haut-piquat-maquette/terroir-p1440.jpg",
+     "video": "medias/chateau-haut-piquat-maquette/terroir-p720.mp4",
+     "fiche": "sections/chateau-haut-piquat-maquette/terroir.json",
+     "en_ligne": "https://chateau-haut-piquat-maquette.vercel.app"
+    },
+    {
+     "page": "oenotourisme",
+     "role": "ouverture",
+     "id": "chateau-haut-piquat-maquette/oenotourisme-ohero",
+     "note_section": 5,
+     "titre": "Passer l’archeThrough the arch",
+     "capture": "medias/chateau-haut-piquat-maquette/oenotourisme-ohero-p1440.jpg",
+     "video": "medias/chateau-haut-piquat-maquette/oenotourisme-ohero-p720.mp4",
+     "fiche": "sections/chateau-haut-piquat-maquette/oenotourisme-ohero.json",
+     "en_ligne": "https://chateau-haut-piquat-maquette.vercel.app/oenotourisme"
+    },
+    {
+     "page": "vins",
+     "role": "produits",
+     "id": "chateau-haut-piquat-maquette/vins-cave",
+     "note_section": 5,
+     "titre": "Le tour de la caveA tour of the cellar",
+     "capture": "medias/chateau-haut-piquat-maquette/vins-cave-p1440.jpg",
+     "video": "medias/chateau-haut-piquat-maquette/vins-cave-p720.mp4",
+     "fiche": "sections/chateau-haut-piquat-maquette/vins-cave.json",
+     "en_ligne": "https://chateau-haut-piquat-maquette.vercel.app/vins"
+    }
+   ]
+  },
+  {
+   "rang": 2,
+   "maquette": "lemoy-premium-maquette",
+   "client": "pâtisserie, chocolaterie, boulangerie et traiteur rue François de Curel à Metz, commande en ligne et retrait en boutique",
+   "metier": "pâtissier chocolatier",
+   "pourquoi": "vitrine sobre et tenue",
+   "proche": [
+    "même activité"
+   ],
+   "lumiere": "mixte",
+   "note_maquette": 84,
+   "en_ligne": "https://lemoy-premium-maquette.vercel.app",
+   "vues": [
+    {
+     "page": "accueil",
+     "role": "ouverture",
+     "id": "lemoy-premium-maquette/heros",
+     "note_section": 3,
+     "titre": "Les grands classiques, revisités.",
+     "capture": "medias/lemoy-premium-maquette/heros-p1440.jpg",
+     "video": null,
+     "fiche": "sections/lemoy-premium-maquette/heros.json",
+     "en_ligne": "https://lemoy-premium-maquette.vercel.app"
+    },
+    {
+     "page": "accueil",
+     "role": "produits",
+     "id": "lemoy-premium-maquette/vitrine",
+     "note_section": 4,
+     "titre": "Sous les cloches, ce matin",
+     "capture": "medias/lemoy-premium-maquette/vitrine-p1440.jpg",
+     "video": null,
+     "fiche": "sections/lemoy-premium-maquette/vitrine.json",
+     "en_ligne": "https://lemoy-premium-maquette.vercel.app"
+    },
+    {
+     "page": "boulangerie",
+     "role": "ouverture",
+     "id": "lemoy-premium-maquette/boulangerie-tete",
+     "note_section": 3,
+     "titre": "Pains au levain, viennoiseries pur beurre",
+     "capture": "medias/lemoy-premium-maquette/boulangerie-tete-p1440.jpg",
+     "video": null,
+     "fiche": "sections/lemoy-premium-maquette/boulangerie-tete.json",
+     "en_ligne": "https://lemoy-premium-maquette.vercel.app/boulangerie"
+    },
+    {
+     "page": "carte-cadeau",
+     "role": "outil-interactif",
+     "id": "lemoy-premium-maquette/carte-cadeau-cc-titre",
+     "note_section": 4,
+     "titre": "Votre carte",
+     "capture": "medias/lemoy-premium-maquette/carte-cadeau-cc-titre-p1440.jpg",
+     "video": null,
+     "fiche": "sections/lemoy-premium-maquette/carte-cadeau-cc-titre.json",
+     "en_ligne": "https://lemoy-premium-maquette.vercel.app/carte-cadeau"
+    }
+   ]
+  },
+  {
+   "rang": 3,
+   "maquette": "les-plus-hautes-eaux-maquette",
+   "client": "compagnie de théâtre gestuel et clown pour tous publics, tournée dans le Grand Ouest",
+   "metier": "compagnie de théâtre",
+   "pourquoi": "nappe d eau a l ouverture",
+   "proche": [],
+   "lumiere": "sombre",
+   "note_maquette": 90,
+   "en_ligne": "https://les-plus-hautes-eaux-maquette.vercel.app",
+   "vues": [
+    {
+     "page": "accueil",
+     "role": "ouverture",
+     "id": "les-plus-hautes-eaux-maquette/haut",
+     "note_section": 5,
+     "titre": "Héros sous la montée des eaux",
+     "capture": "medias/les-plus-hautes-eaux-maquette/haut-p1440.jpg",
+     "video": "medias/les-plus-hautes-eaux-maquette/haut-p720.mp4",
+     "fiche": "sections/les-plus-hautes-eaux-maquette/haut.json",
+     "en_ligne": "https://les-plus-hautes-eaux-maquette.vercel.app"
+    },
+    {
+     "page": "accueil",
+     "role": "manifeste",
+     "id": "les-plus-hautes-eaux-maquette/crue-1910",
+     "note_section": 4,
+     "titre": "L'origine du nom, 1910",
+     "capture": "medias/les-plus-hautes-eaux-maquette/crue-1910-p1440.jpg",
+     "video": "medias/les-plus-hautes-eaux-maquette/crue-1910-p720.mp4",
+     "fiche": "sections/les-plus-hautes-eaux-maquette/crue-1910.json",
+     "en_ligne": "https://les-plus-hautes-eaux-maquette.vercel.app"
+    },
+    {
+     "page": "spectacles/carnet-de-routes",
+     "role": "ouverture",
+     "id": "les-plus-hautes-eaux-maquette/spectacles-carnet-de-routes-f-hero",
+     "note_section": 4,
+     "titre": "Tête de fiche spectacle",
+     "capture": "medias/les-plus-hautes-eaux-maquette/spectacles-carnet-de-routes-f-hero-p1440.jpg",
+     "video": "medias/les-plus-hautes-eaux-maquette/spectacles-carnet-de-routes-f-hero-p720.mp4",
+     "fiche": "sections/les-plus-hautes-eaux-maquette/spectacles-carnet-de-routes-f-hero.json",
+     "en_ligne": "https://les-plus-hautes-eaux-maquette.vercel.app/spectacles/carnet-de-routes"
+    },
+    {
+     "page": "agenda",
+     "role": "agenda",
+     "id": "les-plus-hautes-eaux-maquette/agenda-t-venir",
+     "note_section": 4,
+     "titre": "Prochaines représentations",
+     "capture": "medias/les-plus-hautes-eaux-maquette/agenda-t-venir-p1440.jpg",
+     "video": "medias/les-plus-hautes-eaux-maquette/agenda-t-venir-p720.mp4",
+     "fiche": "sections/les-plus-hautes-eaux-maquette/agenda-t-venir.json",
+     "en_ligne": "https://les-plus-hautes-eaux-maquette.vercel.app/agenda"
+    }
+   ]
+  },
+  {
+   "rang": 4,
+   "maquette": "agence-ae-maquette",
+   "client": "Architecte à Quimper, agence d'architecture environnementale (maisons neuves bois et paille, rénovation, locaux professionnels)",
+   "metier": "architecte",
+   "pourquoi": "soleil a l ouverture",
+   "proche": [],
+   "lumiere": "mixte",
+   "note_maquette": 87,
+   "en_ligne": "https://agence-ae-maquette.vercel.app",
+   "vues": [
+    {
+     "page": "accueil",
+     "role": "ouverture",
+     "id": "agence-ae-maquette/debut",
+     "note_section": 5,
+     "titre": "Une architecture humaine, locale et engagée",
+     "capture": "medias/agence-ae-maquette/debut-p1440.jpg",
+     "video": "medias/agence-ae-maquette/debut-p720.mp4",
+     "fiche": "sections/agence-ae-maquette/debut.json",
+     "en_ligne": "https://agence-ae-maquette.vercel.app"
+    },
+    {
+     "page": "accueil",
+     "role": "étapes",
+     "id": "agence-ae-maquette/maquette",
+     "note_section": 5,
+     "titre": "Une maison bois se monte en quatre temps",
+     "capture": "medias/agence-ae-maquette/maquette-p1440.jpg",
+     "video": "medias/agence-ae-maquette/maquette-p720.mp4",
+     "fiche": "sections/agence-ae-maquette/maquette.json",
+     "en_ligne": "https://agence-ae-maquette.vercel.app"
+    },
+    {
+     "page": "convictions",
+     "role": "ouverture",
+     "id": "agence-ae-maquette/convictions-debut",
+     "note_section": 5,
+     "titre": "40 % des émissions de gaz à effet de serre viennent du bâtiment",
+     "capture": "medias/agence-ae-maquette/convictions-debut-p1440.jpg",
+     "video": "medias/agence-ae-maquette/convictions-debut-p720.mp4",
+     "fiche": "sections/agence-ae-maquette/convictions-debut.json",
+     "en_ligne": "https://agence-ae-maquette.vercel.app/convictions"
+    },
+    {
+     "page": "realisations",
+     "role": "galerie",
+     "id": "agence-ae-maquette/realisations-tour",
+     "note_section": 5,
+     "titre": "Faites tourner les projets",
+     "capture": "medias/agence-ae-maquette/realisations-tour-p1440.jpg",
+     "video": "medias/agence-ae-maquette/realisations-tour-p720.mp4",
+     "fiche": "sections/agence-ae-maquette/realisations-tour.json",
+     "en_ligne": "https://agence-ae-maquette.vercel.app/realisations"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,17 @@
+{
+ "id": "20261118-120104-standard-cible-partiel",
+ "date": "2026-11-18T12:02:59.966Z",
+ "niveau": "standard",
+ "pages": "/,/boutique",
+ "etapes": [
+  "fichiers",
+  "mesures",
+  "mouvement"
+ ],
+ "version": "1",
+ "echecs": 0,
+ "aRegarder": 6,
+ "nonLances": 0,
+ "manquants": 0,
+ "statut": "complet"
+}

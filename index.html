@@ -1,0 +1,513 @@
+<!doctype html>
+<html lang="fr" data-v="1" data-curseur>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Tableaux Enfant · Toiles originales et sur mesure pour chambres d&#39;enfants, par Sevb</title>
+<meta name="description" content="Toiles originales peintes à la main, tableaux sur mesure, affiches et coussins pour chambres d&#39;enfants, créés par Sevb, artiste peintre à Romorantin.">
+<meta name="robots" content="noindex, nofollow">
+<link rel="canonical" href="https://tableauxenfant-maquette.vercel.app/">
+<style>:root{--fond:#FBF6EF;--texte:#26302E;--voile-fond:#1F2E2B;--ouverture-fond:#1F2E2B;--menu-fond:#FBF6EF}:root { --entete-h: 72px; --barres-h: 0px; } html { background: var(--fond); color: var(--texte); scrollbar-gutter: stable; } body { margin: 0; background: var(--fond); } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime] { opacity: 0; } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime].vu { opacity: 1; } [data-voile] { position: fixed; inset: 0; z-index: 900; background: var(--voile-fond); transform: translateY(100%); visibility: hidden; pointer-events: none; } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) [data-voile] { transform: none; visibility: visible; } html.secours [data-voile] { visibility: hidden !important; } .ouverture-panneau { position: fixed; inset: 0; z-index: 850; display: none; place-content: center; justify-items: center; background: var(--ouverture-fond, var(--voile-fond)); color: var(--fond); text-align: center; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) .ouverture-panneau { display: grid; } html.defilement-bloque, html.defilement-bloque body, html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie), html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) body, html[data-arrivee="voile"]:not(.voile-leve):not(.secours), html[data-arrivee="voile"]:not(.voile-leve):not(.secours) body { overflow: hidden; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) { background-color: var(--ouverture-fond, var(--voile-fond)); } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) { background-color: var(--voile-fond); }</style>
+<script>(function () {
+var d = document.documentElement, ss = null, ls = null;
+try { ss = window.sessionStorage; ls = window.localStorage; } catch (e) {}
+d.classList.add('js');
+var nav = performance.getEntriesByType ? performance.getEntriesByType('navigation')[0] : null;
+var type = nav ? nav.type : 'navigate';
+var depart = null;
+try { depart = JSON.parse(ss.getItem('socle:depart') || 'null'); ss.removeItem('socle:depart'); } catch (e) {}
+if (depart && !(Date.now() - depart.t < 15000)) depart = null;
+var mode = type === 'back_forward' ? 'retour' : type === 'reload' ? 'intro' : depart ? 'voile' : 'intro';
+d.setAttribute('data-arrivee', mode);
+if (mode === 'voile' && depart.couleur) d.style.setProperty('--voile-fond', depart.couleur);
+if (type === 'reload' && 'scrollRestoration' in history) {
+history.scrollRestoration = 'manual';
+}
+try {
+var choisie = ls && ls.getItem('socle:langue');
+var langue = (d.lang || '').slice(0, 2);
+if (choisie && choisie !== langue && type === 'navigate' && !depart) {
+var alt = document.querySelector('link[rel="alternate"][hreflang="' + choisie + '"]');
+if (alt) location.replace(new URL(alt.href).pathname + location.search + location.hash);
+}
+} catch (e) {}
+setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('secours'); }, 2000);
+})();</script>
+<link rel="preload" href="/assets/fonts/fraunces-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/css/socle.css?v=1">
+<link rel="stylesheet" href="/assets/css/module-panier-en-tiroir.css?v=1">
+<link rel="stylesheet" href="/assets/css/module-envol-vers-le-panier.css?v=1">
+<link rel="stylesheet" href="/assets/css/site.css?v=1">
+<link rel="modulepreload" href="/assets/js/site.js?v=1">
+<link rel="modulepreload" href="/assets/js/socle/index.js?v=1">
+<script src="/assets/vendor/gsap.min.js" defer></script>
+<script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
+<script src="/assets/vendor/SplitText.min.js" defer></script>
+<script type="module" src="/assets/js/site.js?v=1"></script>
+<meta name="theme-color" content="#FBF6EF">
+<link rel="icon" href="/assets/images/favicon-64.png" type="image/png">
+<link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Tableaux Enfant">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:title" content="Tableaux Enfant · Toiles originales et sur mesure pour chambres d&#39;enfants, par Sevb">
+<meta property="og:description" content="Toiles originales peintes à la main, tableaux sur mesure, affiches et coussins pour chambres d&#39;enfants, créés par Sevb, artiste peintre à Romorantin.">
+<meta property="og:url" content="https://tableauxenfant-maquette.vercel.app/">
+<meta property="og:image" content="https://tableauxenfant-maquette.vercel.app/assets/partage/accueil-fr.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Une toile sur mesure de Sevb au-dessus d&#39;un lit d&#39;enfant">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Store","name":"Tableaux Enfant · Créations SevB","description":"Tableaux originaux, toiles sur mesure, affiches et décorations pour chambres d'enfants, peints à la main par Sevb, artiste peintre.","email":"sevb@atelierattitude.com","address":{"@type":"PostalAddress","postalCode":"41200","addressLocality":"Romorantin-Lanthenay","addressRegion":"Loir-et-Cher","addressCountry":"FR"},"founder":{"@type":"Person","name":"Séverine Bisson","alternateName":"Sevb","jobTitle":"Artiste peintre"},"openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday"],"opens":"09:00","closes":"17:00"},{"@type":"OpeningHoursSpecification","dayOfWeek":["Saturday","Sunday"],"opens":"11:00","closes":"15:00"}]}</script>
+</head>
+<body id="haut">
+<div data-voile data-forme="glisse" aria-hidden="true"><div class="voile-contenu"><img src="/assets/images/icone-clair.png" alt="" width="108" height="147"><span data-voile-libelle>Accueil</span></div></div>
+<div class="ouverture-panneau" data-ouverture aria-hidden="true">
+  <img class="ouverture-logo" src="/assets/images/icone-clair.png" alt="" width="108" height="147" data-ouverture-objet>
+  <p class="ouverture-nom">Tableaux <span>Enfant</span></p>
+  <p class="ouverture-ligne">petits héros, grandes histoires</p>
+  <div class="ouverture-fonds"><span class="fond-uni"></span><span class="fond-rayures"></span><span class="fond-pois"></span><span class="fond-quadrillage"></span></div>
+</div>
+<a class="evitement" href="#contenu">Aller au contenu</a>
+<header data-entete>
+  <div class="entete-rangee">
+    <a class="entete-logo" aria-label="Tableaux Enfant, accueil" href="/" data-libelle="Accueil" aria-current="page">
+      <img src="/assets/images/logo-entete.png" alt="Tableaux Enfant" width="529" height="147">
+    </a>
+    <nav data-nav aria-label="Navigation principale">
+      <ul><li><a href="/boutique" data-libelle="Boutique">Boutique</a></li><li><a href="/sur-mesure" data-libelle="Sur mesure">Sur mesure</a></li><li><a href="/artiste" data-libelle="L&#39;artiste">L&#39;artiste</a></li><li><a href="/contact" data-libelle="Contact">Contact</a></li></ul>
+    </nav>
+    <div class="entete-actions">
+      <a class="entete-panier" href="/boutique" data-panier-ouvrir data-envol-cible data-sans-transition><svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path d="M5 8h14l-1.2 11.2a2 2 0 0 1-2 1.8H8.2a2 2 0 0 1-2-1.8L5 8Z" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M9 8V6.5a3 3 0 0 1 6 0V8" fill="none" stroke="currentColor" stroke-width="1.8"/></svg><span class="entete-panier-texte">Panier</span> <span class="pet-compte est-vide" data-panier-compte>0</span></a>
+      <a class="bouton" href="/sur-mesure#composer" data-libelle="Sur mesure">Créer son tableau</a>
+      <button type="button" data-menu-bouton aria-controls="menu" aria-expanded="false" data-libelle-ouvrir="Menu" data-libelle-fermer="Fermer"><span data-libelle-bouton>Menu</span></button>
+      <a class="menu-sansjs" href="#menu" data-menu-lien>Menu</a>
+    </div>
+  </div>
+</header>
+<script>/* Avant le premier affichage : rangées de la navigation (même règle que ajusterNav dans assets/js/socle/entete.js)
+   et hauteur réelle de l'en-tête, pour que rien ne saute quand le JavaScript du site prend la main. */
+(function () {
+  var h = document.documentElement, u = document.querySelector('[data-nav] ul'), e = document.querySelector('[data-entete]');
+  if (u) {
+    var deborde = function () { return u.scrollWidth > u.clientWidth + 1; }, c = deborde();
+    if (c && window.matchMedia('(min-width: 900px)').matches) {
+      h.classList.add('nav-deux-rangees'); c = deborde();
+      if (c) { h.classList.add('nav-deux-lignes'); var a = u.querySelector('a'); c = !a || u.getBoundingClientRect().height > a.getBoundingClientRect().height * 2.5; }
+      if (c) h.classList.remove('nav-deux-rangees', 'nav-deux-lignes');
+    }
+    if (c) h.classList.add('nav-compacte');
+  }
+  if (e) h.style.setProperty('--entete-h', Math.round(e.getBoundingClientRect().height) + 'px');
+})();</script>
+<span id="menu-ferme" aria-hidden="true"></span>
+<div id="menu" data-menu role="dialog" aria-modal="true" aria-label="Menu">
+  <p class="menu-sansjs-fermer"><a href="#menu-ferme">Fermer</a></p>
+  <ul><li style="--i:0"><a href="/" class="menu-lien" data-libelle="Accueil" aria-current="page">Accueil</a></li><li style="--i:1"><a href="/boutique" class="menu-lien" data-libelle="Boutique">Boutique</a></li><li style="--i:2"><a href="/sur-mesure" class="menu-lien" data-libelle="Sur mesure">Sur mesure</a></li><li style="--i:3"><a href="/artiste" class="menu-lien" data-libelle="L&#39;artiste">L&#39;artiste</a></li><li style="--i:4"><a href="/contact" class="menu-lien" data-libelle="Contact">Contact</a></li></ul>
+  <p class="menu-actions"><a class="bouton" href="/sur-mesure#composer" data-libelle="Sur mesure">Créer son tableau</a></p>
+  <p class="menu-email">Écrire à Sevb : <a href="mailto:sevb@atelierattitude.com">sevb@atelierattitude.com</a></p>
+</div>
+<main id="contenu" tabindex="-1">
+<section class="ouv ouv-accueil" id="debut">
+  <div class="ouv-texte">
+    <p class="surtitre" data-anime="gsap">Créations Sevb · artiste peintre à Romorantin</p>
+    <h1 class="ouv-titre" data-anime="gsap"><span class="ligne-masque"><span class="ouv-ligne">Petits héros,</span></span><span class="ligne-masque"><span class="ouv-ligne"><em>grandes histoires</em></span></span></h1>
+    <p class="ouv-intro masque-ecran-tres-bas" data-anime="gsap">Des tableaux qui racontent leur histoire : toiles originales peintes à la main, toiles sur mesure et affiches pour la chambre des enfants.</p>
+    <p class="ouv-actions" data-anime="gsap">
+      <a href="/sur-mesure#composer" class="bouton" data-libelle="Sur mesure" data-action-principale data-survol="magnetique">Créer son tableau sur mesure</a>
+      <a href="/boutique" class="bouton bouton--contour masque-ecran-tres-bas" data-libelle="Boutique">Voir la boutique</a>
+    </p>
+    <p class="ouv-info" data-info-cle data-anime="gsap">Toiles originales 145 € · sur mesure 185 € · affiches 20 €</p>
+  </div>
+  <div class="ouv-scene">
+    <div class="ouv-mur" aria-hidden="true" data-fx-mur></div>
+    <div class="toile " data-iris-centre data-effet="toile-peinte">
+  <span class="toile-fils" aria-hidden="true"></span>
+  <div class="toile-cadre">
+    <figure class="media toile-media" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/toile-zebulon-coccinelle-800.webp" srcset="/assets/images/toile-zebulon-coccinelle-400.webp 400w, /assets/images/toile-zebulon-coccinelle-800.webp 800w" sizes="(max-width: 760px) 70vw, 34vw" alt="Petite fée Zébulon coccinelle, toile originale de Sevb" width="800" height="800" fetchpriority="high" loading="eager" decoding="async">
+  </picture>
+</figure>
+    <svg class="toile-couverture" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true">
+      <defs>
+        <pattern id="ouv-pois" width="9" height="9" patternUnits="userSpaceOnUse"><rect width="9" height="9" fill="#F6E4DF"/><circle cx="4.5" cy="4.5" r="1.9" fill="#C2304F"/></pattern>
+        <mask id="ouv-masque" maskUnits="userSpaceOnUse" x="0" y="0" width="100" height="100">
+          <rect width="100" height="100" fill="#fff"/>
+          <path class="coup" pathLength="1" d="M-14 18 C 20 4, 52 30, 114 10" fill="none" stroke="#000" stroke-width="42" stroke-linecap="round"/>
+          <path class="coup" pathLength="1" d="M114 50 C 76 36, 40 66, -14 48" fill="none" stroke="#000" stroke-width="42" stroke-linecap="round"/>
+          <path class="coup" pathLength="1" d="M-14 86 C 24 72, 60 100, 114 84" fill="none" stroke="#000" stroke-width="42" stroke-linecap="round"/>
+        </mask>
+      </defs>
+      <rect width="100" height="100" fill="url(#ouv-pois)" mask="url(#ouv-masque)"/>
+    </svg>
+  </div>
+</div>
+    <p class="toile-cartel" data-anime="gsap">Petite fée Zébulon coccinelle · toile originale · <b>145 €</b></p>
+  </div>
+</section>
+<section class="offrir conteneur" id="offrir">
+  <div class="tete-section">
+    <p class="surtitre">Naissance, anniversaire, baptême</p>
+    <h2 data-anime="lignes">Trois façons d&#39;offrir une histoire</h2>
+  </div>
+  <div class="offrir-grille" data-anime="cascade">
+    <a class="offre" href="/boutique?categorie=toiles#catalogue" data-libelle="Boutique" data-fx="vitesse">
+      <figure class="media offre-media" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/toile-princesse-pois-800.webp" srcset="/assets/images/toile-princesse-pois-400.webp 400w, /assets/images/toile-princesse-pois-800.webp 800w" sizes="(max-width: 760px) 90vw, 30vw" alt="" width="800" height="800" loading="lazy" decoding="async">
+  </picture>
+</figure>
+      <span class="offre-texte"><span class="offre-titre">Une toile originale</span><span class="offre-desc">Peinte à la main à l&#39;acrylique sur lin et coton. Une pièce unique, prête à accrocher.</span><span class="offre-pied"><b data-prix>145 €</b> <span class="offre-lien">Les toiles</span></span></span>
+    </a>
+    <a class="offre offre--phare" href="/sur-mesure" data-libelle="Sur mesure" data-fx="vitesse">
+      <figure class="media offre-media" style="--cadrage:38% 40%">
+  <picture>
+    <img src="/assets/images/chambre-paul-1400.webp" srcset="/assets/images/chambre-paul-640.webp 640w, /assets/images/chambre-paul-1000.webp 1000w, /assets/images/chambre-paul-1400.webp 1400w" sizes="(max-width: 760px) 90vw, 30vw" alt="" width="1400" height="1050" loading="lazy" decoding="async">
+  </picture>
+</figure>
+      <span class="offre-texte"><span class="offre-titre">Une toile sur mesure</span><span class="offre-desc">Son doudou, son animal, sa passion et son prénom, sur une toile de 50 × 50 cm.</span><span class="offre-pied"><b data-prix>185 €</b> <span class="offre-lien">Le sur-mesure</span></span></span>
+    </a>
+    <a class="offre" href="/boutique?categorie=affiches#catalogue" data-libelle="Boutique" data-fx="vitesse">
+      <figure class="media offre-media" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/detail-motarde-800.webp" srcset="/assets/images/detail-motarde-400.webp 400w, /assets/images/detail-motarde-800.webp 800w" sizes="(max-width: 760px) 90vw, 30vw" alt="" width="800" height="600" loading="lazy" decoding="async">
+  </picture>
+</figure>
+      <span class="offre-texte"><span class="offre-titre">Une affiche à son prénom</span><span class="offre-desc">Format A4 sur papier d&#39;artiste 300 g, prénom ou petit mot ajouté sur demande.</span><span class="offre-pied"><b data-prix>20 €</b> <span class="offre-lien">Les affiches</span></span></span>
+    </a>
+  </div>
+</section>
+<section class="toiles ecran epingle fond-rose" id="toiles" data-fx="galerie">
+  <div class="conteneur toiles-tete">
+    <h2 data-anime="lignes">Les toiles originales</h2>
+    <p class="masque-ecran-bas">Chaque toile n&#39;existe qu&#39;une fois. Faites défiler : elles attendent leur chambre.</p>
+  </div>
+  <div class="piste toiles-piste" data-galerie tabindex="0" role="region" aria-label="Toiles originales, défilement horizontal">
+    <article class="produit toile-carte" data-produit="toile-ours-doudou">
+  <a class="produit-lien" href="/boutique?produit=toile-ours-doudou" data-libelle="Boutique">
+    <figure class="media produit-media produit-media--toiles" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/toile-ours-doudou-800.webp" srcset="/assets/images/toile-ours-doudou-400.webp 400w, /assets/images/toile-ours-doudou-800.webp 800w" sizes="(max-width: 760px) 70vw, 30vw" alt="Petit ours, fond nuages, mon doudou" width="800" height="800" loading="lazy" decoding="async">
+  </picture>
+</figure>
+    <span class="produit-texte"><span class="produit-titre">Petit ours, fond nuages, mon doudou</span>
+    <span class="produit-prix" data-prix>145 €</span></span>
+  </a>
+</article><article class="produit toile-carte" data-produit="toile-chipie-modele">
+  <a class="produit-lien" href="/boutique?produit=toile-chipie-modele" data-libelle="Boutique">
+    <figure class="media produit-media produit-media--toiles" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/toile-chipie-modele-800.webp" srcset="/assets/images/toile-chipie-modele-400.webp 400w, /assets/images/toile-chipie-modele-800.webp 800w" sizes="(max-width: 760px) 70vw, 30vw" alt="Petite chipie fille modèle" width="800" height="800" loading="lazy" decoding="async">
+  </picture>
+</figure>
+    <span class="produit-texte"><span class="produit-titre">Petite chipie fille modèle</span>
+    <span class="produit-prix" data-prix>145 €</span></span>
+  </a>
+</article><article class="produit toile-carte" data-produit="toile-coquine-ballons">
+  <a class="produit-lien" href="/boutique?produit=toile-coquine-ballons" data-libelle="Boutique">
+    <figure class="media produit-media produit-media--toiles" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/toile-coquine-ballons-800.webp" srcset="/assets/images/toile-coquine-ballons-400.webp 400w, /assets/images/toile-coquine-ballons-800.webp 800w" sizes="(max-width: 760px) 70vw, 30vw" alt="Petite coquine à lunettes et ses ballons" width="800" height="800" loading="lazy" decoding="async">
+  </picture>
+</figure>
+    <span class="produit-texte"><span class="produit-titre">Petite coquine à lunettes et ses ballons</span>
+    <span class="produit-prix" data-prix>145 €</span></span>
+  </a>
+</article><article class="produit toile-carte" data-produit="toile-ecoliere">
+  <a class="produit-lien" href="/boutique?produit=toile-ecoliere" data-libelle="Boutique">
+    <figure class="media produit-media produit-media--toiles" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/toile-ecoliere-800.webp" srcset="/assets/images/toile-ecoliere-400.webp 400w, /assets/images/toile-ecoliere-800.webp 800w" sizes="(max-width: 760px) 70vw, 30vw" alt="Petite écolière sur fond cahier d’école" width="800" height="800" loading="lazy" decoding="async">
+  </picture>
+</figure>
+    <span class="produit-texte"><span class="produit-titre">Petite écolière sur fond cahier d’école</span>
+    <span class="produit-prix" data-prix>145 €</span></span>
+  </a>
+</article><article class="produit toile-carte" data-produit="toile-lutine-ardoise">
+  <a class="produit-lien" href="/boutique?produit=toile-lutine-ardoise" data-libelle="Boutique">
+    <figure class="media produit-media produit-media--toiles" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/toile-lutine-ardoise-800.webp" srcset="/assets/images/toile-lutine-ardoise-400.webp 400w, /assets/images/toile-lutine-ardoise-800.webp 800w" sizes="(max-width: 760px) 70vw, 30vw" alt="Petite fée lutine ardoise et ses jouets" width="800" height="800" loading="lazy" decoding="async">
+  </picture>
+</figure>
+    <span class="produit-texte"><span class="produit-titre">Petite fée lutine ardoise et ses jouets</span>
+    <span class="produit-prix" data-prix>145 €</span></span>
+  </a>
+</article><article class="produit toile-carte" data-produit="toile-zebulon-coccinelle">
+  <a class="produit-lien" href="/boutique?produit=toile-zebulon-coccinelle" data-libelle="Boutique">
+    <figure class="media produit-media produit-media--toiles" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/toile-zebulon-coccinelle-800.webp" srcset="/assets/images/toile-zebulon-coccinelle-400.webp 400w, /assets/images/toile-zebulon-coccinelle-800.webp 800w" sizes="(max-width: 760px) 70vw, 30vw" alt="Petite fée Zébulon coccinelle" width="800" height="800" loading="lazy" decoding="async">
+  </picture>
+</figure>
+    <span class="produit-texte"><span class="produit-titre">Petite fée Zébulon coccinelle</span>
+    <span class="produit-prix" data-prix>145 €</span></span>
+  </a>
+</article><article class="produit toile-carte" data-produit="toile-femme-affaires">
+  <a class="produit-lien" href="/boutique?produit=toile-femme-affaires" data-libelle="Boutique">
+    <figure class="media produit-media produit-media--toiles" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/toile-femme-affaires-800.webp" srcset="/assets/images/toile-femme-affaires-400.webp 400w, /assets/images/toile-femme-affaires-800.webp 800w" sizes="(max-width: 760px) 70vw, 30vw" alt="Petite femme d’affaires" width="800" height="800" loading="lazy" decoding="async">
+  </picture>
+</figure>
+    <span class="produit-texte"><span class="produit-titre">Petite femme d’affaires</span>
+    <span class="produit-prix" data-prix>145 €</span></span>
+  </a>
+</article>
+    <a class="toiles-fin" href="/boutique?categorie=toiles#catalogue" data-libelle="Boutique"><span>Toutes les toiles</span><svg viewBox="0 0 40 16" aria-hidden="true"><path d="M2 8h34M30 2l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2"/></svg></a>
+  </div>
+  <div class="galerie-progres" aria-hidden="true"><span></span></div>
+</section>
+<section class="mur conteneur" id="mur" data-effet="voir-au-mur">
+  <div class="tete-section">
+    <h2 data-anime="lignes">Voyez-la au mur</h2>
+    <p>Une toile au format du sur-mesure, 50 × 50 cm, au-dessus du lit. Choisissez la toile et la couleur du mur.</p>
+  </div>
+  <div class="mur-corps">
+    <div class="mur-scene" data-mur-scene data-mur="rose">
+      <figure class="media mur-photo mur-photo--rose est-active" data-grok data-mur-photo="rose" style="--cadrage:50% 50%">
+  <picture><source media="(max-width: 760px) and (orientation: portrait)" srcset="/assets/images/grok/chambre-rose-mobile-640.webp 640w, /assets/images/grok/chambre-rose-mobile-1080.webp 1080w" sizes="(max-width: 760px) 100vw, 66vw">
+    <img src="/assets/images/grok/chambre-rose-1280.webp" srcset="/assets/images/grok/chambre-rose-640.webp 640w, /assets/images/grok/chambre-rose-1280.webp 1280w, /assets/images/grok/chambre-rose-1920.webp 1920w" sizes="(max-width: 760px) 100vw, 66vw" alt="Rose poudré" width="1280" height="853" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure><figure class="media mur-photo mur-photo--bleue" data-grok data-mur-photo="bleue" style="--cadrage:50% 50%">
+  <picture><source media="(max-width: 760px) and (orientation: portrait)" srcset="/assets/images/grok/chambre-bleue-mobile-640.webp 640w, /assets/images/grok/chambre-bleue-mobile-1080.webp 1080w" sizes="(max-width: 760px) 100vw, 66vw">
+    <img src="/assets/images/grok/chambre-bleue-1280.webp" srcset="/assets/images/grok/chambre-bleue-640.webp 640w, /assets/images/grok/chambre-bleue-1280.webp 1280w, /assets/images/grok/chambre-bleue-1920.webp 1920w" sizes="(max-width: 760px) 100vw, 66vw" alt="Bleu ciel" width="1280" height="853" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure><figure class="media mur-photo mur-photo--sauge" data-grok data-mur-photo="sauge" style="--cadrage:50% 50%">
+  <picture><source media="(max-width: 760px) and (orientation: portrait)" srcset="/assets/images/grok/chambre-sauge-mobile-640.webp 640w, /assets/images/grok/chambre-sauge-mobile-1080.webp 1080w" sizes="(max-width: 760px) 100vw, 66vw">
+    <img src="/assets/images/grok/chambre-sauge-1280.webp" srcset="/assets/images/grok/chambre-sauge-640.webp 640w, /assets/images/grok/chambre-sauge-1280.webp 1280w, /assets/images/grok/chambre-sauge-1920.webp 1920w" sizes="(max-width: 760px) 100vw, 66vw" alt="Vert sauge" width="1280" height="853" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+      <div class="mur-toile" data-mur-toile>
+        <figure class="media mur-toile-media est-active" data-mur-image="toile-lady-coccinelle" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/toile-lady-coccinelle-800.webp" srcset="/assets/images/toile-lady-coccinelle-400.webp 400w, /assets/images/toile-lady-coccinelle-800.webp 800w" sizes="20vw" alt="Petite lady coccinelle" width="800" height="800" loading="lazy" decoding="async">
+  </picture>
+</figure><figure class="media mur-toile-media" data-mur-image="toile-aviateur" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/toile-aviateur-800.webp" srcset="/assets/images/toile-aviateur-400.webp 400w, /assets/images/toile-aviateur-800.webp 800w" sizes="20vw" alt="Mon petit aviateur en vol" width="800" height="800" loading="lazy" decoding="async">
+  </picture>
+</figure><figure class="media mur-toile-media" data-mur-image="toile-ours-doudou" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/toile-ours-doudou-800.webp" srcset="/assets/images/toile-ours-doudou-400.webp 400w, /assets/images/toile-ours-doudou-800.webp 800w" sizes="20vw" alt="Petit ours, fond nuages, mon doudou" width="800" height="800" loading="lazy" decoding="async">
+  </picture>
+</figure>
+      </div>
+    </div>
+    <div class="mur-commandes">
+      <fieldset><legend>La toile</legend>
+        <div class="mur-choix"><button type="button" class="mur-vignette" data-mur-choix-toile="toile-lady-coccinelle" aria-pressed="true" aria-label="Petite lady coccinelle"><figure class="media " style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/toile-lady-coccinelle-800.webp" srcset="/assets/images/toile-lady-coccinelle-400.webp 400w, /assets/images/toile-lady-coccinelle-800.webp 800w" sizes="64px" alt="" width="800" height="800" loading="lazy" decoding="async">
+  </picture>
+</figure></button><button type="button" class="mur-vignette" data-mur-choix-toile="toile-aviateur" aria-pressed="false" aria-label="Mon petit aviateur en vol"><figure class="media " style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/toile-aviateur-800.webp" srcset="/assets/images/toile-aviateur-400.webp 400w, /assets/images/toile-aviateur-800.webp 800w" sizes="64px" alt="" width="800" height="800" loading="lazy" decoding="async">
+  </picture>
+</figure></button><button type="button" class="mur-vignette" data-mur-choix-toile="toile-ours-doudou" aria-pressed="false" aria-label="Petit ours, fond nuages, mon doudou"><figure class="media " style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/toile-ours-doudou-800.webp" srcset="/assets/images/toile-ours-doudou-400.webp 400w, /assets/images/toile-ours-doudou-800.webp 800w" sizes="64px" alt="" width="800" height="800" loading="lazy" decoding="async">
+  </picture>
+</figure></button></div>
+      </fieldset>
+      <fieldset><legend>Le mur</legend>
+        <div class="mur-choix"><button type="button" class="mur-pastille mur-pastille--rose" data-mur-choix-mur="rose" aria-pressed="true"><span aria-hidden="true"></span>Rose poudré</button><button type="button" class="mur-pastille mur-pastille--bleue" data-mur-choix-mur="bleue" aria-pressed="false"><span aria-hidden="true"></span>Bleu ciel</button><button type="button" class="mur-pastille mur-pastille--sauge" data-mur-choix-mur="sauge" aria-pressed="false"><span aria-hidden="true"></span>Vert sauge</button></div>
+      </fieldset>
+      <p class="mur-cartel" aria-live="polite"><b data-mur-titre>Petite lady coccinelle</b><br>Toile 50 × 50 cm, format du sur-mesure</p>
+      <p class="mur-echelle">À l&#39;échelle, environ : le lit sert de repère.</p>
+      <a href="/sur-mesure#composer" class="bouton" data-libelle="Sur mesure">La vouloir à son prénom</a>
+    </div>
+  </div>
+</section>
+<section class="mesure fond-rose" id="sur-mesure">
+  <div class="conteneur mesure-grille">
+    <div class="mesure-colle">
+      <div class="mesure-toile" data-effet="fonds" data-fond="uni" role="img" aria-label="Aperçu d&#39;une toile vierge et de son fond">
+        <span class="fond fond--uni" data-fond-calque="uni"></span><span class="fond fond--rayures" data-fond-calque="rayures"></span><span class="fond fond--pois" data-fond-calque="pois"></span><span class="fond fond--quadrillage" data-fond-calque="quadrillage"></span>
+        <span class="mesure-toile-nom" data-fond-nom>uni</span>
+      </div>
+      <ul class="mesure-fonds" aria-hidden="true"><li data-fond-repere="uni" class="est-actif"><span class="pastille fond--uni"></span>uni</li><li data-fond-repere="rayures"><span class="pastille fond--rayures"></span>rayures</li><li data-fond-repere="pois"><span class="pastille fond--pois"></span>pois</li><li data-fond-repere="quadrillage"><span class="pastille fond--quadrillage"></span>quadrillage</li></ul>
+    </div>
+    <div class="mesure-texte">
+      <p class="surtitre">Le sur-mesure, 185 €</p>
+      <h2 data-anime="lignes">Une toile qui raconte son histoire</h2>
+      <p class="mesure-intro" data-anime>Rien n&#39;est standardisé : la toile part d&#39;une photo, d&#39;un doudou, d&#39;un vêtement ou d&#39;une idée que vous confiez à Sevb.</p>
+      <ol class="etapes">
+        <li class="etape" data-etape-fond="uni" data-anime><span class="etape-num">1</span><h3>Vous me racontez</h3><p>Un premier e-mail : l&#39;enfant, ses couleurs, son doudou, sa passion du moment, la chambre.</p></li><li class="etape" data-etape-fond="rayures" data-anime><span class="etape-num">2</span><h3>On choisit le fond ensemble</h3><p>Uni, rayures, pois ou quadrillage. Le rendez-vous se fait à l&#39;atelier, ou à distance par e-mail.</p></li><li class="etape" data-etape-fond="pois" data-anime><span class="etape-num">3</span><h3>Je peins, vous validez</h3><p>Quand la toile est prête, vous recevez une photo pour la valider avant le vernis.</p></li><li class="etape" data-etape-fond="quadrillage" data-anime><span class="etape-num">4</span><h3>Elle arrive emballée</h3><p>Papier cadeau, emballage renforcé, Colissimo suivi en France métropolitaine.</p></li>
+      </ol>
+      <p class="mesure-delai"><b data-prix>185 €</b> · 3 à 4 semaines selon le carnet de commandes</p>
+      <a href="/sur-mesure#composer" class="bouton" data-libelle="Sur mesure" data-survol="magnetique">Composer sa toile</a>
+    </div>
+  </div>
+</section>
+<section class="sevb fond-sombre" id="sevb">
+  <div class="conteneur sevb-grille">
+    <figure class="media sevb-media" data-anime="rideau" style="--cadrage:62% 45%">
+  <picture>
+    <img src="/assets/images/sevb-atelier-1400.webp" srcset="/assets/images/sevb-atelier-480.webp 480w, /assets/images/sevb-atelier-800.webp 800w, /assets/images/sevb-atelier-1100.webp 1100w, /assets/images/sevb-atelier-1400.webp 1400w" sizes="(max-width: 760px) 90vw, 36vw" alt="Sevb dans son atelier, pinceau à la main, devant un mur de toiles" width="1400" height="1750" loading="lazy" decoding="async">
+  </picture>
+</figure>
+    <div class="sevb-texte">
+      <p class="surtitre">L&#39;artiste</p>
+      <h2 data-anime="lignes">L&#39;univers tendre et poétique de Sevb</h2>
+      <p data-anime>Séverine Bisson, dite Sevb, peint et fabrique elle-même chaque pièce dans son atelier de Romorantin-Lanthenay. Elle puise dans l&#39;enfance, la nature et son quotidien de maman.</p>
+      <blockquote class="sevb-citation" data-anime="mots"><p>« Chaque tableau raconte son histoire, une émotion souvenir ! »</p></blockquote>
+      <p class="sevb-chiffre"><span>Depuis plus de</span> <strong data-compteur="20">20</strong> <span>ans de peinture</span></p>
+      <a href="/artiste" class="bouton bouton--clair" data-libelle="L&#39;artiste">Découvrir son histoire</a>
+    </div>
+  </div>
+</section>
+<section class="plus" id="plus">
+  <div class="plus-ruban" data-fx="mots-geants" aria-hidden="true" data-ruban data-visuel>
+    <p data-fx-rangee>affiches · coussins · cadres déco · échelles porte-photo · cartes postales · marque-pages · affiches · coussins · cadres déco · échelles porte-photo · cartes postales · marque-pages ·</p>
+  </div>
+  <div class="conteneur plus-grille">
+    <div class="plus-texte">
+      <h2 data-anime="lignes">Affiches, coussins et petits cadeaux</h2>
+      <p data-anime>Les héros de Sevb existent aussi en affiches A4, en coussins et en séries limitées noir et blanc.</p>
+      <a href="/boutique" class="bouton bouton--contour" data-libelle="Boutique">Toute la boutique</a>
+    </div>
+    <figure class="media plus-media" data-fx="parallaxe" data-fx-force="8" style="--cadrage:50% 50%">
+  <picture><source media="(max-width: 760px) and (orientation: portrait)" srcset="/assets/images/chambre-coussins-mobile-640.webp 640w" sizes="(max-width: 760px) 100vw, 60vw">
+    <img src="/assets/images/chambre-coussins-1280.webp" srcset="/assets/images/chambre-coussins-640.webp 640w, /assets/images/chambre-coussins-1280.webp 1280w, /assets/images/chambre-coussins-1600.webp 1600w" sizes="(max-width: 760px) 100vw, 60vw" alt="Chambre d&#39;enfant avec coussins, cadres et affiches de Sevb" width="1280" height="720" loading="lazy" decoding="async">
+  </picture><figcaption class="media-legende">Mise en situation</figcaption>
+</figure>
+  </div>
+  <div class="conteneur plus-produits" data-anime="cascade">
+    <article class="produit " data-produit="affiche-danseuse">
+  <a class="produit-lien" href="/boutique?produit=affiche-danseuse" data-libelle="Boutique">
+    <figure class="media produit-media produit-media--affiches" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/affiche-danseuse-800.webp" srcset="/assets/images/affiche-danseuse-400.webp 400w, /assets/images/affiche-danseuse-800.webp 800w" sizes="(max-width: 760px) 46vw, 20vw" alt="Petite danseuse rose avec tutu" width="800" height="1143" loading="lazy" decoding="async">
+  </picture>
+</figure>
+    <span class="produit-texte"><span class="produit-titre">Petite danseuse rose avec tutu</span>
+    <span class="produit-prix" data-prix>20 €</span></span>
+  </a>
+</article><article class="produit " data-produit="coussin-pompier">
+  <a class="produit-lien" href="/boutique?produit=coussin-pompier" data-libelle="Boutique">
+    <figure class="media produit-media produit-media--coussins" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/coussin-pompier-800.webp" srcset="/assets/images/coussin-pompier-400.webp 400w, /assets/images/coussin-pompier-800.webp 800w" sizes="(max-width: 760px) 46vw, 20vw" alt="Petit pompier rouge" width="800" height="800" loading="lazy" decoding="async">
+  </picture>
+</figure>
+    <span class="produit-texte"><span class="produit-titre">Petit pompier rouge</span>
+    <span class="produit-prix" data-prix>49 €</span></span>
+  </a>
+</article><article class="produit " data-produit="cadre-sobre">
+  <a class="produit-lien" href="/boutique?produit=cadre-sobre" data-libelle="Boutique">
+    <figure class="media produit-media produit-media--cadeaux" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/cadre-sobre-800.webp" srcset="/assets/images/cadre-sobre-400.webp 400w, /assets/images/cadre-sobre-800.webp 800w" sizes="(max-width: 760px) 46vw, 20vw" alt="Cadre sobre et chic" width="800" height="1067" loading="lazy" decoding="async">
+  </picture>
+</figure>
+    <span class="produit-texte"><span class="produit-titre">Cadre sobre et chic</span>
+    <span class="produit-prix" data-prix>25 €</span></span>
+  </a>
+</article><article class="produit " data-produit="cartes-postales">
+  <a class="produit-lien" href="/boutique?produit=cartes-postales" data-libelle="Boutique">
+    <figure class="media produit-media produit-media--cadeaux" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/cartes-reine-800.webp" srcset="/assets/images/cartes-reine-400.webp 400w, /assets/images/cartes-reine-800.webp 800w" sizes="(max-width: 760px) 46vw, 20vw" alt="Cartes postales vintage noir et blanc" width="800" height="800" loading="lazy" decoding="async">
+  </picture>
+</figure>
+    <span class="produit-texte"><span class="produit-titre">Cartes postales vintage noir et blanc</span>
+    <span class="produit-prix" data-prix>2 €</span></span>
+  </a>
+</article>
+  </div>
+</section>
+<section class="avis fond-rose" id="avis">
+  <div class="conteneur">
+    <div class="tete-section">
+      <h2 data-anime="lignes">Ils se sont reconnus</h2>
+      <p>Les mots des parents, tels qu&#39;ils les ont laissés sur le site.</p>
+    </div>
+    <ul class="avis-liste" data-anime="cascade"><li class="avis-carte avis-carte--1" data-fx="vitesse" data-fx-force="2">
+    <svg class="avis-guillemet" viewBox="0 0 60 44" aria-hidden="true"><path d="M4 40 C 4 22, 10 10, 26 4 M34 40 C 34 22, 40 10, 56 4" fill="none" stroke="currentColor" stroke-width="5" stroke-linecap="round"/></svg>
+    <blockquote><p>Ravie de cette toile sur mesure qui va parfaitement dans sa chambre ! Ma fille se reconnait et adore sa toile !</p></blockquote>
+    <p class="avis-nom">Cécile · <span>Particulier</span></p>
+  </li><li class="avis-carte avis-carte--2" data-fx="vitesse" data-fx-force="2">
+    <svg class="avis-guillemet" viewBox="0 0 60 44" aria-hidden="true"><path d="M4 40 C 4 22, 10 10, 26 4 M34 40 C 34 22, 40 10, 56 4" fill="none" stroke="currentColor" stroke-width="5" stroke-linecap="round"/></svg>
+    <blockquote><p>Je suis ravie de la toile pour la chambre de mon fils, il s&#39;est reconnu et ne veut pas qu&#39;on la change de place.</p></blockquote>
+    <p class="avis-nom">Catherine</p>
+  </li><li class="avis-carte avis-carte--3" data-fx="vitesse" data-fx-force="2">
+    <svg class="avis-guillemet" viewBox="0 0 60 44" aria-hidden="true"><path d="M4 40 C 4 22, 10 10, 26 4 M34 40 C 34 22, 40 10, 56 4" fill="none" stroke="currentColor" stroke-width="5" stroke-linecap="round"/></svg>
+    <blockquote><p>J&#39;ai commandé une toile personnalisée pour chacun de mes enfants !</p></blockquote>
+    <p class="avis-nom">Emilie · <span>Particulier</span></p>
+  </li></ul>
+  </div>
+</section>
+<section class="fin fond-sombre" id="fin">
+  <div class="conteneur fin-grille">
+    <div class="fin-texte">
+      <h2 data-anime="lignes">Racontez-moi son histoire</h2>
+      <p data-anime>Un prénom, un doudou, une passion : Sevb s&#39;occupe du reste.</p>
+      <p class="fin-actions" data-anime>
+        <a href="/sur-mesure#composer" class="bouton" data-libelle="Sur mesure" data-survol="magnetique">Créer son tableau</a>
+        <a href="/contact?sujet=mesure" class="bouton bouton--clair" data-libelle="Contact">Écrire à Sevb</a>
+      </p>
+    </div>
+    <ul class="fin-toiles" data-anime="cascade" aria-hidden="true">
+      <li><figure class="media " style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/toile-lolita-lapin-800.webp" srcset="/assets/images/toile-lolita-lapin-400.webp 400w, /assets/images/toile-lolita-lapin-800.webp 800w" sizes="(max-width: 760px) 30vw, 12vw" alt="" width="800" height="800" loading="lazy" decoding="async">
+  </picture>
+</figure></li><li><figure class="media " style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/toile-aviateur-800.webp" srcset="/assets/images/toile-aviateur-400.webp 400w, /assets/images/toile-aviateur-800.webp 800w" sizes="(max-width: 760px) 30vw, 12vw" alt="" width="800" height="800" loading="lazy" decoding="async">
+  </picture>
+</figure></li><li><figure class="media " style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/toile-ecoliere-800.webp" srcset="/assets/images/toile-ecoliere-400.webp 400w, /assets/images/toile-ecoliere-800.webp 800w" sizes="(max-width: 760px) 30vw, 12vw" alt="" width="800" height="800" loading="lazy" decoding="async">
+  </picture>
+</figure></li><li><figure class="media " style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/toile-ours-doudou-800.webp" srcset="/assets/images/toile-ours-doudou-400.webp 400w, /assets/images/toile-ours-doudou-800.webp 800w" sizes="(max-width: 760px) 30vw, 12vw" alt="" width="800" height="800" loading="lazy" decoding="async">
+  </picture>
+</figure></li><li><figure class="media " style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/toile-petite-peche-800.webp" srcset="/assets/images/toile-petite-peche-400.webp 400w, /assets/images/toile-petite-peche-800.webp 800w" sizes="(max-width: 760px) 30vw, 12vw" alt="" width="800" height="800" loading="lazy" decoding="async">
+  </picture>
+</figure></li>
+    </ul>
+  </div>
+</section>
+</main>
+<footer class="pied" id="pied">
+  <div class="conteneur pied-grille">
+    <div class="pied-marque">
+      <img src="/assets/images/logo-complet-clair.png" alt="Tableaux Enfant · petits héros, grandes histoires · Créations SevB" width="453" height="491" loading="lazy">
+      <p>Des tableaux qui racontent leur histoire, peints à la main par Sevb.</p>
+    </div>
+    <nav aria-label="Sommaire">
+      <p class="pied-titre">Sommaire</p>
+      <ul><li><a href="/" data-libelle="Accueil" aria-current="page">Accueil</a></li><li><a href="/boutique" data-libelle="Boutique">Boutique</a></li><li><a href="/sur-mesure" data-libelle="Sur mesure">Sur mesure</a></li><li><a href="/artiste" data-libelle="L&#39;artiste">L&#39;artiste</a></li><li><a href="/contact" data-libelle="Contact">Contact</a></li></ul>
+    </nav>
+    <div>
+      <p class="pied-titre">L&#39;atelier</p>
+      <p>41200 Romorantin-Lanthenay, Loir-et-Cher<br><a href="mailto:sevb@atelierattitude.com">sevb@atelierattitude.com</a></p>
+      <p class="pied-horaires">Lundi au vendredi, 9 h à 17 h · samedi et dimanche, 11 h à 15 h</p>
+    </div>
+    <div>
+      <p class="pied-titre">Informations</p>
+      <ul class="pied-legal">
+        <li>Mentions légales · à compléter</li>
+        <li>Politique de confidentialité · à compléter</li>
+        <li>Conditions générales de vente · à compléter</li>
+        <li><a href="#haut" data-sans-transition>Retour en haut</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="conteneur pied-bas"><p>Maquette de démonstration : paniers, paiements et formulaires sont simulés, rien n&#39;est envoyé.</p><p>© 2026 SevB · TableauxEnfant.fr</p></div>
+</footer>
+<div data-barre-fixe>
+  <a class="bouton bouton--contour" href="/boutique" data-panier-ouvrir data-sans-transition>Panier <span class="pet-compte est-vide" data-panier-compte>0</span></a>
+  <a class="bouton" href="/sur-mesure#composer" data-libelle="Sur mesure">Créer son tableau</a>
+</div>
+<div data-module="panier-en-tiroir" data-panier-tiroir>
+  <script type="application/json" data-panier-reglages>{"devise":"EUR","seuil_livraison":0,"frais_livraison":0,"frais_texte":"Selon le poids, calculée à l'envoi","tva":null,"cle":"tableauxenfant-panier","prefixe":"TE"}</script>
+</div>
+</body>
+</html>

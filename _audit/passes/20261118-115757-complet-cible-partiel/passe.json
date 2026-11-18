@@ -1,0 +1,16 @@
+{
+ "id": "20261118-115757-complet-cible-partiel",
+ "date": "2026-11-18T12:01:01.922Z",
+ "niveau": "complet",
+ "pages": "/,/artiste,/contact",
+ "etapes": [
+  "fichiers",
+  "mesures"
+ ],
+ "version": "1",
+ "echecs": 0,
+ "aRegarder": 8,
+ "nonLances": 0,
+ "manquants": 0,
+ "statut": "complet"
+}

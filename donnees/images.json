@@ -1,0 +1,6096 @@
+{
+  "grok/chambre-rose": {
+    "nom": "grok/chambre-rose",
+    "source": "recu/grok/chambre-rose.png",
+    "role": "section-fond",
+    "alt": "Chambre d'enfant au mur rose poudré, vide, prête à recevoir une toile",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "d7bc662ed79b1643",
+    "ratio": "3:2",
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": {
+      "ratio": "4:5",
+      "largeurs": [
+        640,
+        1080
+      ],
+      "cadrage": "65% 83%"
+    },
+    "cadrage": "43% 67%",
+    "sujet": {
+      "x": 0,
+      "y": 4.5,
+      "l": 100,
+      "h": 90.9
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.5,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.33,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.25,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.07,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1536,
+      "height": 1024,
+      "source": [
+        1536,
+        1024
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "agrandie 1,25 fois (source de 1536 px après recadrage)"
+    ],
+    "fichiers": [
+      "grok/chambre-rose-640.webp",
+      "grok/chambre-rose-1280.webp",
+      "grok/chambre-rose-1920.webp",
+      "grok/chambre-rose-mobile-640.webp",
+      "grok/chambre-rose-mobile-1080.webp"
+    ],
+    "poids": {
+      "grok/chambre-rose-640.webp": 22738,
+      "grok/chambre-rose-1280.webp": 82812,
+      "grok/chambre-rose-1920.webp": 143412,
+      "grok/chambre-rose-mobile-640.webp": 40846,
+      "grok/chambre-rose-mobile-1080.webp": 98236
+    },
+    "media": "c.media({ nom: 'grok/chambre-rose', alt: \"Chambre d'enfant au mur rose poudré, vide, prête à recevoir une toile\", cadrage: '43% 67%', cadrageMobile: '65% 83%', sizes: '100vw' })"
+  },
+  "grok/chambre-bleue": {
+    "nom": "grok/chambre-bleue",
+    "source": "recu/grok/chambre-bleue.png",
+    "role": "section-fond",
+    "alt": "Chambre d'enfant au mur bleu ciel, vide, avec une commode blanche",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "6779809cab1b1645",
+    "ratio": "3:2",
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": {
+      "ratio": "4:5",
+      "largeurs": [
+        640,
+        1080
+      ],
+      "cadrage": "31% 83%"
+    },
+    "cadrage": "23% 67%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 95.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.49,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.44,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.05,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.04,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1536,
+      "height": 1024,
+      "source": [
+        1536,
+        1024
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "agrandie 1,25 fois (source de 1536 px après recadrage)"
+    ],
+    "fichiers": [
+      "grok/chambre-bleue-640.webp",
+      "grok/chambre-bleue-1280.webp",
+      "grok/chambre-bleue-1920.webp",
+      "grok/chambre-bleue-mobile-640.webp",
+      "grok/chambre-bleue-mobile-1080.webp"
+    ],
+    "poids": {
+      "grok/chambre-bleue-640.webp": 11648,
+      "grok/chambre-bleue-1280.webp": 27616,
+      "grok/chambre-bleue-1920.webp": 47904,
+      "grok/chambre-bleue-mobile-640.webp": 12782,
+      "grok/chambre-bleue-mobile-1080.webp": 26214
+    },
+    "media": "c.media({ nom: 'grok/chambre-bleue', alt: \"Chambre d'enfant au mur bleu ciel, vide, avec une commode blanche\", cadrage: '23% 67%', cadrageMobile: '31% 83%', sizes: '100vw' })"
+  },
+  "grok/chambre-sauge": {
+    "nom": "grok/chambre-sauge",
+    "source": "recu/grok/chambre-sauge.png",
+    "role": "section-fond",
+    "alt": "Chambre de bébé au mur vert sauge, vide, avec un lit en bois",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "3b9302b5628fdea8",
+    "ratio": "3:2",
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": {
+      "ratio": "4:5",
+      "largeurs": [
+        640,
+        1080
+      ],
+      "cadrage": "38% 78%"
+    },
+    "cadrage": "25% 64%",
+    "sujet": {
+      "x": 0,
+      "y": 4.5,
+      "l": 100,
+      "h": 90.9
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.49,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.44,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.03,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.01,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1536,
+      "height": 1024,
+      "source": [
+        1536,
+        1024
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "agrandie 1,25 fois (source de 1536 px après recadrage)"
+    ],
+    "fichiers": [
+      "grok/chambre-sauge-640.webp",
+      "grok/chambre-sauge-1280.webp",
+      "grok/chambre-sauge-1920.webp",
+      "grok/chambre-sauge-mobile-640.webp",
+      "grok/chambre-sauge-mobile-1080.webp"
+    ],
+    "poids": {
+      "grok/chambre-sauge-640.webp": 15224,
+      "grok/chambre-sauge-1280.webp": 35470,
+      "grok/chambre-sauge-1920.webp": 59604,
+      "grok/chambre-sauge-mobile-640.webp": 16378,
+      "grok/chambre-sauge-mobile-1080.webp": 32784
+    },
+    "media": "c.media({ nom: 'grok/chambre-sauge', alt: \"Chambre de bébé au mur vert sauge, vide, avec un lit en bois\", cadrage: '25% 64%', cadrageMobile: '38% 78%', sizes: '100vw' })"
+  },
+  "grok/toile-vierge": {
+    "nom": "grok/toile-vierge",
+    "source": "recu/grok/toile-vierge.png",
+    "role": "ouverture",
+    "alt": "Toile vierge sur un chevalet, dans la lumière de l'atelier",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "5d48ac296c3e612b",
+    "ratio": "16:9",
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": {
+      "ratio": "9:16",
+      "largeurs": [
+        640,
+        1080
+      ],
+      "cadrage": "36% 83%"
+    },
+    "cadrage": "44% 65%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.44,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.36,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.27,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.1,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": "gauche",
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1920,
+      "height": 1080,
+      "source": [
+        1920,
+        1080
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "grok/toile-vierge-640.webp",
+      "grok/toile-vierge-1280.webp",
+      "grok/toile-vierge-1920.webp",
+      "grok/toile-vierge-mobile-640.webp",
+      "grok/toile-vierge-mobile-1080.webp"
+    ],
+    "poids": {
+      "grok/toile-vierge-640.webp": 8820,
+      "grok/toile-vierge-1280.webp": 20322,
+      "grok/toile-vierge-1920.webp": 34784,
+      "grok/toile-vierge-mobile-640.webp": 12772,
+      "grok/toile-vierge-mobile-1080.webp": 25838
+    },
+    "media": "c.media({ nom: 'grok/toile-vierge', alt: \"Toile vierge sur un chevalet, dans la lumière de l'atelier\", cadrage: '44% 65%', cadrageMobile: '36% 83%', sizes: '100vw', priorite: true })"
+  },
+  "grok/atelier-table": {
+    "nom": "grok/atelier-table",
+    "source": "recu/grok/atelier-table.png",
+    "role": "section-fond",
+    "alt": "Table de l'atelier : pots de peinture, pinceaux et palette",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "158960a02fd8b141",
+    "ratio": "3:2",
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": {
+      "ratio": "4:5",
+      "largeurs": [
+        640,
+        1080
+      ],
+      "cadrage": "44% 70%"
+    },
+    "cadrage": "40% 56%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 95.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.28,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.27,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": "droite",
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1536,
+      "height": 1024,
+      "source": [
+        1536,
+        1024
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "agrandie 1,25 fois (source de 1536 px après recadrage)"
+    ],
+    "fichiers": [
+      "grok/atelier-table-640.webp",
+      "grok/atelier-table-1280.webp",
+      "grok/atelier-table-1920.webp",
+      "grok/atelier-table-mobile-640.webp",
+      "grok/atelier-table-mobile-1080.webp"
+    ],
+    "poids": {
+      "grok/atelier-table-640.webp": 17510,
+      "grok/atelier-table-1280.webp": 39202,
+      "grok/atelier-table-1920.webp": 63694,
+      "grok/atelier-table-mobile-640.webp": 21690,
+      "grok/atelier-table-mobile-1080.webp": 40374
+    },
+    "media": "c.media({ nom: 'grok/atelier-table', alt: \"Table de l'atelier : pots de peinture, pinceaux et palette\", cadrage: '40% 56%', cadrageMobile: '44% 70%', sizes: '100vw' })"
+  },
+  "grok/emballage-cadeau": {
+    "nom": "grok/emballage-cadeau",
+    "source": "recu/grok/emballage-cadeau.png",
+    "role": "section-fond",
+    "alt": "Toile emballée dans du papier kraft et un ruban framboise",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "17a28f5f5fe4e236",
+    "ratio": "3:2",
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": {
+      "ratio": "4:5",
+      "largeurs": [
+        640,
+        1080
+      ],
+      "cadrage": "64% 75%"
+    },
+    "cadrage": "57% 58%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 95.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.4,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.22,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.19,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.14,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1536,
+      "height": 1024,
+      "source": [
+        1536,
+        1024
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "agrandie 1,25 fois (source de 1536 px après recadrage)"
+    ],
+    "fichiers": [
+      "grok/emballage-cadeau-640.webp",
+      "grok/emballage-cadeau-1280.webp",
+      "grok/emballage-cadeau-1920.webp",
+      "grok/emballage-cadeau-mobile-640.webp",
+      "grok/emballage-cadeau-mobile-1080.webp"
+    ],
+    "poids": {
+      "grok/emballage-cadeau-640.webp": 16868,
+      "grok/emballage-cadeau-1280.webp": 40628,
+      "grok/emballage-cadeau-1920.webp": 67744,
+      "grok/emballage-cadeau-mobile-640.webp": 19474,
+      "grok/emballage-cadeau-mobile-1080.webp": 39134
+    },
+    "media": "c.media({ nom: 'grok/emballage-cadeau', alt: \"Toile emballée dans du papier kraft et un ruban framboise\", cadrage: '57% 58%', cadrageMobile: '64% 75%', sizes: '100vw' })"
+  },
+  "grok/pinceaux": {
+    "nom": "grok/pinceaux",
+    "source": "recu/grok/pinceaux.png",
+    "role": "section-fond",
+    "alt": "Pinceaux dans un pot, dans la lumière du matin",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "a2872b94127aa568",
+    "ratio": "16:9",
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": null,
+    "cadrage": "62% 58%",
+    "sujet": {
+      "x": 21.9,
+      "y": 11.1,
+      "l": 59.4,
+      "h": 88.9
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.31,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.29,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.18,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.14,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1920,
+      "height": 1080,
+      "source": [
+        1920,
+        1080
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "grok/pinceaux-640.webp",
+      "grok/pinceaux-1280.webp",
+      "grok/pinceaux-1920.webp"
+    ],
+    "poids": {
+      "grok/pinceaux-640.webp": 17070,
+      "grok/pinceaux-1280.webp": 36670,
+      "grok/pinceaux-1920.webp": 61156
+    },
+    "media": "c.media({ nom: 'grok/pinceaux', alt: \"Pinceaux dans un pot, dans la lumière du matin\", cadrage: '62% 58%', sizes: '100vw' })"
+  },
+  "grok/contact-lettre": {
+    "nom": "grok/contact-lettre",
+    "source": "recu/grok/contact-lettre.png",
+    "role": "ouverture",
+    "alt": "Bureau près de la fenêtre avec une enveloppe et du papier",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "142bb61527d79f10",
+    "ratio": "16:9",
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": {
+      "ratio": "9:16",
+      "largeurs": [
+        640,
+        1080
+      ],
+      "cadrage": "55% 77%"
+    },
+    "cadrage": "57% 53%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.13,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.1,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.05,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": "gauche",
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1920,
+      "height": 1080,
+      "source": [
+        1920,
+        1080
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "grok/contact-lettre-640.webp",
+      "grok/contact-lettre-1280.webp",
+      "grok/contact-lettre-1920.webp",
+      "grok/contact-lettre-mobile-640.webp",
+      "grok/contact-lettre-mobile-1080.webp"
+    ],
+    "poids": {
+      "grok/contact-lettre-640.webp": 25414,
+      "grok/contact-lettre-1280.webp": 57990,
+      "grok/contact-lettre-1920.webp": 101554,
+      "grok/contact-lettre-mobile-640.webp": 25982,
+      "grok/contact-lettre-mobile-1080.webp": 50478
+    },
+    "media": "c.media({ nom: 'grok/contact-lettre', alt: \"Bureau près de la fenêtre avec une enveloppe et du papier\", cadrage: '57% 53%', cadrageMobile: '55% 77%', sizes: '100vw', priorite: true })"
+  },
+  "grok/chevalet-404": {
+    "nom": "grok/chevalet-404",
+    "source": "recu/grok/chevalet-404.png",
+    "role": "404",
+    "alt": "Chevalet vide et toile tombée par terre",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "ba592e26cd4dba88",
+    "ratio": "16:9",
+    "largeurs": [
+      800,
+      1600
+    ],
+    "mobile": null,
+    "cadrage": "44% 65%",
+    "sujet": {
+      "x": 0,
+      "y": 5.6,
+      "l": 100,
+      "h": 94.4
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.5,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.38,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.3,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.11,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1920,
+      "height": 1080,
+      "source": [
+        1920,
+        1080
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "grok/chevalet-404-800.webp",
+      "grok/chevalet-404-1600.webp"
+    ],
+    "poids": {
+      "grok/chevalet-404-800.webp": 11248,
+      "grok/chevalet-404-1600.webp": 27096
+    },
+    "media": "c.media({ nom: 'grok/chevalet-404', alt: \"Chevalet vide et toile tombée par terre\", cadrage: '44% 65%', sizes: '100vw', ratio: '16 / 9' })"
+  },
+  "toile-ours-doudou": {
+    "nom": "toile-ours-doudou",
+    "source": "recu/tableau-deco-chambre-enfant.webp",
+    "role": "produit",
+    "alt": "Toile originale de Sevb : Petit ours, fond nuages, mon doudou",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "8758982c0d4f6edd",
+    "ratio": "1:1",
+    "largeurs": [
+      400,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "49% 50%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 96.8,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 30,
+      "width": 800,
+      "height": 800,
+      "source": [
+        800,
+        830
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "800 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "toile-ours-doudou-400.webp",
+      "toile-ours-doudou-800.webp"
+    ],
+    "poids": {
+      "toile-ours-doudou-400.webp": 27362,
+      "toile-ours-doudou-800.webp": 61128
+    },
+    "media": "c.media({ nom: 'toile-ours-doudou', alt: \"Toile originale de Sevb : Petit ours, fond nuages, mon doudou\", cadrage: '49% 50%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '1 / 1' })"
+  },
+  "toile-chipie-modele": {
+    "nom": "toile-chipie-modele",
+    "source": "recu/originaux.webp",
+    "role": "produit",
+    "alt": "Toile originale de Sevb : Petite chipie fille modèle",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "c5084d9751f44f60",
+    "ratio": "1:1",
+    "largeurs": [
+      400,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "48% 49%",
+    "sujet": {
+      "x": 9.4,
+      "y": 6.3,
+      "l": 78.1,
+      "h": 90.8
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.4,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.18,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.13,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 800,
+      "height": 800,
+      "source": [
+        800,
+        802
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "800 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "toile-chipie-modele-400.webp",
+      "toile-chipie-modele-800.webp"
+    ],
+    "poids": {
+      "toile-chipie-modele-400.webp": 13102,
+      "toile-chipie-modele-800.webp": 27990
+    },
+    "media": "c.media({ nom: 'toile-chipie-modele', alt: \"Toile originale de Sevb : Petite chipie fille modèle\", cadrage: '48% 49%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '1 / 1' })"
+  },
+  "toile-coquine-ballons": {
+    "nom": "toile-coquine-ballons",
+    "source": "recu/tableau-deco-chambre-enfant-8.webp",
+    "role": "produit",
+    "alt": "Toile originale de Sevb : Petite coquine à lunettes et ses ballons",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "624ef9eb399375dc",
+    "ratio": "1:1",
+    "largeurs": [
+      400,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "44% 41%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 93.8,
+      "h": 94.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.1,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.07,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 800,
+      "height": 800,
+      "source": [
+        800,
+        806
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "800 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "toile-coquine-ballons-400.webp",
+      "toile-coquine-ballons-800.webp"
+    ],
+    "poids": {
+      "toile-coquine-ballons-400.webp": 29336,
+      "toile-coquine-ballons-800.webp": 65634
+    },
+    "media": "c.media({ nom: 'toile-coquine-ballons', alt: \"Toile originale de Sevb : Petite coquine à lunettes et ses ballons\", cadrage: '44% 41%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '1 / 1' })"
+  },
+  "toile-ecoliere": {
+    "nom": "toile-ecoliere",
+    "source": "recu/tableau-deco-chambre-enfant-9.webp",
+    "role": "produit",
+    "alt": "Toile originale de Sevb : Petite écolière sur fond cahier d’école",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "1915edc6358251df",
+    "ratio": "1:1",
+    "largeurs": [
+      400,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "49% 48%",
+    "sujet": {
+      "x": 3.1,
+      "y": 0,
+      "l": 87.5,
+      "h": 94.3
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.09,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 800,
+      "height": 800,
+      "source": [
+        800,
+        804
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "800 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "toile-ecoliere-400.webp",
+      "toile-ecoliere-800.webp"
+    ],
+    "poids": {
+      "toile-ecoliere-400.webp": 20244,
+      "toile-ecoliere-800.webp": 47508
+    },
+    "media": "c.media({ nom: 'toile-ecoliere', alt: \"Toile originale de Sevb : Petite écolière sur fond cahier d’école\", cadrage: '49% 48%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '1 / 1' })"
+  },
+  "toile-lutine-ardoise": {
+    "nom": "toile-lutine-ardoise",
+    "source": "recu/tableau-deco-chambre-enfant-16.webp",
+    "role": "produit",
+    "alt": "Toile originale de Sevb : Petite fée lutine ardoise et ses jouets",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "dfd934e4b532a60c",
+    "ratio": "1:1",
+    "largeurs": [
+      400,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "49% 48%",
+    "sujet": {
+      "x": 6.3,
+      "y": 6.3,
+      "l": 87.6,
+      "h": 87.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 799,
+      "height": 799,
+      "source": [
+        800,
+        799
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "800 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "toile-lutine-ardoise-400.webp",
+      "toile-lutine-ardoise-800.webp"
+    ],
+    "poids": {
+      "toile-lutine-ardoise-400.webp": 25682,
+      "toile-lutine-ardoise-800.webp": 58382
+    },
+    "media": "c.media({ nom: 'toile-lutine-ardoise', alt: \"Toile originale de Sevb : Petite fée lutine ardoise et ses jouets\", cadrage: '49% 48%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '1 / 1' })"
+  },
+  "toile-zebulon-coccinelle": {
+    "nom": "toile-zebulon-coccinelle",
+    "source": "recu/tableau-deco-chambre-enfant-6.webp",
+    "role": "produit",
+    "alt": "Toile originale de Sevb : Petite fée Zébulon coccinelle",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "d68159395871bbc2",
+    "ratio": "1:1",
+    "largeurs": [
+      400,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "52% 43%",
+    "sujet": {
+      "x": 9.4,
+      "y": 3.1,
+      "l": 87.5,
+      "h": 94.7
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.17,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.12,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0.01,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 800,
+      "height": 800,
+      "source": [
+        800,
+        808
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "800 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "toile-zebulon-coccinelle-400.webp",
+      "toile-zebulon-coccinelle-800.webp"
+    ],
+    "poids": {
+      "toile-zebulon-coccinelle-400.webp": 33084,
+      "toile-zebulon-coccinelle-800.webp": 94812
+    },
+    "media": "c.media({ nom: 'toile-zebulon-coccinelle', alt: \"Toile originale de Sevb : Petite fée Zébulon coccinelle\", cadrage: '52% 43%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '1 / 1' })"
+  },
+  "toile-femme-affaires": {
+    "nom": "toile-femme-affaires",
+    "source": "recu/tableau-deco-chambre-enfant-10.webp",
+    "role": "produit",
+    "alt": "Toile originale de Sevb : Petite femme d’affaires",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "83107560cd085a84",
+    "ratio": "1:1",
+    "largeurs": [
+      400,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "48% 48%",
+    "sujet": {
+      "x": 21.9,
+      "y": 0,
+      "l": 50,
+      "h": 90.9
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.18,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.08,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.07,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.02,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 800,
+      "height": 800,
+      "source": [
+        800,
+        803
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "800 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "toile-femme-affaires-400.webp",
+      "toile-femme-affaires-800.webp"
+    ],
+    "poids": {
+      "toile-femme-affaires-400.webp": 24466,
+      "toile-femme-affaires-800.webp": 53518
+    },
+    "media": "c.media({ nom: 'toile-femme-affaires', alt: \"Toile originale de Sevb : Petite femme d’affaires\", cadrage: '48% 48%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '1 / 1' })"
+  },
+  "toile-lady-coccinelle": {
+    "nom": "toile-lady-coccinelle",
+    "source": "recu/tableau-deco-chambre-enfant-5.webp",
+    "role": "produit",
+    "alt": "Toile originale de Sevb : Petite lady coccinelle",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "0e0b21c4487271c5",
+    "ratio": "1:1",
+    "largeurs": [
+      400,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "51% 50%",
+    "sujet": {
+      "x": 3.1,
+      "y": 0,
+      "l": 93.8,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 5,
+      "width": 800,
+      "height": 800,
+      "source": [
+        800,
+        809
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "800 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "toile-lady-coccinelle-400.webp",
+      "toile-lady-coccinelle-800.webp"
+    ],
+    "poids": {
+      "toile-lady-coccinelle-400.webp": 21876,
+      "toile-lady-coccinelle-800.webp": 47494
+    },
+    "media": "c.media({ nom: 'toile-lady-coccinelle', alt: \"Toile originale de Sevb : Petite lady coccinelle\", cadrage: '51% 50%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '1 / 1' })"
+  },
+  "toile-lolita-lunettes": {
+    "nom": "toile-lolita-lunettes",
+    "source": "recu/tableau-deco-chambre-enfant-7.webp",
+    "role": "produit",
+    "alt": "Toile originale de Sevb : Petite Lolita brune à lunettes et tresses",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "0a3903134b590010",
+    "ratio": "1:1",
+    "largeurs": [
+      400,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "51% 50%",
+    "sujet": {
+      "x": 3.1,
+      "y": 0,
+      "l": 87.5,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.07,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 4,
+      "width": 800,
+      "height": 800,
+      "source": [
+        800,
+        807
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "800 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "toile-lolita-lunettes-400.webp",
+      "toile-lolita-lunettes-800.webp"
+    ],
+    "poids": {
+      "toile-lolita-lunettes-400.webp": 21796,
+      "toile-lolita-lunettes-800.webp": 58596
+    },
+    "media": "c.media({ nom: 'toile-lolita-lunettes', alt: \"Toile originale de Sevb : Petite Lolita brune à lunettes et tresses\", cadrage: '51% 50%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '1 / 1' })"
+  },
+  "toile-lolita-coccinelle": {
+    "nom": "toile-lolita-coccinelle",
+    "source": "recu/tableau-deco-chambre-enfant-11.webp",
+    "role": "produit",
+    "alt": "Toile originale de Sevb : Petite Lolita coccinelle",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "2ab4c49bcff926a2",
+    "ratio": "1:1",
+    "largeurs": [
+      400,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "50% 50%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 96.9,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 1,
+      "width": 800,
+      "height": 800,
+      "source": [
+        800,
+        802
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "800 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "toile-lolita-coccinelle-400.webp",
+      "toile-lolita-coccinelle-800.webp"
+    ],
+    "poids": {
+      "toile-lolita-coccinelle-400.webp": 25482,
+      "toile-lolita-coccinelle-800.webp": 57782
+    },
+    "media": "c.media({ nom: 'toile-lolita-coccinelle', alt: \"Toile originale de Sevb : Petite Lolita coccinelle\", sizes: '(max-width: 760px) 50vw, 25vw', ratio: '1 / 1' })"
+  },
+  "toile-lolita-lapin": {
+    "nom": "toile-lolita-lapin",
+    "source": "recu/tableau-deco-chambre-enfant-17.webp",
+    "role": "produit",
+    "alt": "Toile originale de Sevb : Petite Lolita et son doudou lapin vert anis",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "b73844514e7ae816",
+    "ratio": "1:1",
+    "largeurs": [
+      400,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "47% 49%",
+    "sujet": {
+      "x": 6.3,
+      "y": 6.3,
+      "l": 81.5,
+      "h": 84.4
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.17,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.16,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.13,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.09,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 798,
+      "height": 798,
+      "source": [
+        800,
+        798
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "800 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "toile-lolita-lapin-400.webp",
+      "toile-lolita-lapin-800.webp"
+    ],
+    "poids": {
+      "toile-lolita-lapin-400.webp": 22970,
+      "toile-lolita-lapin-800.webp": 59094
+    },
+    "media": "c.media({ nom: 'toile-lolita-lapin', alt: \"Toile originale de Sevb : Petite Lolita et son doudou lapin vert anis\", cadrage: '47% 49%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '1 / 1' })"
+  },
+  "toile-princesse-pois": {
+    "nom": "toile-princesse-pois",
+    "source": "recu/tableau-deco-chambre-enfant-13.webp",
+    "role": "produit",
+    "alt": "Toile originale de Sevb : Petite princesse robe à pois",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "311d59db398893fd",
+    "ratio": "1:1",
+    "largeurs": [
+      400,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "49% 46%",
+    "sujet": {
+      "x": 6.3,
+      "y": 0,
+      "l": 87.5,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.09,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.01,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 800,
+      "height": 800,
+      "source": [
+        800,
+        800
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "800 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "toile-princesse-pois-400.webp",
+      "toile-princesse-pois-800.webp"
+    ],
+    "poids": {
+      "toile-princesse-pois-400.webp": 31514,
+      "toile-princesse-pois-800.webp": 75096
+    },
+    "media": "c.media({ nom: 'toile-princesse-pois', alt: \"Toile originale de Sevb : Petite princesse robe à pois\", cadrage: '49% 46%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '1 / 1' })"
+  },
+  "toile-petite-peche": {
+    "nom": "toile-petite-peche",
+    "source": "recu/tableau-deco-chambre-enfant-3.webp",
+    "role": "produit",
+    "alt": "Toile originale de Sevb : Petite pêche",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "8695a2861654db2e",
+    "ratio": "1:1",
+    "largeurs": [
+      400,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "48% 45%",
+    "sujet": {
+      "x": 18.8,
+      "y": 3.2,
+      "l": 65.6,
+      "h": 83
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.52,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.33,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.29,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 800,
+      "height": 800,
+      "source": [
+        800,
+        817
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "800 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "toile-petite-peche-400.webp",
+      "toile-petite-peche-800.webp"
+    ],
+    "poids": {
+      "toile-petite-peche-400.webp": 13724,
+      "toile-petite-peche-800.webp": 30438
+    },
+    "media": "c.media({ nom: 'toile-petite-peche', alt: \"Toile originale de Sevb : Petite pêche\", cadrage: '48% 45%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '1 / 1' })"
+  },
+  "toile-aviateur": {
+    "nom": "toile-aviateur",
+    "source": "recu/tableau-deco-chambre-enfant-18.webp",
+    "role": "produit",
+    "alt": "Toile originale de Sevb : Mon petit aviateur en vol",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "1c695f426f6ffa8d",
+    "ratio": "1:1",
+    "largeurs": [
+      400,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "49% 57%",
+    "sujet": {
+      "x": 0,
+      "y": 12.5,
+      "l": 98.3,
+      "h": 84.4
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.16,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.03,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 789,
+      "height": 789,
+      "source": [
+        800,
+        789
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "800 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "toile-aviateur-400.webp",
+      "toile-aviateur-800.webp"
+    ],
+    "poids": {
+      "toile-aviateur-400.webp": 27328,
+      "toile-aviateur-800.webp": 75214
+    },
+    "media": "c.media({ nom: 'toile-aviateur', alt: \"Toile originale de Sevb : Mon petit aviateur en vol\", cadrage: '49% 57%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '1 / 1' })"
+  },
+  "toile-prince-turquoise": {
+    "nom": "toile-prince-turquoise",
+    "source": "recu/tableau-deco-chambre-enfant-19.webp",
+    "role": "produit",
+    "alt": "Toile originale de Sevb : Mon petit prince, fond quadrillé turquoise",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "0e4342d8d6432bb7",
+    "ratio": "1:1",
+    "largeurs": [
+      400
+    ],
+    "mobile": null,
+    "cadrage": "51% 43%",
+    "sujet": {
+      "x": 6.3,
+      "y": 3.1,
+      "l": 87.5,
+      "h": 87.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.13,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.1,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.09,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.01,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 458,
+      "height": 458,
+      "source": [
+        458,
+        458
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "largeurs retirées (source trop petite) : 800",
+      "458 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "toile-prince-turquoise-400.webp"
+    ],
+    "poids": {
+      "toile-prince-turquoise-400.webp": 22334
+    },
+    "media": "c.media({ nom: 'toile-prince-turquoise', alt: \"Toile originale de Sevb : Mon petit prince, fond quadrillé turquoise\", cadrage: '51% 43%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '1 / 1' })"
+  },
+  "toile-prince-nb": {
+    "nom": "toile-prince-nb",
+    "source": "recu/tableau-deco-chambre-enfant-2.webp",
+    "role": "produit",
+    "alt": "Toile originale de Sevb : Mon petit prince noir et blanc",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "7bd94b3b528bbc1b",
+    "ratio": "1:1",
+    "largeurs": [
+      400,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "56% 47%",
+    "sujet": {
+      "x": 0,
+      "y": 3.2,
+      "l": 96.9,
+      "h": 95.9
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 800,
+      "height": 800,
+      "source": [
+        800,
+        818
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "800 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "toile-prince-nb-400.webp",
+      "toile-prince-nb-800.webp"
+    ],
+    "poids": {
+      "toile-prince-nb-400.webp": 27544,
+      "toile-prince-nb-800.webp": 64622
+    },
+    "media": "c.media({ nom: 'toile-prince-nb', alt: \"Toile originale de Sevb : Mon petit prince noir et blanc\", cadrage: '56% 47%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '1 / 1' })"
+  },
+  "toile-skateur": {
+    "nom": "toile-skateur",
+    "source": "recu/tableau-deco-chambre-enfant-14.webp",
+    "role": "produit",
+    "alt": "Toile originale de Sevb : Mon petit skateur, fond jaune orangé",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "4ef030b8fce146e1",
+    "ratio": "1:1",
+    "largeurs": [
+      400,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "51% 49%",
+    "sujet": {
+      "x": 6.3,
+      "y": 6.3,
+      "l": 90.6,
+      "h": 90.6
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.23,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.2,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.19,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.09,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 800,
+      "height": 800,
+      "source": [
+        800,
+        800
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "800 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "toile-skateur-400.webp",
+      "toile-skateur-800.webp"
+    ],
+    "poids": {
+      "toile-skateur-400.webp": 25294,
+      "toile-skateur-800.webp": 74274
+    },
+    "media": "c.media({ nom: 'toile-skateur', alt: \"Toile originale de Sevb : Mon petit skateur, fond jaune orangé\", cadrage: '51% 49%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '1 / 1' })"
+  },
+  "toile-petit-homme": {
+    "nom": "toile-petit-homme",
+    "source": "recu/tableau-deco-chambre-enfant-12.webp",
+    "role": "produit",
+    "alt": "Toile originale de Sevb : Petit homme",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "f0ce14c221d3a01e",
+    "ratio": "1:1",
+    "largeurs": [
+      400,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "46% 50%",
+    "sujet": {
+      "x": 6.3,
+      "y": 6.2,
+      "l": 87.5,
+      "h": 87.7
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.42,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.27,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.21,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.02,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 1,
+      "width": 800,
+      "height": 800,
+      "source": [
+        800,
+        802
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "800 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "toile-petit-homme-400.webp",
+      "toile-petit-homme-800.webp"
+    ],
+    "poids": {
+      "toile-petit-homme-400.webp": 10618,
+      "toile-petit-homme-800.webp": 26176
+    },
+    "media": "c.media({ nom: 'toile-petit-homme', alt: \"Toile originale de Sevb : Petit homme\", cadrage: '46% 50%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '1 / 1' })"
+  },
+  "toile-prince-bulles": {
+    "nom": "toile-prince-bulles",
+    "source": "recu/tableau-deco-chambre-enfant-15.webp",
+    "role": "produit",
+    "alt": "Toile originale de Sevb : Petit prince, fond bulles et son doudou mouton",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "9df6a3bb98692365",
+    "ratio": "1:1",
+    "largeurs": [
+      400,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "49% 48%",
+    "sujet": {
+      "x": 3.1,
+      "y": 0,
+      "l": 90.6,
+      "h": 96.9
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 800,
+      "height": 800,
+      "source": [
+        800,
+        800
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "800 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "toile-prince-bulles-400.webp",
+      "toile-prince-bulles-800.webp"
+    ],
+    "poids": {
+      "toile-prince-bulles-400.webp": 31518,
+      "toile-prince-bulles-800.webp": 100014
+    },
+    "media": "c.media({ nom: 'toile-prince-bulles', alt: \"Toile originale de Sevb : Petit prince, fond bulles et son doudou mouton\", cadrage: '49% 48%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '1 / 1' })"
+  },
+  "toile-jungle": {
+    "nom": "toile-jungle",
+    "source": "recu/tableau-deco-chambre-enfant-4.webp",
+    "role": "produit",
+    "alt": "Toile originale de Sevb : Petite jungle et explorateur",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "5a97caa4abda3d45",
+    "ratio": "1:1",
+    "largeurs": [
+      400,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "46% 49%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 93.8,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 800,
+      "height": 800,
+      "source": [
+        800,
+        810
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "800 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "toile-jungle-400.webp",
+      "toile-jungle-800.webp"
+    ],
+    "poids": {
+      "toile-jungle-400.webp": 29034,
+      "toile-jungle-800.webp": 75296
+    },
+    "media": "c.media({ nom: 'toile-jungle', alt: \"Toile originale de Sevb : Petite jungle et explorateur\", cadrage: '46% 49%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '1 / 1' })"
+  },
+  "affiche-zebulon": {
+    "nom": "affiche-zebulon",
+    "source": "recu/affiche-enfant-fille-petit.webp",
+    "role": "produit",
+    "alt": "Affiche de Sevb : Petit Zébulon, tresses et baguette magique",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "2238fee052079e2e",
+    "ratio": "7:10",
+    "largeurs": [
+      400,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "45% 48%",
+    "sujet": {
+      "x": 8.7,
+      "y": 12.5,
+      "l": 78.4,
+      "h": 78.1
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.36,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.33,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.26,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.17,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 799,
+      "height": 1142,
+      "source": [
+        800,
+        1142
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "800 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "affiche-zebulon-400.webp",
+      "affiche-zebulon-800.webp"
+    ],
+    "poids": {
+      "affiche-zebulon-400.webp": 20928,
+      "affiche-zebulon-800.webp": 57746
+    },
+    "media": "c.media({ nom: 'affiche-zebulon', alt: \"Affiche de Sevb : Petit Zébulon, tresses et baguette magique\", cadrage: '45% 48%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '7 / 10' })"
+  },
+  "detail-zebulon": {
+    "nom": "detail-zebulon",
+    "source": "recu/affiche-enfant-fille-petit-4.webp",
+    "role": "produit",
+    "alt": "Détail de l’affiche Petit Zébulon, tresses et baguette magique",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "58f172516dd0567b",
+    "ratio": "4:3",
+    "largeurs": [
+      400,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "52% 57%",
+    "sujet": {
+      "x": 3.1,
+      "y": 4.2,
+      "l": 90.6,
+      "h": 95.8
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.06,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.01,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 800,
+      "height": 600,
+      "source": [
+        800,
+        600
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "800 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "detail-zebulon-400.webp",
+      "detail-zebulon-800.webp"
+    ],
+    "poids": {
+      "detail-zebulon-400.webp": 16010,
+      "detail-zebulon-800.webp": 44418
+    },
+    "media": "c.media({ nom: 'detail-zebulon', alt: \"Détail de l’affiche Petit Zébulon, tresses et baguette magique\", cadrage: '52% 57%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '4 / 3' })"
+  },
+  "affiche-chipie-oiseau": {
+    "nom": "affiche-chipie-oiseau",
+    "source": "recu/affiche-enfant-fille-petite-2.webp",
+    "role": "produit",
+    "alt": "Affiche de Sevb : Petite chipie blonde et rose et son oiseau",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "b4702e845289583c",
+    "ratio": "7:10",
+    "largeurs": [
+      400,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "45% 55%",
+    "sujet": {
+      "x": 26.1,
+      "y": 12.4,
+      "l": 39.1,
+      "h": 81.4
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.68,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.41,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.37,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.26,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 1,
+      "width": 800,
+      "height": 1143,
+      "source": [
+        800,
+        1144
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "800 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "affiche-chipie-oiseau-400.webp",
+      "affiche-chipie-oiseau-800.webp"
+    ],
+    "poids": {
+      "affiche-chipie-oiseau-400.webp": 20240,
+      "affiche-chipie-oiseau-800.webp": 65026
+    },
+    "media": "c.media({ nom: 'affiche-chipie-oiseau', alt: \"Affiche de Sevb : Petite chipie blonde et rose et son oiseau\", cadrage: '45% 55%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '7 / 10' })"
+  },
+  "affiche-coquine-bain": {
+    "nom": "affiche-coquine-bain",
+    "source": "recu/affiche-enfant-fille-petite-4.webp",
+    "role": "produit",
+    "alt": "Affiche de Sevb : Petite coquine, tenue de bain",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "6e4d7eefe11fb554",
+    "ratio": "7:10",
+    "largeurs": [
+      400,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "51% 48%",
+    "sujet": {
+      "x": 21.5,
+      "y": 6.3,
+      "l": 61.1,
+      "h": 87.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.51,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.31,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.21,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.16,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 2,
+      "top": 0,
+      "width": 798,
+      "height": 1140,
+      "source": [
+        800,
+        1140
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "800 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "affiche-coquine-bain-400.webp",
+      "affiche-coquine-bain-800.webp"
+    ],
+    "poids": {
+      "affiche-coquine-bain-400.webp": 20190,
+      "affiche-coquine-bain-800.webp": 58832
+    },
+    "media": "c.media({ nom: 'affiche-coquine-bain', alt: \"Affiche de Sevb : Petite coquine, tenue de bain\", cadrage: '51% 48%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '7 / 10' })"
+  },
+  "affiche-danseuse": {
+    "nom": "affiche-danseuse",
+    "source": "recu/affiche-enfant-fille-petite-5.webp",
+    "role": "produit",
+    "alt": "Affiche de Sevb : Petite danseuse rose avec tutu",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "37e50e2c70677ba0",
+    "ratio": "7:10",
+    "largeurs": [
+      400,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "50% 53%",
+    "sujet": {
+      "x": 21.6,
+      "y": 12.5,
+      "l": 52.3,
+      "h": 78.1
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.5,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.47,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.4,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.33,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 1,
+      "top": 0,
+      "width": 798,
+      "height": 1140,
+      "source": [
+        800,
+        1140
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "800 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "affiche-danseuse-400.webp",
+      "affiche-danseuse-800.webp"
+    ],
+    "poids": {
+      "affiche-danseuse-400.webp": 22436,
+      "affiche-danseuse-800.webp": 68204
+    },
+    "media": "c.media({ nom: 'affiche-danseuse', alt: \"Affiche de Sevb : Petite danseuse rose avec tutu\", cadrage: '50% 53%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '7 / 10' })"
+  },
+  "affiche-fee-nb": {
+    "nom": "affiche-fee-nb",
+    "source": "recu/affiche-enfant-fille-petite.webp",
+    "role": "produit",
+    "alt": "Affiche de Sevb : Petite fée noir et blanc, ailes et baguette",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "4191ebf2152316cb",
+    "ratio": "7:10",
+    "largeurs": [
+      400,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "49% 48%",
+    "sujet": {
+      "x": 13,
+      "y": 9.4,
+      "l": 69.6,
+      "h": 84.6
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.38,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.24,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.24,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.15,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 800,
+      "height": 1143,
+      "source": [
+        800,
+        1146
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "800 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "affiche-fee-nb-400.webp",
+      "affiche-fee-nb-800.webp"
+    ],
+    "poids": {
+      "affiche-fee-nb-400.webp": 31058,
+      "affiche-fee-nb-800.webp": 97854
+    },
+    "media": "c.media({ nom: 'affiche-fee-nb', alt: \"Affiche de Sevb : Petite fée noir et blanc, ailes et baguette\", cadrage: '49% 48%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '7 / 10' })"
+  },
+  "affiche-fee-rose": {
+    "nom": "affiche-fee-rose",
+    "source": "recu/affiche-enfant-fille-petite-7.webp",
+    "role": "produit",
+    "alt": "Affiche de Sevb : Petite fée rose à pois avec ses ailes",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "73b8469ee7de4ce4",
+    "ratio": "7:10",
+    "largeurs": [
+      400,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "50% 52%",
+    "sujet": {
+      "x": 7.1,
+      "y": 9.4,
+      "l": 84.1,
+      "h": 81.3
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.19,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.11,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.11,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.09,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 10,
+      "top": 0,
+      "width": 560,
+      "height": 800,
+      "source": [
+        570,
+        800
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "570 px de large"
+    ],
+    "avertissements": [
+      "agrandie 1,43 fois (source de 560 px après recadrage)"
+    ],
+    "fichiers": [
+      "affiche-fee-rose-400.webp",
+      "affiche-fee-rose-800.webp"
+    ],
+    "poids": {
+      "affiche-fee-rose-400.webp": 30972,
+      "affiche-fee-rose-800.webp": 79114
+    },
+    "media": "c.media({ nom: 'affiche-fee-rose', alt: \"Affiche de Sevb : Petite fée rose à pois avec ses ailes\", cadrage: '50% 52%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '7 / 10' })"
+  },
+  "affiche-fille-modele": {
+    "nom": "affiche-fille-modele",
+    "source": "recu/affiche-enfant-fille-petite-6.webp",
+    "role": "produit",
+    "alt": "Affiche de Sevb : Petite fille modèle bleu marine et blanc",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "1243f4b4d640e39d",
+    "ratio": "7:10",
+    "largeurs": [
+      400,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "50% 52%",
+    "sujet": {
+      "x": 21.5,
+      "y": 6.3,
+      "l": 52.4,
+      "h": 87.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.47,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.42,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.29,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.26,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 2,
+      "top": 0,
+      "width": 797,
+      "height": 1138,
+      "source": [
+        800,
+        1138
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "800 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "affiche-fille-modele-400.webp",
+      "affiche-fille-modele-800.webp"
+    ],
+    "poids": {
+      "affiche-fille-modele-400.webp": 16936,
+      "affiche-fille-modele-800.webp": 48850
+    },
+    "media": "c.media({ nom: 'affiche-fille-modele', alt: \"Affiche de Sevb : Petite fille modèle bleu marine et blanc\", cadrage: '50% 52%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '7 / 10' })"
+  },
+  "affiche-lolita-bleue": {
+    "nom": "affiche-lolita-bleue",
+    "source": "recu/affiche-enfant-fille-petite-3.webp",
+    "role": "produit",
+    "alt": "Affiche de Sevb : Petite Lolita bleue à pois blanc et lunettes",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "10bbf82ed97cde27",
+    "ratio": "7:10",
+    "largeurs": [
+      400,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "48% 46%",
+    "sujet": {
+      "x": 30.4,
+      "y": 6.3,
+      "l": 34.8,
+      "h": 87.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.79,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.71,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.6,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.48,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 799,
+      "height": 1142,
+      "source": [
+        800,
+        1142
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "800 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "affiche-lolita-bleue-400.webp",
+      "affiche-lolita-bleue-800.webp"
+    ],
+    "poids": {
+      "affiche-lolita-bleue-400.webp": 18230,
+      "affiche-lolita-bleue-800.webp": 76470
+    },
+    "media": "c.media({ nom: 'affiche-lolita-bleue', alt: \"Affiche de Sevb : Petite Lolita bleue à pois blanc et lunettes\", cadrage: '48% 46%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '7 / 10' })"
+  },
+  "affiche-lolita-rouge": {
+    "nom": "affiche-lolita-rouge",
+    "source": "recu/affiche-enfant-fille-petite-8.webp",
+    "role": "produit",
+    "alt": "Affiche de Sevb : Petite Lolita rouge brune à pois",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "8fe79709a0681c5b",
+    "ratio": "7:10",
+    "largeurs": [
+      400,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "47% 54%",
+    "sujet": {
+      "x": 26.1,
+      "y": 6.3,
+      "l": 52.3,
+      "h": 90.6
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.4,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.39,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.26,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.17,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 799,
+      "height": 1142,
+      "source": [
+        800,
+        1142
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "800 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "affiche-lolita-rouge-400.webp",
+      "affiche-lolita-rouge-800.webp"
+    ],
+    "poids": {
+      "affiche-lolita-rouge-400.webp": 22182,
+      "affiche-lolita-rouge-800.webp": 67578
+    },
+    "media": "c.media({ nom: 'affiche-lolita-rouge', alt: \"Affiche de Sevb : Petite Lolita rouge brune à pois\", cadrage: '47% 54%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '7 / 10' })"
+  },
+  "detail-lolita-rouge": {
+    "nom": "detail-lolita-rouge",
+    "source": "recu/affiche-enfant-fille-petite-15.webp",
+    "role": "produit",
+    "alt": "Détail de l’affiche Petite Lolita rouge brune à pois",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "fba7aedee0d5fe7c",
+    "ratio": "4:3",
+    "largeurs": [
+      400,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "50% 54%",
+    "sujet": {
+      "x": 21.9,
+      "y": 8.3,
+      "l": 68.8,
+      "h": 91.7
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.26,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.15,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.14,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.09,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 800,
+      "height": 600,
+      "source": [
+        800,
+        600
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "800 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "detail-lolita-rouge-400.webp",
+      "detail-lolita-rouge-800.webp"
+    ],
+    "poids": {
+      "detail-lolita-rouge-400.webp": 14066,
+      "detail-lolita-rouge-800.webp": 48194
+    },
+    "media": "c.media({ nom: 'detail-lolita-rouge', alt: \"Détail de l’affiche Petite Lolita rouge brune à pois\", cadrage: '50% 54%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '4 / 3' })"
+  },
+  "affiche-motarde": {
+    "nom": "affiche-motarde",
+    "source": "recu/affiche-enfant-fille-petite-9.webp",
+    "role": "produit",
+    "alt": "Affiche de Sevb : Petite motarde, sa tenue et son casque",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "0669627376d024c4",
+    "ratio": "7:10",
+    "largeurs": [
+      400,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "49% 50%",
+    "sujet": {
+      "x": 22,
+      "y": 6.3,
+      "l": 52.9,
+      "h": 90.6
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.66,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.52,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.39,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.27,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 789,
+      "height": 1127,
+      "source": [
+        800,
+        1127
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "800 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "affiche-motarde-400.webp",
+      "affiche-motarde-800.webp"
+    ],
+    "poids": {
+      "affiche-motarde-400.webp": 17690,
+      "affiche-motarde-800.webp": 64692
+    },
+    "media": "c.media({ nom: 'affiche-motarde', alt: \"Affiche de Sevb : Petite motarde, sa tenue et son casque\", cadrage: '49% 50%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '7 / 10' })"
+  },
+  "detail-motarde": {
+    "nom": "detail-motarde",
+    "source": "recu/affiche-enfant-fille-petite-18.webp",
+    "role": "produit",
+    "alt": "Détail de l’affiche Petite motarde, sa tenue et son casque",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "b4f05f8f08abcef8",
+    "ratio": "4:3",
+    "largeurs": [
+      400,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "53% 49%",
+    "sujet": {
+      "x": 9.4,
+      "y": 0,
+      "l": 78.1,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.15,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.1,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.04,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 800,
+      "height": 600,
+      "source": [
+        800,
+        600
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "800 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "detail-motarde-400.webp",
+      "detail-motarde-800.webp"
+    ],
+    "poids": {
+      "detail-motarde-400.webp": 18594,
+      "detail-motarde-800.webp": 57690
+    },
+    "media": "c.media({ nom: 'detail-motarde', alt: \"Détail de l’affiche Petite motarde, sa tenue et son casque\", cadrage: '53% 49%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '4 / 3' })"
+  },
+  "affiche-super-heros": {
+    "nom": "affiche-super-heros",
+    "source": "recu/affiche-enfant-garcon-fille-7.webp",
+    "role": "produit",
+    "alt": "Affiche de Sevb : Mon monde de super héros",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "4a0325c228e211a1",
+    "ratio": "7:10",
+    "largeurs": [
+      400
+    ],
+    "mobile": null,
+    "cadrage": "50% 54%",
+    "sujet": {
+      "x": 13,
+      "y": 9.1,
+      "l": 78.3,
+      "h": 87.8
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.04,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.03,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.02,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 2,
+      "width": 482,
+      "height": 689,
+      "source": [
+        482,
+        691
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "largeurs retirées (source trop petite) : 800",
+      "482 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "affiche-super-heros-400.webp"
+    ],
+    "poids": {
+      "affiche-super-heros-400.webp": 37800
+    },
+    "media": "c.media({ nom: 'affiche-super-heros', alt: \"Affiche de Sevb : Mon monde de super héros\", cadrage: '50% 54%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '7 / 10' })"
+  },
+  "detail-super-heros": {
+    "nom": "detail-super-heros",
+    "source": "recu/affiche-enfant-garcon-fille-12.webp",
+    "role": "produit",
+    "alt": "Détail de l’affiche Mon monde de super héros",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "876bc52d7e3565bd",
+    "ratio": "4:3",
+    "largeurs": [
+      400,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "49% 55%",
+    "sujet": {
+      "x": 3.1,
+      "y": 4.2,
+      "l": 93.8,
+      "h": 95.8
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 800,
+      "height": 600,
+      "source": [
+        800,
+        600
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "800 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "detail-super-heros-400.webp",
+      "detail-super-heros-800.webp"
+    ],
+    "poids": {
+      "detail-super-heros-400.webp": 25396,
+      "detail-super-heros-800.webp": 82356
+    },
+    "media": "c.media({ nom: 'detail-super-heros', alt: \"Détail de l’affiche Mon monde de super héros\", cadrage: '49% 55%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '4 / 3' })"
+  },
+  "affiche-chevalier": {
+    "nom": "affiche-chevalier",
+    "source": "recu/affiche-enfant-garcon-fille-4.webp",
+    "role": "produit",
+    "alt": "Affiche de Sevb : Petit chevalier bleu",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "69adea121cf067c9",
+    "ratio": "7:10",
+    "largeurs": [
+      400,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "49% 52%",
+    "sujet": {
+      "x": 17.6,
+      "y": 6.3,
+      "l": 52.7,
+      "h": 90.6
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.65,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.52,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.41,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.36,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 793,
+      "height": 1133,
+      "source": [
+        800,
+        1133
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "800 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "affiche-chevalier-400.webp",
+      "affiche-chevalier-800.webp"
+    ],
+    "poids": {
+      "affiche-chevalier-400.webp": 19982,
+      "affiche-chevalier-800.webp": 70156
+    },
+    "media": "c.media({ nom: 'affiche-chevalier', alt: \"Affiche de Sevb : Petit chevalier bleu\", cadrage: '49% 52%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '7 / 10' })"
+  },
+  "detail-chevalier": {
+    "nom": "detail-chevalier",
+    "source": "recu/affiche-enfant-chevalier.webp",
+    "role": "produit",
+    "alt": "Détail de l’affiche Petit chevalier bleu",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "9cbef4a6c90e58bc",
+    "ratio": "4:3",
+    "largeurs": [
+      400,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "50% 51%",
+    "sujet": {
+      "x": 6.3,
+      "y": 8.3,
+      "l": 87.5,
+      "h": 91.7
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.19,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.12,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.12,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.02,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 800,
+      "height": 600,
+      "source": [
+        800,
+        600
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "800 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "detail-chevalier-400.webp",
+      "detail-chevalier-800.webp"
+    ],
+    "poids": {
+      "detail-chevalier-400.webp": 16796,
+      "detail-chevalier-800.webp": 51000
+    },
+    "media": "c.media({ nom: 'detail-chevalier', alt: \"Détail de l’affiche Petit chevalier bleu\", cadrage: '50% 51%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '4 / 3' })"
+  },
+  "affiche-footballeur": {
+    "nom": "affiche-footballeur",
+    "source": "recu/affiche-enfant-garcon-fille-2.webp",
+    "role": "produit",
+    "alt": "Affiche de Sevb : Petit footballeur",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "439161781c872892",
+    "ratio": "7:10",
+    "largeurs": [
+      400,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "53% 52%",
+    "sujet": {
+      "x": 25.8,
+      "y": 9.4,
+      "l": 61.1,
+      "h": 84.4
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.67,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.37,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.31,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.26,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 3,
+      "top": 0,
+      "width": 797,
+      "height": 1138,
+      "source": [
+        800,
+        1138
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "800 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "affiche-footballeur-400.webp",
+      "affiche-footballeur-800.webp"
+    ],
+    "poids": {
+      "affiche-footballeur-400.webp": 15774,
+      "affiche-footballeur-800.webp": 47164
+    },
+    "media": "c.media({ nom: 'affiche-footballeur', alt: \"Affiche de Sevb : Petit footballeur\", cadrage: '53% 52%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '7 / 10' })"
+  },
+  "detail-footballeur": {
+    "nom": "detail-footballeur",
+    "source": "recu/affiche-enfant-garcon-fille-18.webp",
+    "role": "produit",
+    "alt": "Détail de l’affiche Petit footballeur",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "0c3ccaf089711dd1",
+    "ratio": "4:3",
+    "largeurs": [
+      400,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "53% 51%",
+    "sujet": {
+      "x": 15.6,
+      "y": 8.3,
+      "l": 78.1,
+      "h": 91.7
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.33,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.2,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.13,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.06,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 800,
+      "height": 600,
+      "source": [
+        800,
+        600
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "800 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "detail-footballeur-400.webp",
+      "detail-footballeur-800.webp"
+    ],
+    "poids": {
+      "detail-footballeur-400.webp": 11924,
+      "detail-footballeur-800.webp": 35788
+    },
+    "media": "c.media({ nom: 'detail-footballeur', alt: \"Détail de l’affiche Petit footballeur\", cadrage: '53% 51%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '4 / 3' })"
+  },
+  "affiche-pecheur": {
+    "nom": "affiche-pecheur",
+    "source": "recu/affiche-enfant-garcon-fille-5.webp",
+    "role": "produit",
+    "alt": "Affiche de Sevb : Petit pêcheur",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "7fee46cbe8a53449",
+    "ratio": "7:10",
+    "largeurs": [
+      400,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "50% 52%",
+    "sujet": {
+      "x": 17,
+      "y": 9.4,
+      "l": 61.4,
+      "h": 81.3
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.43,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.36,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.35,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.24,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 4,
+      "top": 0,
+      "width": 793,
+      "height": 1133,
+      "source": [
+        800,
+        1133
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "800 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "affiche-pecheur-400.webp",
+      "affiche-pecheur-800.webp"
+    ],
+    "poids": {
+      "affiche-pecheur-400.webp": 17746,
+      "affiche-pecheur-800.webp": 50540
+    },
+    "media": "c.media({ nom: 'affiche-pecheur', alt: \"Affiche de Sevb : Petit pêcheur\", cadrage: '50% 52%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '7 / 10' })"
+  },
+  "detail-pecheur": {
+    "nom": "detail-pecheur",
+    "source": "recu/affiche-enfant-garcon-fille-21.webp",
+    "role": "produit",
+    "alt": "Détail de l’affiche Petit pêcheur",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "22542e54e8765808",
+    "ratio": "4:3",
+    "largeurs": [
+      400,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "45% 48%",
+    "sujet": {
+      "x": 3.1,
+      "y": 4.2,
+      "l": 84.4,
+      "h": 95.8
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.19,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.02,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 800,
+      "height": 600,
+      "source": [
+        800,
+        600
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "800 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "detail-pecheur-400.webp",
+      "detail-pecheur-800.webp"
+    ],
+    "poids": {
+      "detail-pecheur-400.webp": 14180,
+      "detail-pecheur-800.webp": 38506
+    },
+    "media": "c.media({ nom: 'detail-pecheur', alt: \"Détail de l’affiche Petit pêcheur\", cadrage: '45% 48%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '4 / 3' })"
+  },
+  "affiche-pompier": {
+    "nom": "affiche-pompier",
+    "source": "recu/affiche-enfant-garcon-fille-3.webp",
+    "role": "produit",
+    "alt": "Affiche de Sevb : Petit pompier",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "5632f0c7cd250d30",
+    "ratio": "7:10",
+    "largeurs": [
+      400,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "53% 57%",
+    "sujet": {
+      "x": 25.6,
+      "y": 6.3,
+      "l": 65.6,
+      "h": 87.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.54,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.28,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.21,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.12,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 5,
+      "top": 0,
+      "width": 795,
+      "height": 1135,
+      "source": [
+        800,
+        1135
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "800 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "affiche-pompier-400.webp",
+      "affiche-pompier-800.webp"
+    ],
+    "poids": {
+      "affiche-pompier-400.webp": 18098,
+      "affiche-pompier-800.webp": 56014
+    },
+    "media": "c.media({ nom: 'affiche-pompier', alt: \"Affiche de Sevb : Petit pompier\", cadrage: '53% 57%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '7 / 10' })"
+  },
+  "detail-pompier": {
+    "nom": "detail-pompier",
+    "source": "recu/affiche-enfant-garcon-fille-24.webp",
+    "role": "produit",
+    "alt": "Détail de l’affiche Petit pompier",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "a6ed5bd428dbac2c",
+    "ratio": "4:3",
+    "largeurs": [
+      400,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "50% 51%",
+    "sujet": {
+      "x": 15.6,
+      "y": 4.2,
+      "l": 75,
+      "h": 95.8
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.26,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.2,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.16,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.04,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 800,
+      "height": 600,
+      "source": [
+        800,
+        600
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "800 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "detail-pompier-400.webp",
+      "detail-pompier-800.webp"
+    ],
+    "poids": {
+      "detail-pompier-400.webp": 13364,
+      "detail-pompier-800.webp": 40636
+    },
+    "media": "c.media({ nom: 'detail-pompier', alt: \"Détail de l’affiche Petit pompier\", cadrage: '50% 51%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '4 / 3' })"
+  },
+  "affiche-prince": {
+    "nom": "affiche-prince",
+    "source": "recu/affiche-enfant-garcon-fille.webp",
+    "role": "produit",
+    "alt": "Affiche de Sevb : Petit prince",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "b63664d55bde528f",
+    "ratio": "7:10",
+    "largeurs": [
+      400,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "47% 56%",
+    "sujet": {
+      "x": 26.1,
+      "y": 6,
+      "l": 39.1,
+      "h": 87.8
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.71,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.46,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.4,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.34,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 4,
+      "width": 800,
+      "height": 1143,
+      "source": [
+        800,
+        1147
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "800 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "affiche-prince-400.webp",
+      "affiche-prince-800.webp"
+    ],
+    "poids": {
+      "affiche-prince-400.webp": 13542,
+      "affiche-prince-800.webp": 44492
+    },
+    "media": "c.media({ nom: 'affiche-prince', alt: \"Affiche de Sevb : Petit prince\", cadrage: '47% 56%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '7 / 10' })"
+  },
+  "detail-prince": {
+    "nom": "detail-prince",
+    "source": "recu/affiche-enfant-garcon-fille-27.webp",
+    "role": "produit",
+    "alt": "Détail de l’affiche Petit prince",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "ec9023fb053fdae6",
+    "ratio": "4:3",
+    "largeurs": [
+      400,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "49% 49%",
+    "sujet": {
+      "x": 18.8,
+      "y": 4.2,
+      "l": 68.8,
+      "h": 95.8
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.39,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.33,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.32,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.07,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 800,
+      "height": 600,
+      "source": [
+        800,
+        600
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "800 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "detail-prince-400.webp",
+      "detail-prince-800.webp"
+    ],
+    "poids": {
+      "detail-prince-400.webp": 10212,
+      "detail-prince-800.webp": 29910
+    },
+    "media": "c.media({ nom: 'detail-prince', alt: \"Détail de l’affiche Petit prince\", cadrage: '49% 49%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '4 / 3' })"
+  },
+  "affiche-raconte-moi": {
+    "nom": "affiche-raconte-moi",
+    "source": "recu/affiches-chambre-enfant-a4.webp",
+    "role": "produit",
+    "alt": "Affiche de Sevb : Petit prince, raconte-moi une histoire",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "26e015d7e0323b6f",
+    "ratio": "7:10",
+    "largeurs": [
+      400,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "50% 50%",
+    "sujet": {
+      "x": 9.1,
+      "y": 9.5,
+      "l": 77.3,
+      "h": 85.7
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.53,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.49,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.37,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.3,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 800,
+      "height": 1143,
+      "source": [
+        800,
+        1161
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "800 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "affiche-raconte-moi-400.webp",
+      "affiche-raconte-moi-800.webp"
+    ],
+    "poids": {
+      "affiche-raconte-moi-400.webp": 24754,
+      "affiche-raconte-moi-800.webp": 89846
+    },
+    "media": "c.media({ nom: 'affiche-raconte-moi', alt: \"Affiche de Sevb : Petit prince, raconte-moi une histoire\", sizes: '(max-width: 760px) 50vw, 25vw', ratio: '7 / 10' })"
+  },
+  "detail-raconte-moi": {
+    "nom": "detail-raconte-moi",
+    "source": "recu/affiche-enfant-garcon-fille-29.webp",
+    "role": "produit",
+    "alt": "Détail de l’affiche Petit prince, raconte-moi une histoire",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "feb5dc8fa1732224",
+    "ratio": "4:3",
+    "largeurs": [
+      400,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "50% 55%",
+    "sujet": {
+      "x": 3.1,
+      "y": 12.5,
+      "l": 87.5,
+      "h": 87.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.34,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.27,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.25,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.09,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 800,
+      "height": 600,
+      "source": [
+        800,
+        600
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "800 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "detail-raconte-moi-400.webp",
+      "detail-raconte-moi-800.webp"
+    ],
+    "poids": {
+      "detail-raconte-moi-400.webp": 16464,
+      "detail-raconte-moi-800.webp": 52670
+    },
+    "media": "c.media({ nom: 'detail-raconte-moi', alt: \"Détail de l’affiche Petit prince, raconte-moi une histoire\", cadrage: '50% 55%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '4 / 3' })"
+  },
+  "affiche-zorro": {
+    "nom": "affiche-zorro",
+    "source": "recu/affiche-enfant-garcon-fille-6.webp",
+    "role": "produit",
+    "alt": "Affiche de Sevb : Petit Zorro, c’est toi le super héros",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "8a79c28ecd70b349",
+    "ratio": "7:10",
+    "largeurs": [
+      400,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "48% 57%",
+    "sujet": {
+      "x": 18.2,
+      "y": 7.7,
+      "l": 68.2,
+      "h": 89.1
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.33,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.26,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.19,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.16,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 15,
+      "width": 570,
+      "height": 814,
+      "source": [
+        570,
+        829
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "570 px de large"
+    ],
+    "avertissements": [
+      "agrandie 1,4 fois (source de 570 px après recadrage)"
+    ],
+    "fichiers": [
+      "affiche-zorro-400.webp",
+      "affiche-zorro-800.webp"
+    ],
+    "poids": {
+      "affiche-zorro-400.webp": 23068,
+      "affiche-zorro-800.webp": 69634
+    },
+    "media": "c.media({ nom: 'affiche-zorro', alt: \"Affiche de Sevb : Petit Zorro, c’est toi le super héros\", cadrage: '48% 57%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '7 / 10' })"
+  },
+  "detail-zorro": {
+    "nom": "detail-zorro",
+    "source": "recu/affiche-enfant-garcon-fille-31.webp",
+    "role": "produit",
+    "alt": "Détail de l’affiche Petit Zorro, c’est toi le super héros",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "f9d0ecae36285b98",
+    "ratio": "4:3",
+    "largeurs": [
+      400,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "50% 50%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 234,
+      "width": 800,
+      "height": 600,
+      "source": [
+        800,
+        1067
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "800 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "detail-zorro-400.webp",
+      "detail-zorro-800.webp"
+    ],
+    "poids": {
+      "detail-zorro-400.webp": 28716,
+      "detail-zorro-800.webp": 87418
+    },
+    "media": "c.media({ nom: 'detail-zorro', alt: \"Détail de l’affiche Petit Zorro, c’est toi le super héros\", sizes: '(max-width: 760px) 50vw, 25vw', ratio: '4 / 3' })"
+  },
+  "cadre-sobre": {
+    "nom": "cadre-sobre",
+    "source": "recu/affiche-personnalisee-sevb-encadree.webp",
+    "role": "produit",
+    "alt": "Affiche de Sevb dans le cadre noir sobre et chic",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "1569609d2b37ddcc",
+    "ratio": "3:4",
+    "largeurs": [
+      400,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "51% 45%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 97.9,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.08,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.03,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 900,
+      "height": 1200,
+      "source": [
+        918,
+        1200
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "918 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "cadre-sobre-400.webp",
+      "cadre-sobre-800.webp"
+    ],
+    "poids": {
+      "cadre-sobre-400.webp": 12800,
+      "cadre-sobre-800.webp": 57666
+    },
+    "media": "c.media({ nom: 'cadre-sobre', alt: \"Affiche de Sevb dans le cadre noir sobre et chic\", cadrage: '51% 45%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '3 / 4' })"
+  },
+  "coussin-aviateur": {
+    "nom": "coussin-aviateur",
+    "source": "recu/coussin-enfant-series-limitees.webp",
+    "role": "produit",
+    "alt": "Coussin d’après Sevb : Petit aviateur turquoise",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "73068204410b584f",
+    "ratio": "1:1",
+    "largeurs": [
+      400,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "50% 51%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.08,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.07,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.03,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 800,
+      "height": 800,
+      "source": [
+        800,
+        800
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "800 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "coussin-aviateur-400.webp",
+      "coussin-aviateur-800.webp"
+    ],
+    "poids": {
+      "coussin-aviateur-400.webp": 17106,
+      "coussin-aviateur-800.webp": 46324
+    },
+    "media": "c.media({ nom: 'coussin-aviateur', alt: \"Coussin d’après Sevb : Petit aviateur turquoise\", cadrage: '50% 51%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '1 / 1' })"
+  },
+  "coussin-mouton": {
+    "nom": "coussin-mouton",
+    "source": "recu/coussin-enfant-series-limitees-2.webp",
+    "role": "produit",
+    "alt": "Coussin d’après Sevb : Petit mouton prune",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "7de48c6899d17a2d",
+    "ratio": "1:1",
+    "largeurs": [
+      400,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "47% 54%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.11,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.08,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.01,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 800,
+      "height": 800,
+      "source": [
+        800,
+        800
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "800 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "coussin-mouton-400.webp",
+      "coussin-mouton-800.webp"
+    ],
+    "poids": {
+      "coussin-mouton-400.webp": 13482,
+      "coussin-mouton-800.webp": 36536
+    },
+    "media": "c.media({ nom: 'coussin-mouton', alt: \"Coussin d’après Sevb : Petit mouton prune\", cadrage: '47% 54%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '1 / 1' })"
+  },
+  "coussin-ours-damier": {
+    "nom": "coussin-ours-damier",
+    "source": "recu/nounours-sevb.webp",
+    "role": "produit",
+    "alt": "Coussin d’après Sevb : Petit ours damier rose",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "c65f5ffde7a44c34",
+    "ratio": "1:1",
+    "largeurs": [
+      400,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "53% 49%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.06,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.04,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.01,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 800,
+      "height": 800,
+      "source": [
+        800,
+        800
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "800 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "coussin-ours-damier-400.webp",
+      "coussin-ours-damier-800.webp"
+    ],
+    "poids": {
+      "coussin-ours-damier-400.webp": 16626,
+      "coussin-ours-damier-800.webp": 40442
+    },
+    "media": "c.media({ nom: 'coussin-ours-damier', alt: \"Coussin d’après Sevb : Petit ours damier rose\", cadrage: '53% 49%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '1 / 1' })"
+  },
+  "coussin-ours-lune": {
+    "nom": "coussin-ours-lune",
+    "source": "recu/coussin-enfant-series-limitees-3.webp",
+    "role": "produit",
+    "alt": "Coussin d’après Sevb : Petit ours lune",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "25d52fc997404103",
+    "ratio": "1:1",
+    "largeurs": [
+      400,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "49% 51%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.02,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.02,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 800,
+      "height": 800,
+      "source": [
+        800,
+        800
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "800 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "coussin-ours-lune-400.webp",
+      "coussin-ours-lune-800.webp"
+    ],
+    "poids": {
+      "coussin-ours-lune-400.webp": 16184,
+      "coussin-ours-lune-800.webp": 45064
+    },
+    "media": "c.media({ nom: 'coussin-ours-lune', alt: \"Coussin d’après Sevb : Petit ours lune\", cadrage: '49% 51%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '1 / 1' })"
+  },
+  "coussin-pirate": {
+    "nom": "coussin-pirate",
+    "source": "recu/coussin-enfant-series-limitees-4.webp",
+    "role": "produit",
+    "alt": "Coussin d’après Sevb : Petit pirate turquoise",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "83f5d2c16164c4fc",
+    "ratio": "1:1",
+    "largeurs": [
+      400,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "50% 50%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.11,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.04,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.01,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 800,
+      "height": 800,
+      "source": [
+        800,
+        800
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "800 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "coussin-pirate-400.webp",
+      "coussin-pirate-800.webp"
+    ],
+    "poids": {
+      "coussin-pirate-400.webp": 18854,
+      "coussin-pirate-800.webp": 55118
+    },
+    "media": "c.media({ nom: 'coussin-pirate', alt: \"Coussin d’après Sevb : Petit pirate turquoise\", sizes: '(max-width: 760px) 50vw, 25vw', ratio: '1 / 1' })"
+  },
+  "coussin-pompier": {
+    "nom": "coussin-pompier",
+    "source": "recu/coussin-enfant-series-limitees-6.webp",
+    "role": "produit",
+    "alt": "Coussin d’après Sevb : Petit pompier rouge",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "0b5add6c2fb15bb3",
+    "ratio": "1:1",
+    "largeurs": [
+      400,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "51% 50%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 800,
+      "height": 800,
+      "source": [
+        800,
+        800
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "800 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "coussin-pompier-400.webp",
+      "coussin-pompier-800.webp"
+    ],
+    "poids": {
+      "coussin-pompier-400.webp": 18998,
+      "coussin-pompier-800.webp": 50220
+    },
+    "media": "c.media({ nom: 'coussin-pompier', alt: \"Coussin d’après Sevb : Petit pompier rouge\", cadrage: '51% 50%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '1 / 1' })"
+  },
+  "coussin-prince-mouton": {
+    "nom": "coussin-prince-mouton",
+    "source": "recu/coussins.webp",
+    "role": "produit",
+    "alt": "Coussin d’après Sevb : Petit prince et son mouton",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "afe88eb91546b1d2",
+    "ratio": "1:1",
+    "largeurs": [
+      400,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "48% 53%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.06,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.01,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 800,
+      "height": 800,
+      "source": [
+        800,
+        800
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "800 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "coussin-prince-mouton-400.webp",
+      "coussin-prince-mouton-800.webp"
+    ],
+    "poids": {
+      "coussin-prince-mouton-400.webp": 15388,
+      "coussin-prince-mouton-800.webp": 41674
+    },
+    "media": "c.media({ nom: 'coussin-prince-mouton', alt: \"Coussin d’après Sevb : Petit prince et son mouton\", cadrage: '48% 53%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '1 / 1' })"
+  },
+  "coussin-chipie-coeur": {
+    "nom": "coussin-chipie-coeur",
+    "source": "recu/coussin-enfant-series-limitees-5.webp",
+    "role": "produit",
+    "alt": "Coussin d’après Sevb : Petite chipie à cœur",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "7e23d595207c1f1d",
+    "ratio": "1:1",
+    "largeurs": [
+      400,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "49% 52%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.1,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.08,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.05,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 800,
+      "height": 800,
+      "source": [
+        800,
+        800
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "800 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "coussin-chipie-coeur-400.webp",
+      "coussin-chipie-coeur-800.webp"
+    ],
+    "poids": {
+      "coussin-chipie-coeur-400.webp": 16918,
+      "coussin-chipie-coeur-800.webp": 45188
+    },
+    "media": "c.media({ nom: 'coussin-chipie-coeur', alt: \"Coussin d’après Sevb : Petite chipie à cœur\", cadrage: '49% 52%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '1 / 1' })"
+  },
+  "coussin-chipie-lapin": {
+    "nom": "coussin-chipie-lapin",
+    "source": "recu/coussin-enfant-series-limitees-7.webp",
+    "role": "produit",
+    "alt": "Coussin d’après Sevb : Petite chipie et son lapin vert anis",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "d72aab01f8651b1c",
+    "ratio": "1:1",
+    "largeurs": [
+      400,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "53% 54%",
+    "sujet": {
+      "x": 3.1,
+      "y": 0,
+      "l": 96.9,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.13,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.08,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.06,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 800,
+      "height": 800,
+      "source": [
+        800,
+        800
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "800 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "coussin-chipie-lapin-400.webp",
+      "coussin-chipie-lapin-800.webp"
+    ],
+    "poids": {
+      "coussin-chipie-lapin-400.webp": 17046,
+      "coussin-chipie-lapin-800.webp": 50218
+    },
+    "media": "c.media({ nom: 'coussin-chipie-lapin', alt: \"Coussin d’après Sevb : Petite chipie et son lapin vert anis\", cadrage: '53% 54%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '1 / 1' })"
+  },
+  "coussin-chipie-damier": {
+    "nom": "coussin-chipie-damier",
+    "source": "recu/coussin-enfant-series-limitees-8.webp",
+    "role": "produit",
+    "alt": "Coussin d’après Sevb : Petite chipie noir et blanc à damier",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "303f2b2a04fd20f7",
+    "ratio": "1:1",
+    "largeurs": [
+      400,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "53% 50%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 800,
+      "height": 800,
+      "source": [
+        800,
+        800
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "800 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "coussin-chipie-damier-400.webp",
+      "coussin-chipie-damier-800.webp"
+    ],
+    "poids": {
+      "coussin-chipie-damier-400.webp": 18974,
+      "coussin-chipie-damier-800.webp": 53894
+    },
+    "media": "c.media({ nom: 'coussin-chipie-damier', alt: \"Coussin d’après Sevb : Petite chipie noir et blanc à damier\", cadrage: '53% 50%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '1 / 1' })"
+  },
+  "coussin-lutine-mauve": {
+    "nom": "coussin-lutine-mauve",
+    "source": "recu/coussin-enfant-series-limitees-9.webp",
+    "role": "produit",
+    "alt": "Coussin d’après Sevb : Petite fée lutine mauve",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "faf3c0900317f791",
+    "ratio": "1:1",
+    "largeurs": [
+      400,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "52% 49%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.17,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.12,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.11,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.08,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 800,
+      "height": 800,
+      "source": [
+        800,
+        800
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "800 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "coussin-lutine-mauve-400.webp",
+      "coussin-lutine-mauve-800.webp"
+    ],
+    "poids": {
+      "coussin-lutine-mauve-400.webp": 16142,
+      "coussin-lutine-mauve-800.webp": 43362
+    },
+    "media": "c.media({ nom: 'coussin-lutine-mauve', alt: \"Coussin d’après Sevb : Petite fée lutine mauve\", cadrage: '52% 49%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '1 / 1' })"
+  },
+  "coussin-fillette-prune": {
+    "nom": "coussin-fillette-prune",
+    "source": "recu/coussin-enfant-series-limitees-10.webp",
+    "role": "produit",
+    "alt": "Coussin d’après Sevb : Petite fillette prune",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "9885c7b0d0fc5a8b",
+    "ratio": "1:1",
+    "largeurs": [
+      400,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "51% 51%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.18,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.07,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.05,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 800,
+      "height": 800,
+      "source": [
+        800,
+        800
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "800 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "coussin-fillette-prune-400.webp",
+      "coussin-fillette-prune-800.webp"
+    ],
+    "poids": {
+      "coussin-fillette-prune-400.webp": 18882,
+      "coussin-fillette-prune-800.webp": 52768
+    },
+    "media": "c.media({ nom: 'coussin-fillette-prune', alt: \"Coussin d’après Sevb : Petite fillette prune\", cadrage: '51% 51%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '1 / 1' })"
+  },
+  "coussin-lutine-rose": {
+    "nom": "coussin-lutine-rose",
+    "source": "recu/coussin-enfant-series-limitees-11.webp",
+    "role": "produit",
+    "alt": "Coussin d’après Sevb : Petite fée lutine rose",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "5f39614c1094cce7",
+    "ratio": "1:1",
+    "largeurs": [
+      400,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "55% 53%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.2,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.12,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.07,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.06,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 800,
+      "height": 800,
+      "source": [
+        800,
+        800
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "800 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "coussin-lutine-rose-400.webp",
+      "coussin-lutine-rose-800.webp"
+    ],
+    "poids": {
+      "coussin-lutine-rose-400.webp": 16110,
+      "coussin-lutine-rose-800.webp": 44106
+    },
+    "media": "c.media({ nom: 'coussin-lutine-rose', alt: \"Coussin d’après Sevb : Petite fée lutine rose\", cadrage: '55% 53%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '1 / 1' })"
+  },
+  "coussin-fillette-damier": {
+    "nom": "coussin-fillette-damier",
+    "source": "recu/coussin-enfant-series-limitees-12.webp",
+    "role": "produit",
+    "alt": "Coussin d’après Sevb : Petite fillette rose damier",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "0d7e41c598adf68e",
+    "ratio": "1:1",
+    "largeurs": [
+      400,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "50% 52%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.15,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.09,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.04,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 800,
+      "height": 800,
+      "source": [
+        800,
+        800
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "800 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "coussin-fillette-damier-400.webp",
+      "coussin-fillette-damier-800.webp"
+    ],
+    "poids": {
+      "coussin-fillette-damier-400.webp": 15174,
+      "coussin-fillette-damier-800.webp": 38540
+    },
+    "media": "c.media({ nom: 'coussin-fillette-damier', alt: \"Coussin d’après Sevb : Petite fillette rose damier\", cadrage: '50% 52%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '1 / 1' })"
+  },
+  "cadre-aviateur": {
+    "nom": "cadre-aviateur",
+    "source": "recu/cadre-deco-chambre-garcon.webp",
+    "role": "produit",
+    "alt": "Cadre déco Petit aviateur de Sevb",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "f5885516f20f4e34",
+    "ratio": "1:1",
+    "largeurs": [
+      400,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "48% 47%",
+    "sujet": {
+      "x": 12.5,
+      "y": 12.5,
+      "l": 72.2,
+      "h": 71.9
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.43,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.34,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.29,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.21,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 797,
+      "height": 797,
+      "source": [
+        800,
+        797
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "800 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "cadre-aviateur-400.webp",
+      "cadre-aviateur-800.webp"
+    ],
+    "poids": {
+      "cadre-aviateur-400.webp": 15932,
+      "cadre-aviateur-800.webp": 34588
+    },
+    "media": "c.media({ nom: 'cadre-aviateur', alt: \"Cadre déco Petit aviateur de Sevb\", cadrage: '48% 47%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '1 / 1' })"
+  },
+  "cadre-lady": {
+    "nom": "cadre-lady",
+    "source": "recu/cadre-deco-chambrefille-enfant.webp",
+    "role": "produit",
+    "alt": "Cadre déco Lady coccinelle de Sevb",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "dd5a69a5015a766b",
+    "ratio": "1:1",
+    "largeurs": [
+      400,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "47% 51%",
+    "sujet": {
+      "x": 15.6,
+      "y": 12.5,
+      "l": 62.6,
+      "h": 75
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.51,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.44,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.42,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.38,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 799,
+      "height": 799,
+      "source": [
+        800,
+        799
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "800 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "cadre-lady-400.webp",
+      "cadre-lady-800.webp"
+    ],
+    "poids": {
+      "cadre-lady-400.webp": 13006,
+      "cadre-lady-800.webp": 28474
+    },
+    "media": "c.media({ nom: 'cadre-lady', alt: \"Cadre déco Lady coccinelle de Sevb\", cadrage: '47% 51%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '1 / 1' })"
+  },
+  "cartes-reine": {
+    "nom": "cartes-reine",
+    "source": "recu/cartes-postales-series-limitees-5.webp",
+    "role": "produit",
+    "alt": "Carte postale noir et blanc Petite reine, d’après Sevb",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "48398dfbd95e1717",
+    "ratio": "1:1",
+    "largeurs": [
+      400,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "49% 50%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 800,
+      "height": 800,
+      "source": [
+        800,
+        800
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "800 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "cartes-reine-400.webp",
+      "cartes-reine-800.webp"
+    ],
+    "poids": {
+      "cartes-reine-400.webp": 29758,
+      "cartes-reine-800.webp": 72710
+    },
+    "media": "c.media({ nom: 'cartes-reine', alt: \"Carte postale noir et blanc Petite reine, d’après Sevb\", cadrage: '49% 50%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '1 / 1' })"
+  },
+  "cartes-aviateur": {
+    "nom": "cartes-aviateur",
+    "source": "recu/cartes-postales-series-limitees-3.webp",
+    "role": "produit",
+    "alt": "Carte postale noir et blanc Petit aviateur, d’après Sevb",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "5c69ccea1e97afe9",
+    "ratio": "1:1",
+    "largeurs": [
+      400,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "55% 44%",
+    "sujet": {
+      "x": 6.3,
+      "y": 3.1,
+      "l": 93.7,
+      "h": 96.9
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 800,
+      "height": 800,
+      "source": [
+        800,
+        800
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "800 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "cartes-aviateur-400.webp",
+      "cartes-aviateur-800.webp"
+    ],
+    "poids": {
+      "cartes-aviateur-400.webp": 20528,
+      "cartes-aviateur-800.webp": 46572
+    },
+    "media": "c.media({ nom: 'cartes-aviateur', alt: \"Carte postale noir et blanc Petit aviateur, d’après Sevb\", cadrage: '55% 44%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '1 / 1' })"
+  },
+  "cartes-princesse": {
+    "nom": "cartes-princesse",
+    "source": "recu/cartes-postales-series-limitees-6.webp",
+    "role": "produit",
+    "alt": "Carte postale noir et blanc Trop princesse, d’après Sevb",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "1b90e18aeb26f810",
+    "ratio": "1:1",
+    "largeurs": [
+      400,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "50% 48%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 800,
+      "height": 800,
+      "source": [
+        800,
+        800
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "800 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "cartes-princesse-400.webp",
+      "cartes-princesse-800.webp"
+    ],
+    "poids": {
+      "cartes-princesse-400.webp": 23796,
+      "cartes-princesse-800.webp": 53078
+    },
+    "media": "c.media({ nom: 'cartes-princesse', alt: \"Carte postale noir et blanc Trop princesse, d’après Sevb\", cadrage: '50% 48%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '1 / 1' })"
+  },
+  "marque-pages": {
+    "nom": "marque-pages",
+    "source": "recu/marque-pages-series-limitees.webp",
+    "role": "produit",
+    "alt": "Marque-page noir et blanc Lolita coccinelle, d’après Sevb",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "0846654bb83a7b97",
+    "ratio": "1:1",
+    "largeurs": [
+      400,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "50% 49%",
+    "sujet": {
+      "x": 37.5,
+      "y": 3.1,
+      "l": 25,
+      "h": 93.8
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.76,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.69,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.47,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.39,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 800,
+      "height": 800,
+      "source": [
+        800,
+        800
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "800 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "marque-pages-400.webp",
+      "marque-pages-800.webp"
+    ],
+    "poids": {
+      "marque-pages-400.webp": 9004,
+      "marque-pages-800.webp": 36470
+    },
+    "media": "c.media({ nom: 'marque-pages', alt: \"Marque-page noir et blanc Lolita coccinelle, d’après Sevb\", cadrage: '50% 49%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '1 / 1' })"
+  },
+  "echelles": {
+    "nom": "echelles",
+    "source": "recu/echelles-crop.webp",
+    "role": "produit",
+    "alt": "Échelle porte-photo et cadre déco de Sevb au mur d’une chambre",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "6e8e01cb3ed6686d",
+    "ratio": "4:5",
+    "largeurs": [
+      400
+    ],
+    "mobile": null,
+    "cadrage": "87% 62%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 87.2,
+      "h": 93.8
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.3,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.27,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.11,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 405,
+      "height": 506,
+      "source": [
+        430,
+        506
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "largeurs retirées (source trop petite) : 640",
+      "430 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "echelles-400.webp"
+    ],
+    "poids": {
+      "echelles-400.webp": 19162
+    },
+    "media": "c.media({ nom: 'echelles', alt: \"Échelle porte-photo et cadre déco de Sevb au mur d’une chambre\", cadrage: '87% 62%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '4 / 5' })"
+  },
+  "sevb-atelier": {
+    "nom": "sevb-atelier",
+    "source": "recu/hd/sevb-atelier-hd.png",
+    "role": "portrait",
+    "alt": "Sevb dans son atelier, pinceau à la main, devant un mur de toiles",
+    "grok": false,
+    "mention": null,
+    "beaute": 5,
+    "empreinte": "49b7e5c63c2db2a0",
+    "ratio": "4:5",
+    "largeurs": [
+      480,
+      800,
+      1100,
+      1400
+    ],
+    "mobile": null,
+    "cadrage": "58% 48%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 128,
+      "top": 0,
+      "width": 1372,
+      "height": 1715,
+      "source": [
+        1500,
+        1715
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "sevb-atelier-480.webp",
+      "sevb-atelier-800.webp",
+      "sevb-atelier-1100.webp",
+      "sevb-atelier-1400.webp"
+    ],
+    "poids": {
+      "sevb-atelier-480.webp": 67176,
+      "sevb-atelier-800.webp": 135910,
+      "sevb-atelier-1100.webp": 197644,
+      "sevb-atelier-1400.webp": 248660
+    },
+    "media": "c.media({ nom: 'sevb-atelier', alt: \"Sevb dans son atelier, pinceau à la main, devant un mur de toiles\", cadrage: '58% 48%', sizes: '(max-width: 760px) 100vw, 40vw', ratio: '4 / 5' })"
+  },
+  "chambre-paul": {
+    "nom": "chambre-paul",
+    "source": "recu/tableau-raconte-histoire.webp",
+    "role": "galerie",
+    "alt": "Toile sur mesure « Paul » au-dessus d’un lit d’enfant (mise en situation)",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "644fe35966e8b82b",
+    "ratio": "4:3",
+    "largeurs": [
+      640,
+      1000,
+      1400
+    ],
+    "mobile": null,
+    "cadrage": "40% 35%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.04,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1448,
+      "height": 1086,
+      "source": [
+        1448,
+        1086
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "chambre-paul-640.webp",
+      "chambre-paul-1000.webp",
+      "chambre-paul-1400.webp"
+    ],
+    "poids": {
+      "chambre-paul-640.webp": 45224,
+      "chambre-paul-1000.webp": 93996,
+      "chambre-paul-1400.webp": 151150
+    },
+    "media": "c.media({ nom: 'chambre-paul', alt: \"Toile sur mesure « Paul » au-dessus d’un lit d’enfant (mise en situation)\", cadrage: '40% 35%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '4 / 3' })"
+  },
+  "chambre-coussins": {
+    "nom": "chambre-coussins",
+    "source": "recu/bandeau-series-limitees-sevb.webp",
+    "role": "section-fond",
+    "alt": "Chambre d’enfant avec coussins, cadres et affiches de Sevb (mise en situation)",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "8b338b64e1d0fc38",
+    "ratio": "16:9",
+    "largeurs": [
+      640,
+      1280,
+      1600
+    ],
+    "mobile": {
+      "ratio": "4:5",
+      "largeurs": [
+        640
+      ],
+      "cadrage": "50% 45%"
+    },
+    "cadrage": "50% 45%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.32,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 342,
+      "top": 0,
+      "width": 1316,
+      "height": 740,
+      "source": [
+        2000,
+        740
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "version téléphone sans 1080 px (source trop petite)",
+      "agrandie 1,22 fois (source de 1316 px après recadrage)"
+    ],
+    "fichiers": [
+      "chambre-coussins-640.webp",
+      "chambre-coussins-1280.webp",
+      "chambre-coussins-1600.webp",
+      "chambre-coussins-mobile-640.webp"
+    ],
+    "poids": {
+      "chambre-coussins-640.webp": 34462,
+      "chambre-coussins-1280.webp": 90362,
+      "chambre-coussins-1600.webp": 110754,
+      "chambre-coussins-mobile-640.webp": 59240
+    },
+    "media": "c.media({ nom: 'chambre-coussins', alt: \"Chambre d’enfant avec coussins, cadres et affiches de Sevb (mise en situation)\", cadrage: '50% 45%', cadrageMobile: '50% 45%', sizes: '100vw' })"
+  },
+  "chambre-affiches": {
+    "nom": "chambre-affiches",
+    "source": "recu/boutique.webp",
+    "role": "galerie",
+    "alt": "Deux affiches encadrées dans une chambre claire (mise en situation)",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "86a5a12d7dc49500",
+    "ratio": "4:5",
+    "largeurs": [
+      480,
+      800,
+      1100
+    ],
+    "mobile": null,
+    "cadrage": "39% 57%",
+    "sujet": {
+      "x": 0,
+      "y": 3.1,
+      "l": 100,
+      "h": 96.9
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.2,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.06,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1122,
+      "height": 1402,
+      "source": [
+        1122,
+        1402
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "1122 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "chambre-affiches-480.webp",
+      "chambre-affiches-800.webp",
+      "chambre-affiches-1100.webp"
+    ],
+    "poids": {
+      "chambre-affiches-480.webp": 31332,
+      "chambre-affiches-800.webp": 68282,
+      "chambre-affiches-1100.webp": 106394
+    },
+    "media": "c.media({ nom: 'chambre-affiches', alt: \"Deux affiches encadrées dans une chambre claire (mise en situation)\", cadrage: '39% 57%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '4 / 5' })"
+  },
+  "console-affiche": {
+    "nom": "console-affiche",
+    "source": "recu/creations-originales-sevb-artiste.webp",
+    "role": "galerie",
+    "alt": "Affiche encadrée posée sur une console (mise en situation)",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "c34e89d1d4e61100",
+    "ratio": "4:5",
+    "largeurs": [
+      480,
+      800,
+      1100
+    ],
+    "mobile": null,
+    "cadrage": "52% 60%",
+    "sujet": {
+      "x": 0,
+      "y": 3.1,
+      "l": 96.2,
+      "h": 96.9
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.03,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1122,
+      "height": 1402,
+      "source": [
+        1122,
+        1402
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "1122 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "console-affiche-480.webp",
+      "console-affiche-800.webp",
+      "console-affiche-1100.webp"
+    ],
+    "poids": {
+      "console-affiche-480.webp": 22818,
+      "console-affiche-800.webp": 44586,
+      "console-affiche-1100.webp": 65952
+    },
+    "media": "c.media({ nom: 'console-affiche', alt: \"Affiche encadrée posée sur une console (mise en situation)\", cadrage: '52% 60%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '4 / 5' })"
+  },
+  "logo": {
+    "nom": "logo",
+    "source": "recu/logo-2-detoure-clair.png",
+    "role": "logo",
+    "alt": "Tableaux Enfant",
+    "grok": false,
+    "mention": null,
+    "beaute": 5,
+    "empreinte": "8ae854b58e605fee",
+    "ratio": null,
+    "largeurs": [
+      453
+    ],
+    "mobile": null,
+    "cadrage": null,
+    "sujet": null,
+    "zones_calmes": null,
+    "zone_texte": null,
+    "recadrage": null,
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "logo-453.webp"
+    ],
+    "poids": {
+      "logo-453.webp": 16272
+    },
+    "media": "c.media({ nom: 'logo', alt: \"Tableaux Enfant\", sizes: '240px' })"
+  }
+}
